@@ -41,33 +41,50 @@ _INCLUDE_RE = re.compile(
     r")\b",
     re.IGNORECASE,
 )
-_EXCLUDE_RE = re.compile(
+_NON_TECH_ROLE_RE = re.compile(
+    r"\b("
+    r"recruit|recruiting|recruiter|sales|account executive|account manager|"
+    r"account management|marketing|marketer|unpaid|"
+    r"campus ambassador|content writer|content writing|seo|telecaller|"
+    r"subject matter expert|sme|business development|\bbda\b|lead generation|"
+    r"legal|counsel|accounting|human resources|people operations|people team|talent acquisition|"
+    r"communications|procurement|customer support|customer success|"
+    r"faculty|instructor|trainer|tutor"
+    r")\b",
+    re.IGNORECASE,
+)
+
+_NON_TECH_DISCIPLINE_RE = re.compile(
     r"\b("
     r"mechanical|aerospace|aeronautical|astrodynamics|aerodynamic|propulsion|avionics|"
     r"guidance|navigation|gnc|naval|civil engineer|chemical|chemistry|chemist|"
     r"biology|biological|materials|structural|thermal|fluid|manufacturing|"
     r"industrial engineer|electrical|fpga|asic|pcb|analog|photonics|optical|"
     r"hardware|physical design|silicon|semiconductor|vlsi|rtl|"
-    r"recruit|recruiting|recruiter|sales|account executive|account manager|"
-    r"account management|marketing|marketer|unpaid|"
-    r"campus ambassador|content writer|content writing|seo|digital marketing|telecaller|"
-    r"subject matter expert|sme|business development|bda|lead generation|"
-    r"legal|counsel|accounting|human resources|people operations|people team|talent|"
-    r"communications|supply chain|product design|product designer|"
-    r"product manager|product management|ux design|graphic design|industrial design|"
-    r"phd|ph\.d|doctoral|mba|bba|bcom|b\.com|chartered accountant|ca"
+    r"product manager|product management|product design|product designer|"
+    r"ux design|graphic design|industrial design|"
+    r"phd|ph\.d|doctoral|mba|bba|bcom|b\.com|chartered accountant|\bca\b"
     r")\b",
     re.IGNORECASE,
 )
 
-# --- season detection --------------------------------------------------------
-_YEAR_RE = re.compile(r"\b(20\d\d)\b")
-# "Summer '27" / "SWE Intern '27": two-digit years behind an apostrophe.
-_SHORT_YEAR_RE = re.compile(r"['’](\d{2})\b")
-# A graduation year in a title ("Class of 2027", "Graduating 2027") names the
-# student, not the internship cycle — those years must not bucket the role.
-_TITLE_GRAD_RE = re.compile(
-    r"\b(?:class\s+of|grad(?:uating|uation)?(?:\s+(?:date|year))?:?(?:\s+in)?)\s+['’]?(?:20)?\d{2}\b",
+_TECH_HEAD_RE = re.compile(
+    r"\b("
+    r"software|developer|dev|swe|sde|sdet|full[\s-]?stack|front[\s-]?end|back[\s-]?end|"
+    r"web developer|web engineer|mobile|ios|android|devops|sre|site reliability|"
+    r"infrastructure|platform engineer|platform engineering|distributed systems|"
+    r"operating system|compiler|embedded|firmware|cloud|cloud engineer|cloud intern|"
+    r"qa|qa engineer|qa intern|quality assurance|automation engineer|automation tester|"
+    r"data science|data scientist|data engineer|data analyst|analytics engineer|"
+    r"machine learning|\bml\b|deep learning|\bai\b|artificial intelligence|nlp|computer vision|"
+    r"research scientist|applied scientist|research engineer|ml engineer|ai engineer|"
+    r"genai|generative ai|llm|quantitative developer|quant developer|"
+    r"cyber|cybersecurity|appsec|application security|information security|infosec|"
+    r"security engineer|security intern|devsecops|computer science|programming|"
+    r"system development engineer|systems development engineer|"
+    r"graduate engineer trainee|engineer trainee|system engineer|technology analyst|"
+    r"programmer analyst trainee|apprentice"
+    r")\b",
     re.IGNORECASE,
 )
 
@@ -77,13 +94,24 @@ def is_internship(title: str) -> bool:
 
 
 def is_tech(title: str) -> bool:
-    """Keep software/data/ML/security roles; reject hardware/mech/non-tech."""
-    if _EXCLUDE_RE.search(title):
+    """Keep software/data/ML/security/trainee roles; reject sales/marketing/hardware/mech."""
+    if _NON_TECH_ROLE_RE.search(title):
         return False
-    return bool(_INCLUDE_RE.search(title))
+    if _NON_TECH_DISCIPLINE_RE.search(title):
+        return False
+    return bool(_TECH_HEAD_RE.search(title))
 
 
+
+# --- season detection --------------------------------------------------------
+_YEAR_RE = re.compile(r"\b(20\d\d)\b")
+_SHORT_YEAR_RE = re.compile(r"['’](\d{2})\b")
+_TITLE_GRAD_RE = re.compile(
+    r"\b(?:class\s+of|grad(?:uating|uation)?(?:\s+(?:date|year))?:?(?:\s+in)?)\s+['’]?(?:20)?\d{2}\b",
+    re.IGNORECASE,
+)
 _CYCLE_RE = re.compile(r"(Summer|Fall|Spring|Winter)\s+(\d{4})", re.IGNORECASE)
+
 
 
 def is_cycle_label(value) -> bool:
@@ -894,33 +922,42 @@ _FRESHER_EXP_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Tier 3 — job titles that almost always mean "for freshers" (India-specific bands).
+# Seniority veto: hard drop for experienced / leadership roles
+_SENIOR_VETO_RE = re.compile(
+    r"\b("
+    r"senior|sr\.?|lead|principal|staff|distinguished|director|head|vp|vice\s+president|"
+    r"manager|architect|specialist|expert|fellow|"
+    r"ii|iii|iv|\b2\b|\b3\b|\b4\b|\b5\b|"
+    r"sde[\s\-_]?(?:ii|iii|2|3)|swe[\s\-_]?(?:ii|iii|2|3)|"
+    r"[2-9]\+?\s*(?:to\s*\d+\s*)?years?"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Tier 2 — job titles that indicate entry-level / fresher / level 1.
 # Checked on title only — fast path, no description fetch needed.
 _NEWGRAD_TITLE_RE = re.compile(
-    r"\b(?:"
-    r"graduate\s+(?:engineer\s+)?trainee"            # "Graduate Trainee / GET"
-    r"|\bget\b"                                       # standalone acronym
-    r"|programmer\s+analyst\s+trainee"               # Cognizant band
-    r"|(?<!senior\s)(?<!sr\s)(?<!lead\s)system\s+engineer\b"  # TCS/Infosys band — not senior
-    r"|technology\s+analyst"                          # Infosys band
-    r"|associate\s+(?:software|engineer|developer|swe|sde|analyst)"
-    r"|junior\s+(?:software|developer|engineer|sde|swe|analyst)"
-    r"|software\s+(?:developer|engineer)\s*[\(\[]?fresher[\)\]]?"
-    r"|(?:software|tech(?:nology)?)\s+trainee"
-    r"|engineer\s+trainee"
-    r"|off[\s\-]?campus\s+(?:hire|recruit|drive)"
-    r"|campus\s+hire"
-    r")",
+    r"\b("
+    r"graduate\s+(?:engineer\s+)?trainee|\bget\b|"
+    r"programmer\s+analyst\s+trainee|\bpat\b|"
+    r"system\s+engineer|technology\s+analyst|"
+    r"associate\s+(?:software|engineer|developer|swe|sde|analyst|qa|tester|devops|data|ml|ai|quality)|"
+    r"junior\s+(?:software|developer|engineer|swe|sde|analyst|qa|tester|devops|data|ml|ai|full[\s-]?stack|front[\s-]?end|back[\s-]?end)|"
+    r"software\s+(?:developer|engineer)\s*[\(\[]?fresher[\)\]]?|"
+    r"(?:sde|swe|software\s+(?:engineer|developer|dev|development\s+engineer))[\s\-_]*(?:1|i)\b|"
+    r"engineer\s+1\b|engineer\s+i\b|developer\s+1\b|developer\s+i\b|"
+    r"early\s+career|campus\s+(?:hire|recruitment|drive)|off[\s-]?campus\s+(?:hire|recruitment|drive)|"
+    r"entry[\s-]?level|graduate\s+(?:developer|engineer|program)|new\s+grad(?:uate)?|"
+    r"(?:software|tech(?:nology)?|engineer)\s+trainee"
+    r")\b",
     re.IGNORECASE,
 )
 
 
-# Tier 4 — description-body eligibility signals (supplementary, lowest confidence).
-# Only evaluated when description text is available from enrich step.
+# Tier 4 — description-body eligibility signals (supplementary).
 _DESC_FRESHER_RE = re.compile(
     r"\b(?:"
     r"no\s+active\s+backlogs?"                       # "no active backlog"
-    r"|b\.?\s*tech\s+(?:cse|it|ece|eee|mca)"         # "B.Tech CSE" in eligibility
     r"|eligible\s+branches?"                          # "eligible branches: CSE, IT"
     r"|cgpa\s*[:\->=\u2265]+\s*\d+[\.,]\d+"           # "CGPA: 7.0", "CGPA >= 6.5"
     r"|minimum\s+(?:cgpa|marks|percentage)\s*[:\-]\s*\d+"
@@ -941,42 +978,37 @@ def detect_new_grad(
     description: str | None = None,
     target_batches: tuple[str, ...] = ("2026", "2027"),
 ) -> str | None:
-    """Detect whether a job posting targets new-grad / fresher candidates.
+    """Detect whether a job posting targets new-grad / fresher candidates."""
+    # Hard Senior Veto: never classify a senior/lead/staff/level-2+ role as fresher
+    if _SENIOR_VETO_RE.search(title):
+        return None
 
-    Returns one of:
-      "2026"      — explicitly targets 2026 batch
-      "2027"      — explicitly targets 2027 batch
-      "2026/2027" — explicitly targets both
-      "new_grad"  — clearly a fresher role but no batch year stated
-      None        — not a new-grad posting (or insufficient signal)
-
-    Four tiers, highest confidence first:
-      Tier 1: explicit batch/graduation year in title or description
-      Tier 2: role title matches a known Indian fresher-band pattern
-      Tier 3: experience range ("0-1 years") on a non-intern title
-      Tier 4: description eligibility signals (CGPA, bond, no-backlogs, PPO)
-    """
     active = {b[-2:] for b in target_batches if len(b) >= 2}  # {"26","27"}
     combined = f"{title} {description or ''}"
 
-    # Tier 1 — explicit year
+    # Tier 1 — explicit batch year in title or description
     if _BATCH_YEAR_RE.search(combined):
         years_found = {g for g in _NG_YEAR_SCAN_RE.findall(combined) if g in active}
         if years_found:
             return "/".join(f"20{y}" for y in sorted(years_found))
 
-    # Tier 2 — title is a known fresher-band role
+    # Tier 2 — title is an entry-level / fresher-band role (SDE-1, GET, Junior, Associate...)
     if _NEWGRAD_TITLE_RE.search(title):
         return "new_grad"
 
-    # Tier 3 — fresher exp range and title is not an internship
+    # Tier 3 — fresher experience range (e.g., 0-1 years) on non-intern title
     if not is_internship(title) and _FRESHER_EXP_RE.search(combined):
         return "new_grad"
 
-    # Tier 4 — description eligibility signals only (not for intern titles)
-    if description and not is_internship(title) and _DESC_FRESHER_RE.search(description):
-        return "new_grad"
+    # Tier 4 — description eligibility signals (only if description is available)
+    if description and not is_internship(title):
+        matches = _DESC_FRESHER_RE.findall(description)
+        # Match if multiple distinct fresher signals exist, or if paired with degree/fresher keywords
+        has_fresher_context = bool(re.search(r"\b(b\.?\s*tech|bca|mca|b\.?\s*e\.?|degree|0[-\s]?[12]\s*yr|fresher|graduat|college|campus|entry)\b", description, re.I))
+        if len(matches) >= 2 or (matches and has_fresher_context) or re.search(r"\b(?:pre[\s\-]?placement\s+offer|\bppo\b)\b", description, re.I):
+            return "new_grad"
 
 
     return None
+
 

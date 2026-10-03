@@ -70,6 +70,7 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 )
                 url = path if path.startswith("http") else f"https://unstop.com/{path.lstrip('/')}"
 
+                desc = item.get("details") or ""
                 jobs.append(
                     Job(
                         id=f"unstop:{category}:{item.get('id')}",
@@ -81,8 +82,10 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                         url=url,
                         posted_at=item.get("start_date") or item.get("published_date"),
                         stipend=stipend_str,
+                        description=desc if desc else None,
                     )
                 )
+
 
             # Pagination check
             current_page = data.get("data", {}).get("current_page")

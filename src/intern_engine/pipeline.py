@@ -178,32 +178,8 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             continue
         for job in jobs:
             # ----------------------------------------------------------------
-            # Gate 1: is this a new-grad / fresher posting?
-            # detect_new_grad() runs 4 tiers: explicit batch year → title band
-            # → experience range → description signals.
-            # ----------------------------------------------------------------
-            batch = filters.detect_new_grad(
-                job.title,
-                description=job.description,
-                target_batches=tuple(batches),
-            )
-            if batch is None:
-                # Not a new-grad posting. Check if we already have it stored
-                # with a batch label (sticky from a prior run).
-                prior = (existing.get(job.id) or {})
-                batch = prior.get("season") if prior.get("season") not in (None, "Unspecified") else None
-            if batch is None:
-                dropped_no_batch += 1
-                continue
-
-            # ----------------------------------------------------------------
-            # Gate 2: tech role filter (same logic as internship engine)
-            # ----------------------------------------------------------------
-            if tech_only and not filters.is_tech(job.title):
-                continue
-
-            # ----------------------------------------------------------------
-            # Gate 3: region filter (same India+Remote logic)
+            # Gate 1 (Fast): Region Filter (India & Verified Remote)
+            # Cheap string check, drops foreign listings without network overhead.
             # ----------------------------------------------------------------
             in_region = filters.region_ok(
                 job.location, wants_us, wants_canada, wants_india, wants_remote, source=job.source
@@ -215,20 +191,45 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
                 continue
 
             # ----------------------------------------------------------------
-            # Gate 4: age filter (60 days for fresher listings)
+            # Gate 2 (Fast): Age Filter (60 days max age)
             # ----------------------------------------------------------------
             posted_day = (job.posted_at or "")[:10]
             if cutoff and posted_day and posted_day < cutoff:
                 continue
 
-            # Assign batch as the season label so all downstream renderers
-            # (readme.py, dashboard.py, publish.py) work unchanged.
+            # ----------------------------------------------------------------
+            # Gate 3 (Fast): Tech Role Filter
+            # Keeps software/data/ML/security/trainees; drops marketing/sales/mech.
+            # ----------------------------------------------------------------
+            if tech_only and not filters.is_tech(job.title):
+                continue
+
+            # ----------------------------------------------------------------
+            # Gate 4: Fresher / New-Grad Classification
+            # Applies Senior Veto, then Tiers 1-4 (Year, Entry Titles, Exp, Desc).
+            # ----------------------------------------------------------------
+            batch = filters.detect_new_grad(
+                job.title,
+                description=job.description,
+                target_batches=tuple(batches),
+            )
+            if batch is None:
+                # Check if we already have it stored with a batch label (sticky from prior run)
+                prior = (existing.get(job.id) or {})
+                batch = prior.get("season") if prior.get("season") not in (None, "Unspecified") else None
+
+            if batch is None:
+                dropped_no_batch += 1
+                continue
+
+            # Assign batch label as season for downstream components
             job.season = batch
             job.season_inferred = False
             job.category = filters.categorize(job.title)
             kept.append(job)
 
     return kept, succeeded, errors, errors_by_ats, dropped_no_batch, 0
+
 
 
 
@@ -262,14 +263,15 @@ def run_update() -> tuple[dict, dict, list[str]]:
         # posting text states; anything now off-cycle leaves the list — and the
         # verdict is written into the store so the role never re-enters (or
         # pays another detail fetch) on later runs.
-        cycles = config.cycles(cfg)
+        allowed_batches = set(config.target_batches(cfg)) | {"new_grad", "2026/2027"}
         ts = store.now_iso()
         offcycle = offcycle_sticky
         still = []
         for job in kept:
-            if job.season in cycles:
+            if job.season in allowed_batches:
                 still.append(job)
                 continue
+
             offcycle += 1
             record = existing.get(job.id)
             if record is None:
