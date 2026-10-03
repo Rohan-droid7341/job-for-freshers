@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-03T17:35:14Z",
+ "generated_at": "2026-10-03T17:50:30Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 24,
+ "count": 25,
  "jobs": [
   {
    "id": "workday:shell:/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1",
@@ -464,6 +464,22 @@
     "Python"
    ],
    "source": "workday"
+  },
+  {
+   "id": "rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863",
+   "company": "Perle",
+   "title": "Elite Research Scientist - Frontier AI Evaluation",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "India (Remote)",
+   "url": "https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863",
+   "posted_at": null,
+   "first_seen_at": "2026-10-03T17:50:30Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "rippling"
   },
   {
    "id": "rippling:mykaarma:854ee9f5-885b-4c76-8e6f-0330a11cdc54",

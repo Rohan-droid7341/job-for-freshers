@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**22 open roles · 24 new this week · 5,293 companies tracked · updated Oct 03, 2026 at 17:35 UTC**
+**23 open roles · 25 new this week · 5,293 companies tracked · updated Oct 03, 2026 at 17:50 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,7 +13,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (22 open)
+## New Grad — Entry Level (All Batches)  (23 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -38,6 +38,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | AspenTech | Software Quality Engineer I 🆕 | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Varex Imaging Corporation | Applications System Engineer 🆕 | Software | B.Tech/BS | Pune | Jun 09, 2026 | [Apply](https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site/job/Pune/Applications-System-Engineer_R0004962) |
 | Silicon Laboratories | Engineer I - Software QA 🆕 | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
+| Perle | Elite Research Scientist - Frontier AI Evaluation 🆕 | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I 🆕 | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
 
 ## What this is
@@ -133,7 +134,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,299 companies across 19 ATS platforms · 97% fetch success · completed in 519.8s · median detection latency 677 min · real posted dates on 42% of open roles._
+_Engine (last run): 5,293 companies across 18 ATS platforms · 98% fetch success · completed in 483.6s · median detection latency 677 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 
