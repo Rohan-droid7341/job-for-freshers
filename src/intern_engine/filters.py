@@ -49,10 +49,12 @@ _NON_TECH_ROLE_RE = re.compile(
     r"subject matter expert|sme|business development|\bbda\b|lead generation|"
     r"legal|counsel|accounting|human resources|people operations|people team|talent acquisition|"
     r"communications|procurement|customer support|customer success|"
-    r"faculty|instructor|trainer|tutor"
+    r"faculty|instructor|trainer|tutor|educator|curriculum|academic mentor|"
+    r"data entry|copy paste|typing job|form filling|telecalling"
     r")\b",
     re.IGNORECASE,
 )
+
 
 _NON_TECH_DISCIPLINE_RE = re.compile(
     r"\b("
@@ -941,17 +943,22 @@ _NEWGRAD_TITLE_RE = re.compile(
     r"graduate\s+(?:engineer\s+)?trainee|\bget\b|"
     r"programmer\s+analyst\s+trainee|\bpat\b|"
     r"system\s+engineer|technology\s+analyst|"
-    r"associate\s+(?:software|engineer|developer|swe|sde|analyst|qa|tester|devops|data|ml|ai|quality)|"
+    r"digital\s+specialist\s+engineer|specialist\s+programmer|"
+    r"(?:tcs\s+)?ninja|(?:cognizant\s+)?genc|(?:wipro\s+)?elite|"
+    r"associate\s+(?:software|engineer|developer|swe|sde|analyst|qa|tester|devops|data|ml|ai|quality|consultant)|"
     r"junior\s+(?:software|developer|engineer|swe|sde|analyst|qa|tester|devops|data|ml|ai|full[\s-]?stack|front[\s-]?end|back[\s-]?end)|"
     r"software\s+(?:developer|engineer)\s*[\(\[]?fresher[\)\]]?|"
     r"(?:sde|swe|software\s+(?:engineer|developer|dev|development\s+engineer))[\s\-_]*(?:1|i)\b|"
+    r"(?:mts|member\s+(?:of\s+)?technical\s+staff)[\s\-_]*(?:1|i)\b|"
     r"engineer\s+1\b|engineer\s+i\b|developer\s+1\b|developer\s+i\b|"
+    r"(?:level|grade|band|ic|l)[\s\-_]*1\b|"
     r"early\s+career|campus\s+(?:hire|recruitment|drive)|off[\s-]?campus\s+(?:hire|recruitment|drive)|"
     r"entry[\s-]?level|graduate\s+(?:developer|engineer|program)|new\s+grad(?:uate)?|"
     r"(?:software|tech(?:nology)?|engineer)\s+trainee"
     r")\b",
     re.IGNORECASE,
 )
+
 
 
 # Tier 4 — description-body eligibility signals (supplementary).
