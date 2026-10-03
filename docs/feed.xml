@@ -5,5 +5,405 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-03T14:05:49Z</updated>
+  <updated>2026-10-03T17:00:04Z</updated>
+  <entry>
+    <id>urn:intern-engine:lever:aeratechnology:4860f299-72d8-41d5-97ff-ae063765f617</id>
+    <title>Aera Technology: Associate Data Scientist – Modeling, Analytics &amp; Pipelines</title>
+    <link href="https://jobs.lever.co/aeratechnology/4860f299-72d8-41d5-97ff-ae063765f617"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Pune, India · Python, SQL, PyTorch, TensorFlow, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10553343</id>
+    <title>Amazon: SDE-1, Expansions Tech and Product</title>
+    <link href="https://www.amazon.jobs/en/jobs/10553343/sde-1-expansions-tech-and-product"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10551515</id>
+    <title>Amazon: Software Dev Engineer I FTC</title>
+    <link href="https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10563602</id>
+    <title>Amazon: SDE I FTC</title>
+    <link href="https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10555910</id>
+    <title>Amazon: SDE-I, Rewards</title>
+    <link href="https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Gurugram, Haryana, India · Python, Java, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10525643</id>
+    <title>Amazon: SDE-1 (FTC)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10525643/sde-1-ftc"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10511883</id>
+    <title>Amazon: Software Development Engineer -I, IESP Merchant Tech</title>
+    <link href="https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692</id>
+    <title>Netomi: Data Engineer I</title>
+    <link href="https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Remote - India · Python, SQL, LLMs, AWS, GCP</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:shell:/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1</id>
+    <title>Shell: Associate QA Analyst - Endur</title>
+    <link href="https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Bangalore RMZ-ECO WORLD · Java, SQL, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aspentech:/job/Noida/Software-Quality-Engineer-I_R9206</id>
+    <title>AspenTech: Software Quality Engineer I</title>
+    <link href="https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Noida · Python, SQL, Linux, Git, MongoDB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:mykaarma:854ee9f5-885b-4c76-8e6f-0330a11cdc54</id>
+    <title>Mykaarma: Software Developer I</title>
+    <link href="https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · NOIDA, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:r1rcm:/job/Noida-India/Software-Engineer-I_R260000005491</id>
+    <title>R1 RCM: Software Engineer I</title>
+    <link href="https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Noida, India · C#, JavaScript, SQL, LLMs, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:silabs:/job/Hyderabad/Engineer-I---Software-QA_20641-1</id>
+    <title>Silicon Laboratories: Engineer I - Software QA</title>
+    <link href="https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:vareximaging:/job/Pune/Applications-System-Engineer_R0004962</id>
+    <title>Varex Imaging Corporation: Applications System Engineer</title>
+    <link href="https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site/job/Pune/Applications-System-Engineer_R0004962"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Pune</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1760714</id>
+    <title>Mellow Vault: Software Developer</title>
+    <link href="https://unstop.com/jobs/software-developer-fresher-mellow-vault-1760714"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Noida · ₹400,000/annually · Python, Java, C++, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1758496</id>
+    <title>Neugence Technology: Founding Software Engineer</title>
+    <link href="https://unstop.com/jobs/founding-software-engineer-neugence-technology-1758496"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India · ₹1,000,000/annually · Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1739954</id>
+    <title>vishenera.com: Software Engineer</title>
+    <link href="https://unstop.com/jobs/software-engineer-visheneracom-1739954"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Varanasi · ₹240,000/annually</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1749799</id>
+    <title>404Minds Technologies: Software Developer Engineer</title>
+    <link href="https://unstop.com/jobs/software-developer-engineer-404minds-technologies-1749799"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India · ₹450,000/annually · Python, Java</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1755875</id>
+    <title>Opticent Private limited: Full Stack Software Engineer</title>
+    <link href="https://unstop.com/jobs/full-stack-software-engineer-opticent-private-limited-1755875"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · ₹20,000/monthly · Python, Java, JavaScript, SQL, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1731296</id>
+    <title>Maytrixtech: Software Engineer</title>
+    <link href="https://unstop.com/jobs/software-engineer-maytrixtech-1731296"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · ₹400,000/annually</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1715350</id>
+    <title>Aastra Technologies: Software Developer</title>
+    <link href="https://unstop.com/jobs/software-developer-aastra-technologies-1715350"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Chennai · ₹250,000/annually · Python, Java, C++, C#, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:data-science:1733175</id>
+    <title>Eargs Learning institute: Data Science Internship</title>
+    <link href="https://unstop.com/internships/data-science-internship-eargs-learning-institute-1733175"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="2026"/>
+    <summary>2026 · Data &amp; ML/AI · Thane, Kalyan · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:data-science:1758127</id>
+    <title>InnovalQ Technologies: Data Analyst</title>
+    <link href="https://unstop.com/jobs/data-analyst-innovalq-technologies-1758127"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Coimbatore · ₹1,500,000/annually · Python, SQL, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:data-science:1747446</id>
+    <title>Wikasta Business and Technical Solutions Pvt. Ltd.: Data Analyst</title>
+    <link href="https://unstop.com/jobs/data-analyst-wikasta-business-and-technical-solutions-pvt-ltd-1747446"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · India · ₹540,000/annually · Python, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:data-science:1748321</id>
+    <title>UpForge: Data Analyst</title>
+    <link href="https://unstop.com/jobs/data-analyst-upforge-1748321"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · India · ₹800,000/annually · Python, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:machine-learning:1748329</id>
+    <title>UpForge: AI &amp; Machine Learning Associate</title>
+    <link href="https://unstop.com/jobs/ai-machine-learning-associate-upforge-1748329"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · India · ₹800,000/annually · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:machine-learning:1729085</id>
+    <title>KGP Talkie: Machine Learning Engineer</title>
+    <link href="https://unstop.com/jobs/machine-learning-engineer-kgp-talkie-1729085"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · India · ₹800,000/annually · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:machine-learning:1372195</id>
+    <title>Izeon Innovative Pvt. Ltd.: Machine Learning Engineer</title>
+    <link href="https://unstop.com/jobs/machine-learning-engineer-izeon-innovative-pvt-ltd-1372195"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Chennai · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1746114</id>
+    <title>Maytrixtech: Full Stack Developer</title>
+    <link href="https://unstop.com/internships/software-engineer-internship-maytrixtech-1746114"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1751238</id>
+    <title>SmaranAI.in: Junior Full Stack &amp; GenAI Developer Internship</title>
+    <link href="https://unstop.com/internships/junior-full-stack-genai-developer-internship-smaranaiin-1751238"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India · JavaScript, LLMs, React, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1761395</id>
+    <title>Mellow Vault: Junior Full Stack Developer</title>
+    <link href="https://unstop.com/jobs/junior-full-stack-developer-mellow-vault-1761395"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="2026"/>
+    <summary>2026 · Software · Noida · ₹400,000/annually · Python, Java, TypeScript, JavaScript, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1748609</id>
+    <title>Architech Labs: Full Stack Developer</title>
+    <link href="https://unstop.com/jobs/full-stack-developer-architech-labs-1748609"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Gurgaon · ₹25,000/monthly · Python, TypeScript, JavaScript, SQL, Node.js</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1724896</id>
+    <title>Valoron Consulting: Full Stack Developer</title>
+    <link href="https://unstop.com/jobs/full-stack-developer-valoron-consulting-1724896"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India · ₹20,000/monthly · React, Git, PostgreSQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1717891</id>
+    <title>ResuPulse: Full Stack Engineer</title>
+    <link href="https://unstop.com/jobs/full-stack-engineer-resupulse-1717891"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="2026"/>
+    <summary>2026 · Software · India · ₹500,000/annually · TypeScript, JavaScript, SQL, LLMs, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:full-stack:1720299</id>
+    <title>SG Technologies: Full Stack Web Developer</title>
+    <link href="https://unstop.com/jobs/full-stack-web-developer-sg-technologies-1720299"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Visakhapatnam · ₹35,000/monthly · Python, TypeScript, JavaScript, React, Node.js</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:frontend:1049565</id>
+    <title>Bluebrain Solutions: Frontend Developer</title>
+    <link href="https://unstop.com/jobs/frontend-developer-bluebrain-solutions-1049565"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India · ₹300,000/annually · JavaScript, React, Angular</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:frontend:1525408</id>
+    <title>Xi Technologies Pvt. Ltd.: Frontend Developer</title>
+    <link href="https://unstop.com/jobs/frontend-developer-xi-technologies-pvt-ltd-1525408"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Kolkata · JavaScript, React, Vue</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:frontend:782522</id>
+    <title>BlueLearn: Frontend Developer</title>
+    <link href="https://unstop.com/jobs/frontend-developer-bluelearn-782522"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · ₹1,000,000/annually · TypeScript, React, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:frontend:1662855</id>
+    <title>Pivotor AI: AI Frontend Engineer</title>
+    <link href="https://unstop.com/jobs/ai-frontend-engineer-pivotor-ai-1662855"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad · ₹400,000/annually · TypeScript, JavaScript, LLMs, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:frontend:1598239</id>
+    <title>Bhumaha Solutions: Angular Frontend Developer</title>
+    <link href="https://unstop.com/jobs/angular-frontend-developer-bhumaha-solutions-1598239"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Chennai · TypeScript, JavaScript, Angular, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10565511</id>
+    <title>Amazon: Software Development Engineer, Prime Video Live Events - Sports Data Platform</title>
+    <link href="https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:aiprise:3763c791-a387-4078-9ca4-00cbfbf9b1a6</id>
+    <title>AiPrise: Software Engineer I (Bangalore, India)</title>
+    <link href="https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, Java, TypeScript, React, Node.js</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:ema:e0511c0c-998f-4079-b62c-d2f164bf2c86</id>
+    <title>Ema: AI/Data Resident</title>
+    <link href="https://jobs.ashbyhq.com/ema/e0511c0c-998f-4079-b62c-d2f164bf2c86"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · India - remote · Python, SQL, PyTorch, TensorFlow, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:coherehealth:7693298003</id>
+    <title>Cohere Health: Associate SDET Engineer</title>
+    <link href="https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad, Telangana, India · TypeScript, AWS, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:coherehealth:7728230003</id>
+    <title>Cohere Health: Associate Software Engineer</title>
+    <link href="https://job-boards.greenhouse.io/coherehealth/jobs/7728230003"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad, Telangana, India · Python, Java, TypeScript, JavaScript, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1709167</id>
+    <title>Flair Softwares Private Limited: Junior Software Developer</title>
+    <link href="https://unstop.com/jobs/junior-software-developer-flair-softwares-private-limited-1709167"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Ahmedabad</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1740011</id>
+    <title>Mybytes Technologies: Junior Software Engineer</title>
+    <link href="https://unstop.com/jobs/junior-software-engineer-mybytes-technologies-1740011"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="2026"/>
+    <summary>2026 · Software · Gurgaon</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1748905</id>
+    <title>Brained (AIAB Ventures Pvt Ltd): Junior Software Tester</title>
+    <link href="https://unstop.com/jobs/junior-software-tester-brained-aiab-ventures-pvt-ltd-1748905"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Mumbai</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:unstop:software:1757328</id>
+    <title>Smartgrow Infotech: Associate Software Trainee Internship</title>
+    <link href="https://unstop.com/internships/associate-software-trainee-internship-smartgrow-infotech-1757328"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027</id>
+    <title>Cigna Group: Automation Engineer Associate Analyst</title>
+    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027"/>
+    <updated>2026-10-03T14:05:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
+  </entry>
 </feed>
