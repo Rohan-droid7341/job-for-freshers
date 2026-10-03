@@ -116,7 +116,8 @@ class TestGenerators:
         idx_path = tmp_path / "index.html"
         assert idx_path.exists()
         idx_content = idx_path.read_text(encoding="utf-8")
-        assert "Indian Tech Internships" in idx_content
+        assert "Indian Fresher & New-Grad Tech Jobs" in idx_content
         assert "Swiggy" in idx_content
         assert "₹60,000/month" in idx_content
+
 

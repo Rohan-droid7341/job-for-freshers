@@ -152,41 +152,38 @@ def _email_subscribe_url() -> str:
 
 
 def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[str]:
-    _region_label(cfg)
-    cycles = config.cycles(cfg)
-    " and ".join(cycles)
+    batches = config.target_batches(cfg)
+    batch_phrase = " & ".join(batches)
     pages = config.pages_base()
 
     repo = config.repo_slug()
     stats_url = quote(f"{pages}/api/stats.json", safe="")
     return [
-        "# Indian Tech Internships",
+        "# Indian Fresher & New-Grad Jobs",
         "",
         f"[![CI](https://github.com/{repo}/actions/workflows/ci.yml/badge.svg)]"
         f"(https://github.com/{repo}/actions/workflows/ci.yml) "
         f"![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles"
         f"&query=open_total&url={stats_url}&color=2f81f7) "
-        "![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950) "
+        "![Updates](https://img.shields.io/badge/updates-every%204h-3fb950) "
         f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22)]({pages}/feed.xml)",
         "",
-        "A self-updating engine that tracks tech internships so you don't have to. "
-        "Instead of refreshing a dozen career pages by hand, it reads company hiring "
-        "feeds directly and keeps one live list, newest roles on top, refreshed "
-        "automatically throughout the day.",
+        "A self-updating engine that tracks **full-time fresher & new-grad tech jobs** "
+        f"for the **{batch_phrase} batch** across India — so you don't have to. "
+        "Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, "
+        "it reads company hiring feeds directly and keeps one live list, newest roles "
+        "on top, refreshed automatically throughout the day.",
         "",
         f"**{total_open} open roles · {new_week} new this week · {companies:,} companies "
         f"tracked · updated {_now_str()}**",
         "",
-        "**⭐Star this repo⭐** to save it and get updates when new roles are added.",
+        "**⭐ Star this repo ⭐** to save it and get notified when new roles land.",
         "",
         f"**Live:** [dashboard]({pages}/) · [RSS feed]({pages}/feed.xml) "
         f"(instant alerts in any RSS app) · [JSON API]({pages}/api/jobs.json)",
         "",
-        # Native signup posts into our own Supabase list (RLS: insert-only).
-        # The Feedrabbit link is the zero-account fallback via the raw feed URL,
-        # which works even when GitHub Pages is off.
         f"**🔔 New roles in your inbox:** [subscribe by email]({pages}/#subscribe) "
-        "- one email a day, only when new internships actually appeared, "
+        "- one email a day, only when new jobs actually appeared, "
         f"one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too]"
         f"({_email_subscribe_url()}).)",
         "---",
@@ -194,68 +191,78 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
     ]
 
 
+
+
 def _about_section(cfg: dict) -> list[str]:
     region = _region_label(cfg)
-    cycles = config.cycles(cfg)
-    cycles_phrase = " and ".join(cycles)
+    batches = config.target_batches(cfg)
+    batch_phrase = " and ".join(batches)
     pages = config.pages_base()
 
     return [
         "## What this is",
         "",
         "This is an engine, not a hand-kept list. It polls company career feeds several "
-        "times a day, finds the internships, removes duplicates, and rebuilds this page "
-        "on its own. Every link comes straight from the source, so it's real and "
-        "current, not a stale list someone forgot to update (speed matters).",
+        "times a day, detects fresher / new-grad openings using a 4-tier signal detector "
+        "(batch year → title band → experience range → eligibility signals), removes "
+        "duplicates, and rebuilds this page automatically. Every link comes straight "
+        "from the source — no stale copy-paste lists.",
         "",
         "## What makes this different",
         "",
-        "- **📅 [Drop Radar](#drop-radar)** - "
-        "the only list that shows **what's coming**: each marquee company's typical "
-        "opening window, then confirmed with the real drop date the moment the "
-        "engine catches it live.",
-        "- **Real posted dates on every role** - pulled from each job portal itself, "
-        "so newest-first actually means newest.",
-        "- **Skill tags + pay, extracted** - every posting's text is scanned for the "
-        "stack it wants (Python, C++, PyTorch, ...) and the pay it states - "
+        "- **🎓 Fresher-specific detection** — finds roles by what companies actually "
+        "write: `2026 batch`, `Graduate Engineer Trainee`, `0-1 years`, `no active "
+        "backlogs`, `CGPA ≥ 7.0`, `PPO`, `TCS NQT` — not just title keywords.",
+        "- **Real posted dates on every role** — pulled from each ATS directly, so "
+        "newest-first actually means newest.",
+        "- **Skill tags + pay, extracted** — every posting's text is scanned for the "
+        "stack it wants (Python, Java, C++, SQL, ...) and the CTC / stipend it states — "
         f"searchable on the [dashboard]({pages}/), included in the CSV and API.",
-        f"- **Alerts your way** - [email digests]({pages}/#subscribe), "
-        f"[RSS]({pages}/feed.xml), or Discord - plus a [live dashboard]({pages}/) "
+        f"- **Alerts your way** — [email digests]({pages}/#subscribe), "
+        f"[RSS]({pages}/feed.xml), or Discord — plus a [live dashboard]({pages}/) "
         "with search and custom filters.",
-        "- **An engine, not a spreadsheet** - polled every "
-        "hour across multiple ATS platforms with full source in this repo.",
+        "- **Covers the full India fresher ecosystem** — Naukri (fresher filter), "
+        "Unstop (off-campus drives), Internshala, direct ATS (Greenhouse, Workday, "
+        "Lever…), and custom scrapers for Flipkart, Swiggy, Razorpay, and more.",
+        "- **An engine, not a spreadsheet** — polled every 4 hours across all "
+        "platforms with full source in this repo.",
         "",
         "## Scope",
         "",
-        "- **Roles:** Software Engineering, Data Science & Machine Learning "
-        "(and closely related technical internships)",
-        f"- **Region:** {region}"
-        + (
-            " (primary), with a separate International section"
-            if config.include_international(cfg)
-            else ""
-        ),
-        f"- **Cycles:** {cycles_phrase}",
+        "- **Roles:** Full-time entry-level / fresher — Software Engineering, "
+        "Data Science & ML, and closely related tech roles",
+        f"- **Batch:** {batch_phrase} passouts (freshers & final-year)",
+        f"- **Region:** {region}",
+        "- **What we detect:** Graduate Engineer Trainee, Associate SWE/SDE, "
+        "Junior Developer, System Engineer (TCS/Infosys band), Programmer Analyst "
+        "Trainee (Cognizant), off-campus drives, and any role stating `2026 batch` "
+        "/ `2027 passout` / `0-1 years` in the JD",
         "",
         "## About",
         "",
-        "I built this engine to automate tracking for top-tier tech internships across "
-        "India and globally remote roles. Use it to spot roles early and apply before "
-        "they fill up - being first genuinely helps.",
+        "I built this engine because finding fresher jobs in India is painful — "
+        "Naukri floods you with spam, LinkedIn shows you senior roles, and "
+        "off-campus drives close before you even hear about them. This engine "
+        "watches everything automatically and surfaces only what's relevant for "
+        "the 2026/2027 batch. Apply early — freshers who apply in the first 48 "
+        "hours have a significantly higher callback rate.",
         "",
         "## How to use",
         "",
-        "- Roles are grouped by cycle - **newest posting on top, oldest at the bottom.**",
+        "- Roles are grouped by batch year — **newest posting on top, oldest at the bottom.**",
         "- The **Posted** column is the date the company published the role.",
-        "- **Flags:** 🆕 = spotted in the last 48 hours.",
-        "- Track your applications with [`data/internships.csv`](data/internships.csv) "
+        "- **Flags:** 🆕 = spotted in the last 48 hours — apply immediately.",
+        "- The **Pay & Specs** column shows CTC / stipend + experience range + degree.",
+        "- Track your applications with [`data/jobs.csv`](data/jobs.csv) "
         "(opens in Excel / Google Sheets).",
-        "- Missing a company? Adding one takes a single line, see "
+        "- Missing a company? Adding one takes a single line — see "
         "[CONTRIBUTING.md](CONTRIBUTING.md).",
         "",
         "---",
         "",
     ]
+
+
 
 
 def _footer() -> list[str]:
@@ -264,32 +271,38 @@ def _footer() -> list[str]:
         "",
         "## Hiring timeline",
         "",
-        "Internships posted per week, from each role's real published date - "
+        "Fresher job postings per week, from each role's real published date — "
         "redrawn automatically on every run. When this line takes off, "
-        "recruiting season is open:",
+        "campus season and off-campus drives are in full swing:",
         "",
         "<picture>",
         '  <source media="(prefers-color-scheme: dark)" srcset="docs/trends-dark.svg">',
-        '  <img alt="Internships posted per week, drawn from real published dates" '
+        '  <img alt="Fresher jobs posted per week, drawn from real published dates" '
         'src="docs/trends-light.svg">',
         "</picture>",
         "",
         "## How it stays current",
         "",
-        "A small Python engine reads public company hiring feeds directly, keeps the "
-        "roles that match the scope above, de-duplicates across sources, records each "
-        "role's published date once (so it never shifts), and regenerates this page "
-        "through GitHub Actions. It polls every company concurrently (async) with "
-        "retry/backoff and per-host rate limits. The full source is in this repo.",
+        "A Python engine reads public company hiring feeds directly, keeps the "
+        "roles that match the fresher/new-grad scope above, de-duplicates across "
+        "sources, records each role's published date once (so it never shifts), "
+        "and regenerates this page through GitHub Actions every 4 hours. "
+        "It polls every company concurrently (async) with retry/backoff and "
+        "per-host rate limits. The full source is in this repo.",
         "",
         _engine_metrics(),
         "",
         "## Platforms Scraped",
         "",
         "The engine currently extracts live data from the following platforms:",
-        "- **Direct ATS (Applicant Tracking Systems):** Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Workday, Breezy, Recruitee, Rippling, Eightfold, Oracle",
-        "- **Direct Enterprise & Custom Scrapers:** Amazon (India Jobs), Custom Playwright Scrapers (Flipkart, Swiggy, Razorpay, CRED, InMobi, Rapido, Blinkit, Groww, CARS24, Urban Company, Delhivery)",
-        "- **Indian Job Portals & Aggregators:** Internshala, Naukri, Wellfound",
+        "- **Indian Job Portals:** Naukri (experience=0 / fresher filter), "
+        "Unstop (off-campus drives + jobs), Internshala, Wellfound",
+        "- **Direct ATS (Applicant Tracking Systems):** Greenhouse, Lever, Ashby, "
+        "SmartRecruiters, Workable, Workday, Breezy, Recruitee, Rippling, "
+        "Eightfold, Oracle",
+        "- **Direct Enterprise & Custom Scrapers:** Amazon (India Jobs), Custom "
+        "Playwright Scrapers (Flipkart, Swiggy, Razorpay, CRED, InMobi, Rapido, "
+        "Blinkit, Groww, CARS24, Urban Company, Delhivery)",
         "",
         "## Contributing",
         "",
@@ -298,15 +311,16 @@ def _footer() -> list[str]:
         "",
         "## Note on dates",
         "",
-        "The **Posted** column shows when a role was published, with the newest at the "
-        "top. I pull the posting date straight from each job portal, but a lot of them "
-        "don't expose one publicly, so those rows show a dash (—) for now instead of a "
-        "guessed date. The ones that do publish a date are dated. Know the real date for "
-        "a dashed role? Open a PR and I'll merge it.",
+        "The **Posted** column shows when a role was published, newest at the top. "
+        "Dates are pulled straight from each job portal. Portals that don't expose "
+        "a date show a dash (—). Know the real date for a dashed role? Open a PR.",
         "",
-        "Roles can close at any time, so always confirm on the company's own site before applying.",
+        "Roles can close at any time — always confirm on the company's own site "
+        "before applying.",
         "",
     ]
+
+
 
 
 def _select(rows: list[dict], limit, per_company) -> list[dict]:
@@ -366,7 +380,8 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 30) -> list[str]:
     lines = [
         '<a id="drop-radar"></a>',
         "",
-        f"## 📅 Drop Radar — when companies usually post for {cycle}",
+        f"## 📅 Drop Radar — when companies usually post for {cycle} batch",
+
         "",
         "Stop refreshing career pages. Every date here is **real or verified** — "
         "no third-party list. 🎯 = the engine **saw the drop itself** from the "
@@ -449,7 +464,7 @@ def _closed_section(
 
 def generate(store_data: dict) -> dict:
     cfg = config.load_config()
-    cycles = config.cycles(cfg)
+    batches = config.target_batches(cfg)
     per_company = config.max_per_company(cfg)
 
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
@@ -457,20 +472,32 @@ def generate(store_data: dict) -> dict:
     for r in open_jobs:
         groups.setdefault((_region_of(r), r.get("season", "")), []).append(r)
 
+    # Build section labels: known batches first, then any "new_grad" catch-all
+    all_seasons = list(batches)
+    if any(r.get("season") == "new_grad" for r in open_jobs):
+        all_seasons.append("new_grad")
+
+    _BATCH_LABELS = {
+        "2026": "2026 Batch — Freshers (Passed Out)",
+        "2027": "2027 Batch — Final Year (Passing Out)",
+        "new_grad": "New Grad — Entry Level (All Batches)",
+    }
+
     sections: list[tuple[str, list[dict]]] = []
     displayed: list[dict] = []
     regions = ["Primary"]
     if config.include_international(cfg):
         regions.append("International")
     for region in regions:
-        for cycle in cycles:
+        for season in all_seasons:
             rows = _select(
-                groups.get((region, cycle)) or [],
-                config.section_limit(cfg, cycle),
+                groups.get((region, season)) or [],
+                config.section_limit(cfg, season),
                 per_company,
             )
             if rows:
-                heading = cycle if region == "Primary" else f"{cycle} (International)"
+                label = _BATCH_LABELS.get(season, season)
+                heading = label if region == "Primary" else f"{label} (International)"
                 sections.append((heading, rows))
                 displayed.extend(rows)
 
@@ -482,24 +509,17 @@ def generate(store_data: dict) -> dict:
         lines.append("|---|---|---|---|---|---|---|")
         lines.extend(_row(r) for r in rows)
         lines.append("")
-        n_inferred = sum(1 for r in rows if r.get("season_inferred"))
-        if n_inferred:
-            lines.append(
-                f"_~ = the title doesn't state a year; bucketed here from its "
-                f"posting date ({n_inferred} of {len(rows)})._"
-            )
-            lines.append("")
 
     if not displayed:
         lines.append(
-            "_No matching roles right now, the list fills as companies post. "
-            "Star it and check back._"
+            "_No matching roles right now — the list fills as companies post fresher "
+            "openings. ⭐ Star and check back._"
         )
         lines.append("")
 
     lines.extend(_about_section(cfg))
-    lines.extend(_radar_section(store_data, cycles[0]))
-    lines.extend(_closed_section(store_data, cycles))
+    lines.extend(_radar_section(store_data, batches[0]))
+    lines.extend(_closed_section(store_data, all_seasons))
     lines.extend(_footer())
 
     with open(paths.README_PATH, "w", encoding="utf-8") as f:
@@ -510,25 +530,33 @@ def generate(store_data: dict) -> dict:
     return {"open": len(displayed), "companies": _company_count()}
 
 
+
+
 def _write_csv(open_jobs: list[dict]) -> None:
     fields = [
         "company",
         "title",
-        "season",
-        "season_inferred",
+        "batch",
         "category",
         "location",
         "salary",
         "stipend",
+        "experience",
+        "degree",
         "skills",
         "posted_at",
         "first_seen_at",
         "url",
     ]
-    with open(paths.CSV_PATH, "w", newline="", encoding="utf-8") as f:
+    csv_path = paths.CSV_PATH
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         for r in open_jobs:
             row = {k: r.get(k, "") for k in fields}
+            # 'season' holds the batch label in the store — map it to 'batch'
+            if not row["batch"] and r.get("season"):
+                row["batch"] = r.get("season")
             row["skills"] = "; ".join(r.get("skills") or [])
             writer.writerow(row)
+

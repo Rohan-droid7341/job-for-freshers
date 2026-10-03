@@ -54,7 +54,8 @@ def _entry(record: dict, base: str) -> str:
 def write_feed(store_data: dict) -> int:
     """Atom feed of the most recently spotted open roles."""
     base = config.pages_base()
-    cycles_phrase = " & ".join(config.cycles(config.load_config()))
+    batches_phrase = " & ".join(config.target_batches(config.load_config()))
+
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
     open_jobs.sort(key=_first_seen, reverse=True)
     entries = open_jobs[:_FEED_LIMIT]
@@ -64,12 +65,13 @@ def write_feed(store_data: dict) -> int:
         '<?xml version="1.0" encoding="utf-8"?>\n',
         '<feed xmlns="http://www.w3.org/2005/Atom">\n',
         f"  <id>{escape(base)}/feed.xml</id>\n",
-        f"  <title>{escape(cycles_phrase)} Tech Internships — new roles</title>\n",
-        "  <subtitle>Auto-detected internships, newest finds first.</subtitle>\n",
+        f"  <title>{escape(batches_phrase)} Fresher &amp; New-Grad Tech Jobs — new roles</title>\n",
+        "  <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>\n",
         f'  <link href="{escape(base)}/feed.xml" rel="self"/>\n',
         f'  <link href="https://github.com/{escape(config.repo_slug())}"/>\n',
         f"  <updated>{now}</updated>\n",
     ]
+
     xml.extend(_entry(r, base) for r in entries)
     xml.append("</feed>\n")
 

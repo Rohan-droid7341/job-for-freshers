@@ -24,7 +24,8 @@ DEFAULTS = {
 }
 
 
-_FALLBACK_REPO = "Rohan-droid7341/internship-engine-india"
+_FALLBACK_REPO = "Rohan-droid7341/job-for-freshers"
+
 
 
 def repo_slug() -> str:
