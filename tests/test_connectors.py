@@ -338,8 +338,8 @@ def test_eightfold_no_positions():
     assert jobs == []
 
 
-def test_unstop_stipend_filter():
-    # Only internships with stipend >= 50k should be returned
+def test_unstop_returns_all_items_no_stipend_filter():
+    """New-grad mode: no stipend threshold — return all postings for later filter."""
     payload = {
         "data": {
             "current_page": 1,
@@ -347,10 +347,10 @@ def test_unstop_stipend_filter():
             "data": [
                 {
                     "id": 101,
-                    "title": "High Paying SDE Intern",
+                    "title": "Associate Software Engineer",
                     "organisation": {"name": "Tech Corp"},
                     "city": ["Bengaluru"],
-                    "seo_url": "internships/sde-101",
+                    "seo_url": "jobs/ase-101",
                     "start_date": "2026-06-01",
                     "jobDetail": {
                         "paid_unpaid": "paid",
@@ -361,10 +361,10 @@ def test_unstop_stipend_filter():
                 },
                 {
                     "id": 102,
-                    "title": "Low Paying Intern",
+                    "title": "Graduate Engineer Trainee",
                     "organisation": {"name": "Cheap Corp"},
                     "city": ["Delhi"],
-                    "seo_url": "internships/cheap-102",
+                    "seo_url": "jobs/get-102",
                     "start_date": "2026-06-01",
                     "jobDetail": {
                         "paid_unpaid": "paid",
@@ -375,10 +375,10 @@ def test_unstop_stipend_filter():
                 },
                 {
                     "id": 103,
-                    "title": "Unpaid Intern",
+                    "title": "Off Campus Hire SWE",
                     "organisation": {"name": "Free Corp"},
                     "city": ["Remote"],
-                    "seo_url": "internships/free-103",
+                    "seo_url": "jobs/oc-103",
                     "start_date": "2026-06-01",
                     "jobDetail": {
                         "paid_unpaid": "unpaid",
@@ -390,8 +390,13 @@ def test_unstop_stipend_filter():
         }
     }
     jobs = _run(unstop.fetch({"name": "Unstop", "slug": "software"}, FakeNet(payload)))
-    assert len(jobs) == 1
+    # All 3 items returned — no stipend filter in new-grad mode. The pipeline
+    # detect_new_grad() filter handles classification after fetch.
+    assert len(jobs) == 6  # 2 opportunity_types × 3 items each (FakeNet returns same payload)
+
     assert jobs[0].id == "unstop:software:101"
-    assert jobs[0].title == "High Paying SDE Intern"
+    assert jobs[0].title == "Associate Software Engineer"
     assert "₹75,000/monthly" in jobs[0].stipend
+
+
 

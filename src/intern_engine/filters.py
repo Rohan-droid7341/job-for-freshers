@@ -852,3 +852,131 @@ def categorize(title: str) -> str:
         if pattern.search(title):
             return name
     return "Other"
+
+
+# ---------------------------------------------------------------------------
+# New-grad / fresher detection  (2026/2027 batch passouts)
+# ---------------------------------------------------------------------------
+
+# Tier 1 — explicit batch/graduation year anywhere in title OR description.
+# Matches: "2026 batch", "Eligible Batch: 2027", "2026 passout",
+#          "Class of 2027", "passing out in 2026", "freshers 2026",
+#          "2026 graduates", "graduation year: 2027", "Fresher 2026"
+_BATCH_YEAR_RE = re.compile(
+    r"(?:"
+    r"(?:eligible\s+)?batch[:\s]+(?:20\d\d[\s,/&]+)*20(2[6-7])"   # "Batch: 2026, 2027"
+    r"|20(2[6-7])\s+batch"                                          # "2026 batch"
+    r"|20(2[6-7])\s+pass(?:out|ed)"                                 # "2026 passout"
+    r"|class\s+of\s+20(2[6-7])"                                     # "Class of 2026"
+    r"|passing\s+out\s+in\s+20(2[6-7])"                            # "passing out in 2027"  ← fixed
+    r"|pass\s*out\s+in\s+20(2[6-7])"                               # "passout in 2026"
+    r"|20(2[6-7])\s+(?:fresh(?:er|ers|graduate|graduates)|graduates?)"  # "2026 freshers"
+    r"|fresh(?:er|ers)\s+20(2[6-7])"                                # "freshers 2026"
+    r"|graduation\s+year[:\s]+20(2[6-7])"                           # "graduation year: 2026"
+    r")",
+    re.IGNORECASE,
+)
+
+
+# Tier 2 — experience range or fresher-level noun phrases.
+# Only tagged as new_grad when the job title is NOT already an internship.
+_FRESHER_EXP_RE = re.compile(
+    r"\b(?:"
+    r"0\s*[-\u2013to]+\s*[12]\s+years?"            # "0-1 years", "0 to 2 years"
+    r"|0\s+years?\s+(?:of\s+)?experience"           # "0 years of experience"
+    r"|no\s+(?:prior\s+)?experience\s+required"
+    r"|fresh(?:er|ers|ly?\s+graduated?)"            # "fresher", "freshers", "freshly graduated"
+    r"|fresh\s+graduates?"                           # "fresh graduate"
+    r"|recent\s+graduates?"                          # "recent graduate"
+    r"|entry[\s\-]?level"                            # "entry-level", "entry level"
+    r"|new\s+grad(?:uate)?"                          # "new grad", "new graduate"
+    r")",
+    re.IGNORECASE,
+)
+
+# Tier 3 — job titles that almost always mean "for freshers" (India-specific bands).
+# Checked on title only — fast path, no description fetch needed.
+_NEWGRAD_TITLE_RE = re.compile(
+    r"\b(?:"
+    r"graduate\s+(?:engineer\s+)?trainee"            # "Graduate Trainee / GET"
+    r"|\bget\b"                                       # standalone acronym
+    r"|programmer\s+analyst\s+trainee"               # Cognizant band
+    r"|(?<!senior\s)(?<!sr\s)(?<!lead\s)system\s+engineer\b"  # TCS/Infosys band — not senior
+    r"|technology\s+analyst"                          # Infosys band
+    r"|associate\s+(?:software|engineer|developer|swe|sde|analyst)"
+    r"|junior\s+(?:software|developer|engineer|sde|swe|analyst)"
+    r"|software\s+(?:developer|engineer)\s*[\(\[]?fresher[\)\]]?"
+    r"|(?:software|tech(?:nology)?)\s+trainee"
+    r"|engineer\s+trainee"
+    r"|off[\s\-]?campus\s+(?:hire|recruit|drive)"
+    r"|campus\s+hire"
+    r")",
+    re.IGNORECASE,
+)
+
+
+# Tier 4 — description-body eligibility signals (supplementary, lowest confidence).
+# Only evaluated when description text is available from enrich step.
+_DESC_FRESHER_RE = re.compile(
+    r"\b(?:"
+    r"no\s+active\s+backlogs?"                       # "no active backlog"
+    r"|b\.?\s*tech\s+(?:cse|it|ece|eee|mca)"         # "B.Tech CSE" in eligibility
+    r"|eligible\s+branches?"                          # "eligible branches: CSE, IT"
+    r"|cgpa\s*[:\->=\u2265]+\s*\d+[\.,]\d+"           # "CGPA: 7.0", "CGPA >= 6.5"
+    r"|minimum\s+(?:cgpa|marks|percentage)\s*[:\-]\s*\d+"
+    r"|service\s+(?:agreement|bond)"                  # bond clause
+    r"|bond\s+(?:of\s+)?\d+\s+years?"                # "bond of 2 years"
+    r"|pre[\s\-]?placement\s+offer|\bppo\b"           # PPO (2027-batch specific)
+    r"|education\s+gap"
+    r"|tcs\s+nqt|infosys\s+instep|wipro\s+nlth|accenture\s+ase"
+    r")",
+    re.IGNORECASE,
+)
+
+_NG_YEAR_SCAN_RE = re.compile(r"\b20(2[6-7])\b")
+
+
+def detect_new_grad(
+    title: str,
+    description: str | None = None,
+    target_batches: tuple[str, ...] = ("2026", "2027"),
+) -> str | None:
+    """Detect whether a job posting targets new-grad / fresher candidates.
+
+    Returns one of:
+      "2026"      — explicitly targets 2026 batch
+      "2027"      — explicitly targets 2027 batch
+      "2026/2027" — explicitly targets both
+      "new_grad"  — clearly a fresher role but no batch year stated
+      None        — not a new-grad posting (or insufficient signal)
+
+    Four tiers, highest confidence first:
+      Tier 1: explicit batch/graduation year in title or description
+      Tier 2: role title matches a known Indian fresher-band pattern
+      Tier 3: experience range ("0-1 years") on a non-intern title
+      Tier 4: description eligibility signals (CGPA, bond, no-backlogs, PPO)
+    """
+    active = {b[-2:] for b in target_batches if len(b) >= 2}  # {"26","27"}
+    combined = f"{title} {description or ''}"
+
+    # Tier 1 — explicit year
+    if _BATCH_YEAR_RE.search(combined):
+        years_found = {g for g in _NG_YEAR_SCAN_RE.findall(combined) if g in active}
+        if years_found:
+            return "/".join(f"20{y}" for y in sorted(years_found))
+
+    # Tier 2 — title is a known fresher-band role
+    if _NEWGRAD_TITLE_RE.search(title):
+        return "new_grad"
+
+    # Tier 3 — fresher exp range and title is not an internship
+    if not is_internship(title) and _FRESHER_EXP_RE.search(combined):
+        return "new_grad"
+
+    # Tier 4 — description eligibility signals only (not for intern titles)
+    if description and not is_internship(title) and _DESC_FRESHER_RE.search(description):
+        return "new_grad"
+
+
+    return None
+

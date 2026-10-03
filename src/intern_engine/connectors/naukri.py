@@ -1,8 +1,11 @@
 """Naukri.com job search — India's largest job board.
 
+Targets entry-level / fresher openings for 2026/2027 batch.
+Searches with fresher-focused keywords across multiple pages.
+
 Uses Naukri's internal search JSON API with browser-like headers.
 Scrapling's StealthyFetcher is used to bypass Cloudflare protection.
-Falls back to a plain request if Scrapling/Playwright is unavailable.
+Falls back gracefully if Scrapling/Playwright is unavailable.
 """
 
 from __future__ import annotations
@@ -17,12 +20,25 @@ from ..net import Net
 
 _EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="naukri")
 
-# Naukri's internal JSON search API
+# Naukri's internal JSON search API — experience=0 means "Fresher" filter.
+# noOfResults=20 is the max per page; we paginate across _MAX_PAGES.
 _API_URL = (
     "https://www.naukri.com/jobapi/v4/search"
     "?noOfResults=20&urlType=search_by_keyword&searchType=adv"
     "&keyword={keyword}&location=india&experience=0&page={page}"
 )
+
+# Fresher-specific search terms that yield the best new-grad results on Naukri.
+# Each term is searched independently; results are merged by the pipeline dedup.
+_FRESHER_KEYWORDS = [
+    "fresher software engineer",
+    "associate software engineer",
+    "graduate engineer trainee",
+    "junior developer fresher",
+    "software developer 2026",
+    "software developer 2027",
+    "entry level software",
+]
 
 _HEADERS = {
     "User-Agent": (
@@ -37,7 +53,8 @@ _HEADERS = {
     "X-Requested-With": "XMLHttpRequest",
 }
 
-_MAX_PAGES = 3
+_MAX_PAGES = 5  # more pages for fresher listings (they're high volume)
+
 
 
 def _scrape_page(url: str) -> dict:

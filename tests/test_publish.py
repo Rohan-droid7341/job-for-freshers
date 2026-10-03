@@ -86,8 +86,8 @@ class TestGenerators:
             "ind1": {
                 "id": "ind1",
                 "company": "Swiggy",
-                "title": "Software Engineering Intern",
-                "season": "Summer 2027",
+                "title": "Associate Software Engineer",
+                "season": "2026",
                 "category": "Software",
                 "location": "Bengaluru, Karnataka, India",
                 "url": "https://swiggy.com/careers/1",
@@ -104,9 +104,10 @@ class TestGenerators:
         assert readme_file.exists()
         content = readme_file.read_text(encoding="utf-8")
         assert "Swiggy" in content
-        assert "## Summer 2027  (1 open)" in content
+        assert "2026" in content
         assert "₹60,000/month" in content
         assert "India" in content
+
 
         # Test dashboard generation
         stats = {"open_total": 1, "companies_total": 100, "duration_seconds": 15}

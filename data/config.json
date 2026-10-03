@@ -1,23 +1,16 @@
 {
-  "cycles": [
-    "Summer 2027",
-    "Fall 2026"
-  ],
-  "regions": [
-    "India",
-    "Remote"
-  ],
+  "target_batches": ["2026", "2027"],
+  "regions": ["India", "Remote"],
   "role_scope": "tech",
-  "max_age_days": 30,
+  "max_age_days": 60,
   "max_per_company": 5,
   "allowlist_only": false,
   "include_international": false,
   "section_limits": {
-    "Summer 2027": 300,
-    "Fall 2026": 150
+    "2026": 300,
+    "2027": 300
   },
-  "infer_undated": true,
-  "infer_max_age_days": 30,
+  "infer_undated": false,
   "supabase_url": "https://zvanrgppleycfqwfpxjd.supabase.co",
   "supabase_publishable_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp2YW5yZ3BwbGV5Y2Zxd2ZweGpkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk1ODAwMjcsImV4cCI6MjEwNTE1NjAyN30.hWMKytXN4VI_TAfnFzjp8ezkjM6nNShXlTgpMGoKVbc"
 }

@@ -57,15 +57,16 @@ CONNECTORS = {
     "breezy": breezy.fetch,
     "recruitee": recruitee.fetch,
     "eightfold": eightfold.fetch,
-    # "unstop": unstop.fetch,  # disabled/removed from flow
+    "unstop": unstop.fetch,          # re-enabled: off-campus drives for 2026/2027
     "internshala": internshala.fetch,
     # "instahyre": instahyre.fetch,  # disabled/removed from flow
-    # "linkedin": linkedin.fetch,  # disabled: frequently blocking/rate-limited
+    # "linkedin": linkedin.fetch,    # disabled: frequently blocking/rate-limited
     "naukri": naukri.fetch,
     "custom": custom_careers.fetch,
-    # "indeed": indeed.fetch,  # disabled: frequently blocking/rate-limited
+    # "indeed": indeed.fetch,        # disabled: frequently blocking/rate-limited
     "wellfound": wellfound.fetch,
 }
+
 
 GLOBAL_CONCURRENCY = 32
 PER_HOST_CONCURRENCY = 8
@@ -141,15 +142,13 @@ def _dedup(jobs: list) -> list:
 
 def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[str], int, Counter]:
     """Apply every scope filter; return (kept jobs, succeeded keys, errors,
-    errors by ats, dropped-no-year count, dropped-off-cycle count).
+    errors by ats, dropped-no-batch count).
 
-    `existing` (the store) makes cycle assignment sticky for yearless titles: a
-    season already on record — set by an earlier inference or verified from the
-    posting's own text — is adopted as-is, never re-derived. Without this, a
-    text-verified season would be re-guessed every run, and a role would flip
-    "closed" the day its posting outgrew the inference recency window.
+    `existing` (the store) makes batch assignment sticky for jobs already seen:
+    once a batch label is stored for a job, it is never re-derived so that a
+    text-verified batch stays constant across runs.
     """
-    cycles = config.cycles(cfg)
+    batches = config.target_batches(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
     wants_us = config.want_us(cfg)
@@ -158,8 +157,6 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     wants_remote = config.want_remote(cfg)
     include_intl = config.include_international(cfg)
     allowlist_only = config.allowlist_only(cfg)
-    infer = config.infer_undated(cfg)
-    infer_age = config.infer_max_age_days(cfg)
     max_age = config.max_age_days(cfg)
     cutoff = (datetime.now(UTC) - timedelta(days=max_age)).strftime("%Y-%m-%d") if max_age else None
 
@@ -168,8 +165,8 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     succeeded: set[str] = set()
     errors = 0
     errors_by_ats: Counter = Counter()
-    dropped_no_year = 0  # tech internships we skip only because the title has no year
-    dropped_offcycle = 0  # roles whose recorded season is a verified off-cycle label
+    dropped_no_batch = 0  # jobs we skip only because no new-grad signal found
+
     for company, jobs, error in results:
         if error is not None:
             errors += 1
@@ -181,48 +178,34 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
         if allowlist_only and not quality.is_recognized(company["name"]):
             continue
         for job in jobs:
-            if not filters.is_internship(job.title):
+            # ----------------------------------------------------------------
+            # Gate 1: is this a new-grad / fresher posting?
+            # detect_new_grad() runs 4 tiers: explicit batch year → title band
+            # → experience range → description signals.
+            # ----------------------------------------------------------------
+            batch = filters.detect_new_grad(
+                job.title,
+                description=job.description,
+                target_batches=tuple(batches),
+            )
+            if batch is None:
+                # Not a new-grad posting. Check if we already have it stored
+                # with a batch label (sticky from a prior run).
+                prior = (existing.get(job.id) or {})
+                batch = prior.get("season") if prior.get("season") not in (None, "Unspecified") else None
+            if batch is None:
+                dropped_no_batch += 1
                 continue
+
+            # ----------------------------------------------------------------
+            # Gate 2: tech role filter (same logic as internship engine)
+            # ----------------------------------------------------------------
             if tech_only and not filters.is_tech(job.title):
                 continue
-            season = filters.detect_season(job.title, cycles)
-            inferred = False
 
-            # If no season in title, look for the year in the description!
-            if season is None and job.description:
-                desc_season = filters.detect_season_from_description(job.description, cycles)
-                if desc_season in cycles:
-                    season = desc_season
-                    inferred = False
-
-            if season is None:
-                if filters.states_explicit_year(job.title):
-                    # The title names a year we don't track ("Summer 2026
-                    # Intern"): a hard verdict. Neither a stored season nor a
-                    # posting-date inference may rescue it.
-                    dropped_offcycle += 1
-                    continue
-                prior = existing.get(job.id) or {}
-                prior_season = prior.get("season")
-                if prior_season in cycles:
-                    season = prior_season  # sticky (see docstring)
-                    inferred = bool(prior.get("season_inferred"))
-                elif filters.is_cycle_label(prior_season):
-                    # A recorded off-cycle label ("Summer 2026") is a settled
-                    # text-verified verdict: the role stays off the list, and
-                    # is never re-inferred or re-enriched.
-                    dropped_offcycle += 1
-                    continue
-                elif infer:
-                    # The measured no-year pool dwarfed the explicit-year pool
-                    # (~13x), so recent undated roles are bucketed by posting
-                    # date, marked `~` everywhere they render, and checked
-                    # against the posting text at enrichment time.
-                    season = filters.infer_season(job.title, job.posted_at, cycles, infer_age)
-                    inferred = season is not None
-            if season is None:
-                dropped_no_year += 1
-                continue
+            # ----------------------------------------------------------------
+            # Gate 3: region filter (same India+Remote logic)
+            # ----------------------------------------------------------------
             in_region = filters.region_ok(
                 job.location, wants_us, wants_canada, wants_india, wants_remote, source=job.source
             )
@@ -230,15 +213,24 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
                 continue
             loc = (job.location or "").strip()
             if not in_region and (not loc or loc == "—"):
-                continue  # out-of-region roles need a real location
+                continue
+
+            # ----------------------------------------------------------------
+            # Gate 4: age filter (60 days for fresher listings)
+            # ----------------------------------------------------------------
             posted_day = (job.posted_at or "")[:10]
             if cutoff and posted_day and posted_day < cutoff:
                 continue
-            job.season = season
-            job.season_inferred = inferred
+
+            # Assign batch as the season label so all downstream renderers
+            # (readme.py, dashboard.py, publish.py) work unchanged.
+            job.season = batch
+            job.season_inferred = False
             job.category = filters.categorize(job.title)
             kept.append(job)
-    return kept, succeeded, errors, errors_by_ats, dropped_no_year, dropped_offcycle
+
+    return kept, succeeded, errors, errors_by_ats, dropped_no_batch, 0
+
 
 
 def run_update() -> tuple[dict, dict, list[str]]:
@@ -332,6 +324,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
         no_year,
         offcycle,
     )
+
     _write_stats(stats)
     _append_history(stats)
     return stats, existing, new_ids

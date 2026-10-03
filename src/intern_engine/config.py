@@ -1,14 +1,11 @@
 """Tunable settings, loaded from data/config.json (with safe defaults).
 
 Change behavior without touching code:
-  - cycles        : the exact intern cycles to show, e.g. ["Summer 2027", "Fall 2026"].
-                    These become the section headings, in this order.
-  - default_cycle : where to put roles that have no clear term/year (e.g. just
-                    "Software Engineer Intern"). Must be one of `cycles`.
-  - regions       : ["US"] for United States only, ["US", "Canada"] for both,
-                    ["India"] for India only, ["India", "Remote"] for India + remote,
-                    or ["Global"] to disable the location filter entirely.
-  - role_scope    : "tech" (SWE/data/ML/quant/hardware/...) or "all" internships.
+  - target_batches : graduation years to track, e.g. ["2026", "2027"].
+                     These become the section headings, in this order.
+  - regions        : ["India", "Remote"] for India + remote (default).
+  - role_scope     : "tech" (SWE/data/ML/quant/...) or "all" openings.
+  - max_age_days   : drop postings older than this many days (default 60).
 """
 
 from __future__ import annotations
@@ -20,11 +17,12 @@ import re
 from . import paths
 
 DEFAULTS = {
-    "cycles": ["Summer 2027", "Fall 2026"],
-    "default_cycle": "Summer 2027",
-    "regions": ["India"],
+    "target_batches": ["2026", "2027"],
+    "regions": ["India", "Remote"],
     "role_scope": "tech",
+    "max_age_days": 60,
 }
+
 
 _FALLBACK_REPO = "Rohan-droid7341/internship-engine-india"
 
@@ -77,7 +75,13 @@ def load_config() -> dict:
 
 
 def cycles(cfg: dict) -> list[str]:
-    return list(cfg.get("cycles") or DEFAULTS["cycles"])
+    """Compat shim — the new-grad engine uses target_batches as section labels."""
+    return list(cfg.get("target_batches") or DEFAULTS["target_batches"])
+
+
+def target_batches(cfg: dict) -> list[str]:
+    """The graduation-year labels used as section headings, e.g. ["2026","2027"]."""
+    return list(cfg.get("target_batches") or DEFAULTS["target_batches"])
 
 
 def restrict_region(cfg: dict) -> bool:

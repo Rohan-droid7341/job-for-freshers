@@ -52,131 +52,140 @@ class TestDetectionLatency:
         assert _detection_latency(existing)["sample_size"] == 0
 
 
-class TestStickySeasons:
-    """A season already on record wins over re-inference (see _keep_matching)."""
+class TestStickyBatch:
+    """A batch label already on record wins over re-derivation (_keep_matching)."""
 
     CFG = {
-        "cycles": ["Summer 2027", "Fall 2026"],
-        "regions": ["US"],
+        "target_batches": ["2026", "2027"],
+        "regions": ["India", "Remote"],
         "role_scope": "tech",
-        "infer_undated": True,
-        "infer_max_age_days": 45,
     }
 
-    def _results(self, posted_days_ago):
-        from datetime import UTC, datetime, timedelta
-
+    def _results(self, title="Associate Software Engineer", location="Bangalore, India"):
         from intern_engine.models import Job
-
-        posted = (datetime.now(UTC) - timedelta(days=posted_days_ago)).strftime("%Y-%m-%d")
+        from datetime import UTC, datetime
         job = Job(
             id="greenhouse:acme:1",
             source="greenhouse",
             company="Acme",
             company_slug="acme",
-            title="Software Engineer Intern",
-            location="New York, NY",
+            title=title,
+            location=location,
             url="https://x",
-            posted_at=f"{posted}T00:00:00Z",
+            posted_at=datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         )
-        return [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
+        return [{"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None]
 
-    def _keep(self, results, existing):
+    def _results_list(self, title="Associate Software Engineer", location="Bangalore, India"):
+        return [self._results(title, location)]
+
+    def _keep(self, results, existing=None):
         from intern_engine.pipeline import _keep_matching
-
-        kept, *_ = _keep_matching(results, self.CFG, {}, existing)
+        kept, *_ = _keep_matching(results, self.CFG, {}, existing or {})
         return kept
 
-    def test_fresh_undated_role_is_date_inferred(self):
-        kept = self._keep(self._results(3), {})
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+    def test_fresher_title_is_kept(self):
+        kept = self._keep(self._results_list())
+        assert len(kept) == 1
+        assert kept[0].season == "new_grad"
 
-    def test_text_verified_season_on_record_beats_reinference(self):
-        existing = {"greenhouse:acme:1": {"season": "Fall 2026", "season_inferred": False}}
-        kept = self._keep(self._results(3), existing)
-        assert [(j.season, j.season_inferred) for j in kept] == [("Fall 2026", False)]
-
-    def test_sticky_season_outlives_inference_recency_window(self):
-        # 60 days old: a fresh inference would refuse, but the role is already
-        # on record — it must stay open instead of flipping closed.
-        existing = {"greenhouse:acme:1": {"season": "Summer 2027", "season_inferred": True}}
-        kept = self._keep(self._results(60), existing)
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
-
-    def test_stale_undated_role_without_record_still_dropped(self):
-        assert self._keep(self._results(60), {}) == []
-
-    def test_verified_offcycle_season_is_sticky_dropped(self):
-        # Text verification recorded "Summer 2026": the role must stay off the
-        # list — never re-inferred back in from its posting date.
-        existing = {"greenhouse:acme:1": {"season": "Summer 2026", "season_inferred": False}}
-        assert self._keep(self._results(3), existing) == []
-
-    def test_explicit_offcycle_title_beats_stale_sticky_season(self):
-        # A store written by older code may hold "Summer 2027" for a title
-        # that literally says "Summer 2026" — the title's own year wins.
-        from datetime import UTC, datetime, timedelta
-
+    def test_explicit_batch_year_in_description_is_kept(self):
         from intern_engine.models import Job
-
-        posted = (datetime.now(UTC) - timedelta(days=2)).strftime("%Y-%m-%d")
+        from datetime import UTC, datetime
         job = Job(
-            id="workday:stevens:1",
-            source="workday",
-            company="Stevens",
-            company_slug="stevens",
-            title="Summer 2026 Intern: Cyber Security",
-            location="Hoboken, NJ",
+            id="naukri:tcs:1",
+            source="naukri",
+            company="TCS",
+            company_slug="tcs",
+            title="Software Developer",
+            location="Chennai, India",
             url="https://x",
-            posted_at=f"{posted}T00:00:00Z",
+            posted_at=datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            description="Eligible batch: 2026. B.Tech CSE.",
         )
-        results = [({"ats": "workday", "slug": "stevens", "name": "Stevens"}, [job], None)]
-        existing = {"workday:stevens:1": {"season": "Summer 2027", "season_inferred": True}}
-        assert self._keep(results, existing) == []
+        results = [({"ats": "naukri", "slug": "tcs", "name": "TCS"}, [job], None)]
+        kept = self._keep(results)
+        assert len(kept) == 1
+        assert kept[0].season == "2026"
 
-    def test_legacy_unspecified_season_still_reinferred(self):
-        # Only a real "<Term> <Year>" label is a verdict; junk labels fall
-        # through to inference as before.
-        existing = {"greenhouse:acme:1": {"season": "Unspecified"}}
-        kept = self._keep(self._results(3), existing)
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+    def test_sticky_batch_from_store_is_reused(self):
+        # Job was already tagged "2026" from description last run; no description this run.
+        from intern_engine.models import Job
+        from datetime import UTC, datetime
+        job = Job(
+            id="greenhouse:acme:1",
+            source="greenhouse",
+            company="Acme",
+            company_slug="acme",
+            title="Software Developer",  # no fresher signal in title alone
+            location="Bangalore, India",
+            url="https://x",
+            posted_at=datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        )
+        existing = {"greenhouse:acme:1": {"season": "2026", "season_inferred": False}}
+        results = [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
+        kept = self._keep(results, existing)
+        assert len(kept) == 1
+        assert kept[0].season == "2026"
+
+    def test_senior_role_is_dropped(self):
+        kept = self._keep(self._results_list("Senior Software Engineer"))
+        assert kept == []
+
+    def test_stale_undated_non_fresher_dropped(self):
+        from intern_engine.models import Job
+        job = Job(
+            id="greenhouse:acme:2",
+            source="greenhouse",
+            company="Acme",
+            company_slug="acme",
+            title="Software Engineer",  # no fresher signal
+            location="Bangalore, India",
+            url="https://x",
+        )
+        results = [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
+        assert self._keep(results) == []
 
 
 class TestRegionConfig:
-    """regions config must be honored end-to-end (Canada was silently dropped)."""
+    """regions config must be honored end-to-end (India+Remote is the new default)."""
 
     def _results(self, location):
-        from datetime import UTC, datetime, timedelta
-
         from intern_engine.models import Job
-
-        posted = (datetime.now(UTC) - timedelta(days=3)).strftime("%Y-%m-%d")
+        from datetime import UTC, datetime
         job = Job(
             id="greenhouse:acme:1",
             source="greenhouse",
             company="Acme",
             company_slug="acme",
-            title="Software Engineer Intern, Summer 2027",
+            title="Associate Software Engineer",  # passes both is_tech() and detect_new_grad()
+
             location=location,
             url="https://x",
-            posted_at=f"{posted}T00:00:00Z",
+            posted_at=datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         )
         return [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
 
     def _keep(self, results, regions):
         from intern_engine.pipeline import _keep_matching
-
-        cfg = {"cycles": ["Summer 2027", "Fall 2026"], "regions": regions, "role_scope": "tech"}
+        cfg = {"target_batches": ["2026", "2027"], "regions": regions, "role_scope": "tech"}
         kept, *_ = _keep_matching(results, cfg, {}, {})
         return kept
 
-    def test_us_only_drops_canada(self):
-        assert self._keep(self._results("Toronto, Ontario, Canada"), ["US"]) == []
-
-    def test_us_and_canada_keeps_canada(self):
-        kept = self._keep(self._results("Toronto, Ontario, Canada"), ["US", "Canada"])
+    def test_india_only_keeps_india(self):
+        kept = self._keep(self._results("Bangalore, Karnataka, India"), ["India"])
         assert len(kept) == 1
 
-    def test_us_and_canada_still_keeps_us(self):
-        kept = self._keep(self._results("New York, NY"), ["US", "Canada"])
+    def test_india_only_drops_us(self):
+        assert self._keep(self._results("New York, NY"), ["India"]) == []
+
+    def test_india_and_remote_keeps_india(self):
+        kept = self._keep(self._results("Mumbai, India"), ["India", "Remote"])
         assert len(kept) == 1
+
+    def test_india_and_remote_keeps_worldwide_remote(self):
+        kept = self._keep(self._results("Worldwide Remote"), ["India", "Remote"])
+        assert len(kept) == 1
+
+
+
