@@ -29,7 +29,6 @@ from .connectors import (
     custom_careers,
     eightfold,
     greenhouse,
-    instahyre,
     internshala,
     lever,
     naukri,

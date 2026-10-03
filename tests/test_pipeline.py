@@ -62,8 +62,9 @@ class TestStickyBatch:
     }
 
     def _results(self, title="Associate Software Engineer", location="Bangalore, India"):
-        from intern_engine.models import Job
         from datetime import UTC, datetime
+
+        from intern_engine.models import Job
         job = Job(
             id="greenhouse:acme:1",
             source="greenhouse",
@@ -90,8 +91,9 @@ class TestStickyBatch:
         assert kept[0].season == "new_grad"
 
     def test_explicit_batch_year_in_description_is_kept(self):
-        from intern_engine.models import Job
         from datetime import UTC, datetime
+
+        from intern_engine.models import Job
         job = Job(
             id="naukri:tcs:1",
             source="naukri",
@@ -110,8 +112,9 @@ class TestStickyBatch:
 
     def test_sticky_batch_from_store_is_reused(self):
         # Job was already tagged "2026" from description last run; no description this run.
-        from intern_engine.models import Job
         from datetime import UTC, datetime
+
+        from intern_engine.models import Job
         job = Job(
             id="greenhouse:acme:1",
             source="greenhouse",
@@ -151,8 +154,9 @@ class TestRegionConfig:
     """regions config must be honored end-to-end (India+Remote is the new default)."""
 
     def _results(self, location):
-        from intern_engine.models import Job
         from datetime import UTC, datetime
+
+        from intern_engine.models import Job
         job = Job(
             id="greenhouse:acme:1",
             source="greenhouse",

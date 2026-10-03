@@ -1744,7 +1744,7 @@
     "site": "ankura"
   },
   {
-    "name": "Ann & Robert H. Lurie Children’s Hospital of Chicago",
+    "name": "Ann & Robert H. Lurie Children\u2019s Hospital of Chicago",
     "slug": "luriechildrens",
     "ats": "workday",
     "wd": "wd1",
@@ -2627,7 +2627,7 @@
     "ats": "smartrecruiters"
   },
   {
-    "name": "AtkinsRéalis",
+    "name": "AtkinsR\u00e9alis",
     "slug": "slihrms",
     "ats": "workday",
     "wd": "wd3",
@@ -4046,7 +4046,7 @@
     "ats": "smartrecruiters"
   },
   {
-    "name": "Boar’s Head Brand",
+    "name": "Boar\u2019s Head Brand",
     "slug": "boarshead",
     "ats": "workday",
     "wd": "wd1",
@@ -5714,7 +5714,7 @@
     "ats": "lever"
   },
   {
-    "name": "Cincinnati Children’s Hospital and Medical Center",
+    "name": "Cincinnati Children\u2019s Hospital and Medical Center",
     "slug": "cincinnatichildrens",
     "ats": "workday",
     "wd": "wd5",
@@ -6694,12 +6694,12 @@
     "site": "CX_1"
   },
   {
-    "name": "Condé Nast",
+    "name": "Cond\u00e9 Nast",
     "slug": "condnast",
     "ats": "smartrecruiters"
   },
   {
-    "name": "Condé Nast Technology Lab",
+    "name": "Cond\u00e9 Nast Technology Lab",
     "slug": "condnasttechnologylab",
     "ats": "smartrecruiters"
   },
@@ -7611,7 +7611,7 @@
     "ats": "smartrecruiters"
   },
   {
-    "name": "Dassault Systèmes",
+    "name": "Dassault Syst\u00e8mes",
     "slug": "dassaultsystmes",
     "ats": "smartrecruiters"
   },
@@ -10969,7 +10969,7 @@
     "ats": "workable"
   },
   {
-    "name": "Fussball Club Cincinnati LLC (“FC Cincinnati”)",
+    "name": "Fussball Club Cincinnati LLC (\u201cFC Cincinnati\u201d)",
     "slug": "fccincinnati",
     "ats": "greenhouse"
   },
@@ -13248,7 +13248,7 @@
     "site": "hyster-yalecareers"
   },
   {
-    "name": "Höganäs",
+    "name": "H\u00f6gan\u00e4s",
     "slug": "hoganas",
     "ats": "workday",
     "wd": "wd3",
@@ -13597,47 +13597,47 @@
     "ats": "greenhouse"
   },
   {
-    "name": "Indeed — Ai Intern",
+    "name": "Indeed \u2014 Ai Intern",
     "slug": "ai+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Backend Intern",
+    "name": "Indeed \u2014 Backend Intern",
     "slug": "backend+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Devops Intern",
+    "name": "Indeed \u2014 Devops Intern",
     "slug": "devops+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Frontend Intern",
+    "name": "Indeed \u2014 Frontend Intern",
     "slug": "frontend+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Java Intern",
+    "name": "Indeed \u2014 Java Intern",
     "slug": "java+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Python Intern",
+    "name": "Indeed \u2014 Python Intern",
     "slug": "python+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — React Intern",
+    "name": "Indeed \u2014 React Intern",
     "slug": "react+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Sde Intern",
+    "name": "Indeed \u2014 Sde Intern",
     "slug": "sde+intern",
     "ats": "indeed"
   },
   {
-    "name": "Indeed — Software Intern",
+    "name": "Indeed \u2014 Software Intern",
     "slug": "software+intern",
     "ats": "indeed"
   },
@@ -15724,62 +15724,62 @@
     "ats": "lever"
   },
   {
-    "name": "LinkedIn — Ai Intern",
+    "name": "LinkedIn \u2014 Ai Intern",
     "slug": "ai+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Backend Intern",
+    "name": "LinkedIn \u2014 Backend Intern",
     "slug": "backend+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Data Science Intern India",
+    "name": "LinkedIn \u2014 Data Science Intern India",
     "slug": "data+science+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Devops Intern",
+    "name": "LinkedIn \u2014 Devops Intern",
     "slug": "devops+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Frontend Intern",
+    "name": "LinkedIn \u2014 Frontend Intern",
     "slug": "frontend+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Java Intern",
+    "name": "LinkedIn \u2014 Java Intern",
     "slug": "java+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — ML Intern India",
+    "name": "LinkedIn \u2014 ML Intern India",
     "slug": "machine+learning+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Python Intern",
+    "name": "LinkedIn \u2014 Python Intern",
     "slug": "python+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — React Intern",
+    "name": "LinkedIn \u2014 React Intern",
     "slug": "react+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Sde Intern",
+    "name": "LinkedIn \u2014 Sde Intern",
     "slug": "sde+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — Software Intern India",
+    "name": "LinkedIn \u2014 Software Intern India",
     "slug": "software+engineer+intern",
     "ats": "linkedin"
   },
   {
-    "name": "LinkedIn — SWE Intern India",
+    "name": "LinkedIn \u2014 SWE Intern India",
     "slug": "swe+intern+india",
     "ats": "linkedin"
   },
@@ -16221,7 +16221,7 @@
     "site": "Lytx"
   },
   {
-    "name": "Léger",
+    "name": "L\u00e9ger",
     "slug": "Leger2",
     "ats": "smartrecruiters"
   },
@@ -16773,7 +16773,7 @@
     "site": "external"
   },
   {
-    "name": "McCoy’s",
+    "name": "McCoy\u2019s",
     "slug": "mccoys",
     "ats": "workday",
     "wd": "wd1",
@@ -18208,52 +18208,52 @@
     "ats": "greenhouse"
   },
   {
-    "name": "Naukri — Ai Intern",
+    "name": "Naukri \u2014 Ai Intern",
     "slug": "ai-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Backend Intern",
+    "name": "Naukri \u2014 Backend Intern",
     "slug": "backend-developer-internship",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Backend Intern",
+    "name": "Naukri \u2014 Backend Intern",
     "slug": "backend-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Devops Intern",
+    "name": "Naukri \u2014 Devops Intern",
     "slug": "devops-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Frontend Intern",
+    "name": "Naukri \u2014 Frontend Intern",
     "slug": "frontend-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Java Intern",
+    "name": "Naukri \u2014 Java Intern",
     "slug": "java-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Python Intern",
+    "name": "Naukri \u2014 Python Intern",
     "slug": "python-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — React Intern",
+    "name": "Naukri \u2014 React Intern",
     "slug": "react-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Sde Intern",
+    "name": "Naukri \u2014 Sde Intern",
     "slug": "sde-intern",
     "ats": "naukri"
   },
   {
-    "name": "Naukri — Software Intern",
+    "name": "Naukri \u2014 Software Intern",
     "slug": "software-internship",
     "ats": "naukri"
   },
@@ -23377,7 +23377,7 @@
     "ats": "smartrecruiters"
   },
   {
-    "name": "Schrödinger",
+    "name": "Schr\u00f6dinger",
     "slug": "schrdinger",
     "ats": "greenhouse"
   },
@@ -24360,7 +24360,7 @@
     "ats": "smartrecruiters"
   },
   {
-    "name": "Société Générale de Surveillance (SGS)",
+    "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale de Surveillance (SGS)",
     "slug": "SGS",
     "ats": "smartrecruiters"
   },
@@ -26289,7 +26289,7 @@
     "ats": "greenhouse"
   },
   {
-    "name": "The Pokémon Company",
+    "name": "The Pok\u00e9mon Company",
     "slug": "pokemoncareers",
     "ats": "greenhouse"
   },
@@ -29953,5 +29953,35 @@
     "name": "Zynga",
     "slug": "zynga-careers",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Unstop - Software",
+    "slug": "software",
+    "ats": "unstop"
+  },
+  {
+    "name": "Unstop - Data Science",
+    "slug": "data-science",
+    "ats": "unstop"
+  },
+  {
+    "name": "Unstop - Machine Learning",
+    "slug": "machine-learning",
+    "ats": "unstop"
+  },
+  {
+    "name": "Unstop - Full Stack",
+    "slug": "full-stack",
+    "ats": "unstop"
+  },
+  {
+    "name": "Unstop - Backend",
+    "slug": "backend",
+    "ats": "unstop"
+  },
+  {
+    "name": "Unstop - Frontend",
+    "slug": "frontend",
+    "ats": "unstop"
   }
 ]

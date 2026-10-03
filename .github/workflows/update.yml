@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name  "Rohangarg"
           git config user.email "garg20005rohan@gmail.com"
-          git add README.md data/jobs.json data/internships.csv data/stats.json \
+          git add README.md data/jobs.json data/jobs.csv data/stats.json \
                   data/health.json data/history.jsonl data/mail_state.json \
                   data/whatsapp_state.json data/observed.json data/known_windows.json \
                   docs/index.html docs/feed.xml docs/unsubscribe.html \
@@ -65,7 +65,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: update internships ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git commit -m "chore: update jobs ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
             # Hourly cadence can overlap the daily discovery push; rebase onto
             # whatever landed (different files, so this auto-merges) and retry.
             for attempt in 1 2 3; do
