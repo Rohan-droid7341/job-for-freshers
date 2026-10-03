@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**52 open roles · 54 new this week · 5,299 companies tracked · updated Oct 03, 2026 at 17:00 UTC**
+**22 open roles · 24 new this week · 5,293 companies tracked · updated Oct 03, 2026 at 17:35 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,16 +13,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## 2026 Batch — Freshers (Passed Out)  (4 open)
-
-| Company | Role | Category | Pay & Specs | Location | Posted | Apply |
-|---|---|---|---|---|---|---|
-| Eargs Learning institute | Data Science Internship 🆕 | Data & ML/AI | 0-1 Yr | Thane, Kalyan | — | [Apply](https://unstop.com/internships/data-science-internship-eargs-learning-institute-1733175) |
-| Mellow Vault | Junior Full Stack Developer 🆕 | Software | ₹400,000/annually<br>0-1 Yr | Noida | — | [Apply](https://unstop.com/jobs/junior-full-stack-developer-mellow-vault-1761395) |
-| ResuPulse | Full Stack Engineer 🆕 | Software | ₹500,000/annually<br>B.Tech/BS | India | — | [Apply](https://unstop.com/jobs/full-stack-engineer-resupulse-1717891) |
-| Mybytes Technologies | Junior Software Engineer 🆕 | Software | — | Gurgaon | — | [Apply](https://unstop.com/jobs/junior-software-engineer-mybytes-technologies-1740011) |
-
-## New Grad — Entry Level (All Batches)  (48 open)
+## New Grad — Entry Level (All Batches)  (22 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -37,8 +28,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Netomi | Data Engineer I 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
 | Priceline | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Mumbai | Sep 21, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5715) |
 | Amazon | SDE-1, Expansions Tech and Product 🆕 | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 18, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10553343/sde-1-expansions-tech-and-product) |
-| Aera Technology | Associate Data Scientist – Modeling, Analytics & Pipelines 🆕 | Data & ML/AI | B.Tech/BS | Pune, India | Sep 17, 2026 | [Apply](https://jobs.lever.co/aeratechnology/4860f299-72d8-41d5-97ff-ae063765f617) |
 | Amazon | Software Dev Engineer I FTC 🆕 | Software | B.Tech/BS | Bengaluru, Karnataka, India | Sep 17, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc) |
+| Aera Technology | Associate Data Scientist – Modeling, Analytics & Pipelines 🆕 | Data & ML/AI | B.Tech/BS | Pune, India | Sep 17, 2026 | [Apply](https://jobs.lever.co/aeratechnology/4860f299-72d8-41d5-97ff-ae063765f617) |
 | Cohere Health | Associate SDET Engineer 🆕 | Software | — | Hyderabad, Telangana, India | Sep 16, 2026 | [Apply](https://job-boards.greenhouse.io/coherehealth/jobs/7693298003) |
 | R1 RCM | Software Engineer I 🆕 | Software | B.Tech/BS | Noida, India | Aug 28, 2026 | [Apply](https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491) |
 | AiPrise | Software Engineer I (Bangalore, India) 🆕 | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Aug 24, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6) |
@@ -48,32 +39,6 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Varex Imaging Corporation | Applications System Engineer 🆕 | Software | B.Tech/BS | Pune | Jun 09, 2026 | [Apply](https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site/job/Pune/Applications-System-Engineer_R0004962) |
 | Silicon Laboratories | Engineer I - Software QA 🆕 | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
 | Mykaarma | Software Developer I 🆕 | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
-| Mellow Vault | Software Developer 🆕 | Software | ₹400,000/annually | Noida | — | [Apply](https://unstop.com/jobs/software-developer-fresher-mellow-vault-1760714) |
-| Neugence Technology | Founding Software Engineer 🆕 | Software | ₹1,000,000/annually<br>0-1 Yr<br>B.Tech/BS | India | — | [Apply](https://unstop.com/jobs/founding-software-engineer-neugence-technology-1758496) |
-| vishenera.com | Software Engineer 🆕 | Software | ₹240,000/annually<br>0-1 Yr<br>B.Tech/BS | Varanasi | — | [Apply](https://unstop.com/jobs/software-engineer-visheneracom-1739954) |
-| 404Minds Technologies | Software Developer Engineer 🆕 | Software | ₹450,000/annually<br>0-1 Yr | India | — | [Apply](https://unstop.com/jobs/software-developer-engineer-404minds-technologies-1749799) |
-| Opticent Private limited | Full Stack Software Engineer 🆕 | Software | ₹20,000/monthly<br>0-1 Yr<br>B.Tech/BS | Bangalore | — | [Apply](https://unstop.com/jobs/full-stack-software-engineer-opticent-private-limited-1755875) |
-| Maytrixtech | Software Engineer 🆕 | Software | ₹400,000/annually<br>0-1 Yr<br>B.Tech/BS | Bangalore | — | [Apply](https://unstop.com/jobs/software-engineer-maytrixtech-1731296) |
-| Aastra Technologies | Software Developer 🆕 | Software | ₹250,000/annually<br>0-1 Yr | Chennai | — | [Apply](https://unstop.com/jobs/software-developer-aastra-technologies-1715350) |
-| InnovalQ Technologies | Data Analyst 🆕 | Data & ML/AI | ₹1,500,000/annually<br>0-1 Yr<br>B.Tech/BS | Coimbatore | — | [Apply](https://unstop.com/jobs/data-analyst-innovalq-technologies-1758127) |
-| Wikasta Business and Technical Solutions Pvt. Ltd. | Data Analyst 🆕 | Data & ML/AI | ₹540,000/annually<br>0-1 Yr | India | — | [Apply](https://unstop.com/jobs/data-analyst-wikasta-business-and-technical-solutions-pvt-ltd-1747446) |
-| UpForge | Data Analyst 🆕 | Data & ML/AI | ₹800,000/annually<br>0-1 Yr | India | — | [Apply](https://unstop.com/jobs/data-analyst-upforge-1748321) |
-| UpForge | AI & Machine Learning Associate 🆕 | Data & ML/AI | ₹800,000/annually<br>0-1 Yr<br>B.Tech/BS | India | — | [Apply](https://unstop.com/jobs/ai-machine-learning-associate-upforge-1748329) |
-| KGP Talkie | Machine Learning Engineer 🆕 | Data & ML/AI | ₹800,000/annually<br>0-1 Yr<br>B.Tech/BS | India | — | [Apply](https://unstop.com/jobs/machine-learning-engineer-kgp-talkie-1729085) |
-| Izeon Innovative Pvt. Ltd. | Machine Learning Engineer 🆕 | Data & ML/AI | 0-1 Yr | Chennai | — | [Apply](https://unstop.com/jobs/machine-learning-engineer-izeon-innovative-pvt-ltd-1372195) |
-| Maytrixtech | Full Stack Developer 🆕 | Software | 0-1 Yr | India | — | [Apply](https://unstop.com/internships/software-engineer-internship-maytrixtech-1746114) |
-| SmaranAI.in | Junior Full Stack & GenAI Developer Internship 🆕 | Software | — | India | — | [Apply](https://unstop.com/internships/junior-full-stack-genai-developer-internship-smaranaiin-1751238) |
-| Architech Labs | Full Stack Developer 🆕 | Software | ₹25,000/monthly<br>0-1 Yr | Gurgaon | — | [Apply](https://unstop.com/jobs/full-stack-developer-architech-labs-1748609) |
-| Valoron Consulting | Full Stack Developer 🆕 | Software | ₹20,000/monthly<br>0-1 Yr<br>B.Tech/BS | India | — | [Apply](https://unstop.com/jobs/full-stack-developer-valoron-consulting-1724896) |
-| SG Technologies | Full Stack Web Developer 🆕 | Software | ₹35,000/monthly<br>0-1 Yr<br>B.Tech/BS | Visakhapatnam | — | [Apply](https://unstop.com/jobs/full-stack-web-developer-sg-technologies-1720299) |
-| Bluebrain Solutions | Frontend Developer 🆕 | Software | ₹300,000/annually<br>0-1 Yr | India | — | [Apply](https://unstop.com/jobs/frontend-developer-bluebrain-solutions-1049565) |
-| Xi Technologies Pvt. Ltd. | Frontend Developer 🆕 | Software | 0-1 Yr<br>B.Tech/BS | Kolkata | — | [Apply](https://unstop.com/jobs/frontend-developer-xi-technologies-pvt-ltd-1525408) |
-| BlueLearn | Frontend Developer 🆕 | Software | ₹1,000,000/annually<br>2+ Yrs<br>B.Tech/BS | Bangalore | — | [Apply](https://unstop.com/jobs/frontend-developer-bluelearn-782522) |
-| Pivotor AI | AI Frontend Engineer 🆕 | Data & ML/AI | ₹400,000/annually | Hyderabad | — | [Apply](https://unstop.com/jobs/ai-frontend-engineer-pivotor-ai-1662855) |
-| Bhumaha Solutions | Angular Frontend Developer 🆕 | Software | 0-1 Yr | Chennai | — | [Apply](https://unstop.com/jobs/angular-frontend-developer-bhumaha-solutions-1598239) |
-| Flair Softwares Private Limited | Junior Software Developer 🆕 | Software | — | Ahmedabad | — | [Apply](https://unstop.com/jobs/junior-software-developer-flair-softwares-private-limited-1709167) |
-| Brained (AIAB Ventures Pvt Ltd) | Junior Software Tester 🆕 | Software | — | Mumbai | — | [Apply](https://unstop.com/jobs/junior-software-tester-brained-aiab-ventures-pvt-ltd-1748905) |
-| Smartgrow Infotech | Associate Software Trainee Internship 🆕 | Software | — | Hyderabad | — | [Apply](https://unstop.com/internships/associate-software-trainee-internship-smartgrow-infotech-1757328) |
 
 ## What this is
 
@@ -151,7 +116,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 
-_46 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). **4** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 ---
 
@@ -173,7 +138,7 @@ _Engine (last run): 5,299 companies across 19 ATS platforms · 97% fetch success
 ## Platforms Scraped
 
 The engine currently extracts live data from the following platforms:
-- **Indian Job Portals:** Naukri (experience=0 / fresher filter), Unstop (off-campus drives + jobs), Internshala, Wellfound
+- **Indian Job Portals:** Naukri (experience=0 / fresher filter), Internshala, Wellfound
 - **Direct ATS (Applicant Tracking Systems):** Greenhouse, Lever, Ashby, SmartRecruiters, Workable, Workday, Breezy, Recruitee, Rippling, Eightfold, Oracle
 - **Direct Enterprise & Custom Scrapers:** Amazon (India Jobs), Custom Playwright Scrapers (Flipkart, Swiggy, Razorpay, CRED, InMobi, Rapido, Blinkit, Groww, CARS24, Urban Company, Delhivery)
 

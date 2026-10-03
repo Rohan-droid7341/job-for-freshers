@@ -56,7 +56,7 @@ CONNECTORS = {
     "breezy": breezy.fetch,
     "recruitee": recruitee.fetch,
     "eightfold": eightfold.fetch,
-    "unstop": unstop.fetch,          # re-enabled: off-campus drives for 2026/2027
+    # "unstop": unstop.fetch,        # disabled: low quality / irrelevant
     "internshala": internshala.fetch,
     # "instahyre": instahyre.fetch,  # disabled/removed from flow
     # "linkedin": linkedin.fetch,    # disabled: frequently blocking/rate-limited
@@ -65,6 +65,7 @@ CONNECTORS = {
     # "indeed": indeed.fetch,        # disabled: frequently blocking/rate-limited
     "wellfound": wellfound.fetch,
 }
+
 
 
 GLOBAL_CONCURRENCY = 32

@@ -29953,35 +29953,5 @@
     "name": "Zynga",
     "slug": "zynga-careers",
     "ats": "smartrecruiters"
-  },
-  {
-    "name": "Unstop - Software",
-    "slug": "software",
-    "ats": "unstop"
-  },
-  {
-    "name": "Unstop - Data Science",
-    "slug": "data-science",
-    "ats": "unstop"
-  },
-  {
-    "name": "Unstop - Machine Learning",
-    "slug": "machine-learning",
-    "ats": "unstop"
-  },
-  {
-    "name": "Unstop - Full Stack",
-    "slug": "full-stack",
-    "ats": "unstop"
-  },
-  {
-    "name": "Unstop - Backend",
-    "slug": "backend",
-    "ats": "unstop"
-  },
-  {
-    "name": "Unstop - Frontend",
-    "slug": "frontend",
-    "ats": "unstop"
   }
 ]

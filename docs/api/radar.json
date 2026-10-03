@@ -1,64 +1,8 @@
 {
- "generated_at": "2026-10-03T17:00:04Z",
+ "generated_at": "2026-10-03T17:35:14Z",
  "cycle": "2026",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "companies": [
-  {
-   "company": "Eargs Learning institute",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "",
-   "days_until": null,
-   "status": "open",
-   "url": "https://unstop.com/internships/data-science-internship-eargs-learning-institute-1733175",
-   "note": ""
-  },
-  {
-   "company": "Mellow Vault",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "",
-   "days_until": null,
-   "status": "open",
-   "url": "https://unstop.com/jobs/junior-full-stack-developer-mellow-vault-1761395",
-   "note": ""
-  },
-  {
-   "company": "Mybytes Technologies",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "",
-   "days_until": null,
-   "status": "open",
-   "url": "https://unstop.com/jobs/junior-software-engineer-mybytes-technologies-1740011",
-   "note": ""
-  },
-  {
-   "company": "ResuPulse",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "",
-   "days_until": null,
-   "status": "open",
-   "url": "https://unstop.com/jobs/full-stack-engineer-resupulse-1717891",
-   "note": ""
-  },
   {
    "company": "Amazon",
    "last_cycle_posted": "",
@@ -648,5 +592,5 @@
    "note": "posts roles year-round"
   }
  ],
- "count": 46
+ "count": 42
 }

@@ -35,7 +35,7 @@
     "workable": 72
   },
   "fetch_success_rate": 0.975,
-  "roles_matched": 54,
+  "roles_matched": 24,
   "roles_cycle_inferred": 0,
   "dropped_no_year_in_title": 1949,
   "dropped_offcycle_by_text": 6,
@@ -60,7 +60,7 @@
   "enrichment_detail_fetches": 5,
   "purged_this_run": 1,
   "new_this_run": 40,
-  "open_total": 54,
+  "open_total": 24,
   "detection_latency": {
     "median_minutes": 676.9,
     "sample_size": 78,
