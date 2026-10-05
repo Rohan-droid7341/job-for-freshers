@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 25 new this week · 5,368 companies tracked · updated Oct 05, 2026 at 01:33 UTC**
+**26 open roles · 28 new this week · 5,368 companies tracked · updated Oct 05, 2026 at 08:08 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,10 +13,12 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (23 open)
+## New Grad — Entry Level (All Batches)  (26 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 05, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1) |
+| ISS / Institutional Shareholder Services | Junior Data Analyst 🆕 | Data & ML/AI | B.Tech/BS | Mumbai, India | Oct 05, 2026 | [Apply](https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252) |
 | Shell | Associate QA Analyst - Endur 🆕 | Other | B.Tech/BS | Bangalore RMZ-ECO WORLD | Oct 02, 2026 | [Apply](https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1) |
 | Cigna Group | Automation Engineer Associate Analyst 🆕 | Software | B.Tech/BS | Bengaluru, India | Oct 01, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027) |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru, Karnataka, India | Sep 30, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform) |
@@ -38,6 +40,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | AspenTech | Software Quality Engineer I 🆕 | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Varex Imaging Corporation | Applications System Engineer 🆕 | Software | B.Tech/BS | Pune | Jun 09, 2026 | [Apply](https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site/job/Pune/Applications-System-Engineer_R0004962) |
 | Silicon Laboratories | Engineer I - Software QA 🆕 | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
+| Rippling | Copy of Software Engineer I - Integration Platform 🆕 | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b) |
 | Perle | Elite Research Scientist - Frontier AI Evaluation 🆕 | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I 🆕 | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
 
@@ -134,7 +137,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,368 companies across 18 ATS platforms · 98% fetch success · completed in 355.3s · median detection latency 686 min · real posted dates on 92% of open roles._
+_Engine (last run): 5,368 companies across 18 ATS platforms · 98% fetch success · completed in 379.6s · median detection latency 668 min · real posted dates on 89% of open roles._
 
 ## Platforms Scraped
 

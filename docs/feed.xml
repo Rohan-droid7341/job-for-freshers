@@ -5,7 +5,31 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-05T01:33:47Z</updated>
+  <updated>2026-10-05T08:08:10Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1</id>
+    <title>GE Healthcare: Graduate Engineer Trainee</title>
+    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1"/>
+    <updated>2026-10-05T08:08:10Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:issgovernance:/job/Mumbai-India/Junior-Data-Analyst_JR_10252</id>
+    <title>ISS | Institutional Shareholder Services: Junior Data Analyst</title>
+    <link href="https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252"/>
+    <updated>2026-10-05T08:08:10Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Mumbai, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b</id>
+    <title>Rippling: Copy of Software Engineer I - Integration Platform</title>
+    <link href="https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b"/>
+    <updated>2026-10-05T08:08:10Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore, India</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863</id>
     <title>Perle: Elite Research Scientist - Frontier AI Evaluation</title>
