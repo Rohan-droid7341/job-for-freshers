@@ -1,8 +1,27 @@
 {
- "generated_at": "2026-10-05T08:08:10Z",
+ "generated_at": "2026-10-05T17:46:13Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 28,
  "jobs": [
+  {
+   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076",
+   "company": "TriNet",
+   "title": "Associate Data Scientist",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076",
+   "posted_at": "2026-10-05",
+   "first_seen_at": "2026-10-05T17:46:13Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "LLMs"
+   ],
+   "source": "oracle"
+  },
   {
    "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1",
    "company": "GE Healthcare",
@@ -111,22 +130,6 @@
     "GCP"
    ],
    "source": "workday"
-  },
-  {
-   "id": "amazon:amazon:10563602",
-   "company": "Amazon",
-   "title": "SDE I FTC",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Other",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc",
-   "posted_at": "2026-09-29T00:00:00Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
   },
   {
    "id": "workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163",
@@ -500,10 +503,10 @@
   {
    "id": "rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b",
    "company": "Rippling",
-   "title": "Copy of Software Engineer I - Integration Platform",
+   "title": "Software Engineer I -Data Infrastructure",
    "season": "new_grad",
    "season_inferred": false,
-   "category": "Software",
+   "category": "Data & ML/AI",
    "location": "Bangalore, India",
    "url": "https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b",
    "posted_at": null,
