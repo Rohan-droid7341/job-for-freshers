@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**26 open roles · 27 new this week · 5,390 companies tracked · updated Oct 06, 2026 at 17:46 UTC**
+**24 open roles · 25 new this week · 5,390 companies tracked · updated Oct 06, 2026 at 22:10 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,19 +13,17 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (26 open)
+## New Grad — Entry Level (All Batches)  (24 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
 | MiQ | Software Engineer I 🆕 | Software | B.Tech/BS | Bengaluru | Oct 06, 2026 | [Apply](https://miqdigital.wd3.myworkdayjobs.com/MiQ_Careers/job/Bengaluru/Software-Engineer-I_JR100496) |
 | Dun & Bradstreet | Software Engineer I (R-20039) 🆕 | Software | B.Tech/BS | Hyderabad - India | Oct 06, 2026 | [Apply](https://jobs.lever.co/dnb/cefca694-b359-47b3-8393-1e7a9332f47d) |
-| Alegeus | Associate Engineer - QA 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Bangalore - India | Oct 06, 2026 | [Apply](https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341) |
 | TriNet | Associate Data Scientist 🆕 | Data & ML/AI | B.Tech/BS | Hyderabad, Telangana, India | Oct 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 05, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1) |
 | ISS / Institutional Shareholder Services | Junior Data Analyst 🆕 | Data & ML/AI | B.Tech/BS | Mumbai, India | Oct 05, 2026 | [Apply](https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252) |
 | Cigna Group | Automation Engineer Associate Analyst | Software | B.Tech/BS | Bengaluru, India | Oct 01, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027) |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru, Karnataka, India | Sep 30, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform) |
-| Global Payments | Associate SDET Specialist | Other | B.Tech/BS | PUNE, , INDIA | Sep 30, 2026 | [Apply](https://tsys.wd1.myworkdayjobs.com/TSYS/job/PUNE--INDIA/Associate-SDET-Specialist_R0075179) |
 | PTC | Associate Software Analyst | Software | B.Tech/BS | Pune, India | Sep 29, 2026 | [Apply](https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163) |
 | Cohere Health | Associate Software Engineer | Software | B.Tech/BS | Hyderabad, Telangana, India | Sep 28, 2026 | [Apply](https://job-boards.greenhouse.io/coherehealth/jobs/7728230003) |
 | Amazon | SDE-I, Rewards | Other | B.Tech/BS | Gurugram, Haryana, India | Sep 22, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards) |
@@ -123,10 +121,12 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 5 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 7 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Alegeus | Associate Engineer - QA | new_grad | 2026-10-06 |
+| Global Payments | Associate SDET Specialist | new_grad | 2026-10-06 |
 | Aera Technology | Associate Data Scientist – Modeling, Analytics & Pipelines | new_grad | 2026-10-06 |
 | Rippling | Software Engineer I -Data Infrastructure | new_grad | 2026-10-06 |
 | Shell | Associate QA Analyst - Endur | new_grad | 2026-10-06 |
@@ -150,7 +150,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,390 companies across 18 ATS platforms · 94% fetch success · completed in 305.2s · median detection latency 677 min · real posted dates on 92% of open roles._
+_Engine (last run): 5,390 companies across 18 ATS platforms · 99% fetch success · completed in 318.6s · median detection latency 677 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-06T17:46:13Z",
+ "generated_at": "2026-10-06T22:10:37Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 27,
+ "count": 25,
  "jobs": [
   {
    "id": "workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496",
@@ -48,25 +48,6 @@
     "Git"
    ],
    "source": "lever"
-  },
-  {
-   "id": "workday:alegeus:/job/Bangalore---India/Associate-Engineer---QA_R-101341",
-   "company": "Alegeus",
-   "title": "Associate Engineer - QA",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bangalore - India",
-   "url": "https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341",
-   "posted_at": "2026-10-06T00:00:00Z",
-   "first_seen_at": "2026-10-06T11:44:31Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "SQL",
-    "Azure"
-   ],
-   "source": "workday"
   },
   {
    "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076",
@@ -154,27 +135,6 @@
    "stipend": null,
    "skills": [],
    "source": "amazon"
-  },
-  {
-   "id": "workday:tsys:/job/PUNE--INDIA/Associate-SDET-Specialist_R0075179",
-   "company": "Global Payments",
-   "title": "Associate SDET Specialist",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Other",
-   "location": "PUNE, , INDIA",
-   "url": "https://tsys.wd1.myworkdayjobs.com/TSYS/job/PUNE--INDIA/Associate-SDET-Specialist_R0075179",
-   "posted_at": "2026-09-30T00:00:00Z",
-   "first_seen_at": "2026-10-03T14:05:49Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "SQL",
-    "AWS",
-    "GCP"
-   ],
-   "source": "workday"
   },
   {
    "id": "workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163",

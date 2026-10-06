@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-06T17:46:13Z</updated>
+  <updated>2026-10-06T22:10:37Z</updated>
   <entry>
     <id>urn:intern-engine:workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496</id>
     <title>MiQ: Software Engineer I</title>
@@ -21,14 +21,6 @@
     <updated>2026-10-06T11:44:31Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Hyderabad - India · Java, SQL, Spring, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alegeus:/job/Bangalore---India/Associate-Engineer---QA_R-101341</id>
-    <title>Alegeus: Associate Engineer - QA</title>
-    <link href="https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341"/>
-    <updated>2026-10-06T11:44:31Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore - India · SQL, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076</id>
@@ -213,13 +205,5 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune India Office · Java, TensorFlow, React, Angular, Spring</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tsys:/job/PUNE--INDIA/Associate-SDET-Specialist_R0075179</id>
-    <title>Global Payments: Associate SDET Specialist</title>
-    <link href="https://tsys.wd1.myworkdayjobs.com/TSYS/job/PUNE--INDIA/Associate-SDET-Specialist_R0075179"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · PUNE, , INDIA · Java, SQL, AWS, GCP</summary>
   </entry>
 </feed>
