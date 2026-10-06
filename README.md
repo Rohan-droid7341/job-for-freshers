@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**25 open roles · 26 new this week · 5,370 companies tracked · updated Oct 06, 2026 at 11:44 UTC**
+**26 open roles · 27 new this week · 5,390 companies tracked · updated Oct 06, 2026 at 17:46 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,12 +13,13 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (25 open)
+## New Grad — Entry Level (All Batches)  (26 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Alegeus | Associate Engineer - QA 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Bangalore - India | Oct 06, 2026 | [Apply](https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341) |
+| MiQ | Software Engineer I 🆕 | Software | B.Tech/BS | Bengaluru | Oct 06, 2026 | [Apply](https://miqdigital.wd3.myworkdayjobs.com/MiQ_Careers/job/Bengaluru/Software-Engineer-I_JR100496) |
 | Dun & Bradstreet | Software Engineer I (R-20039) 🆕 | Software | B.Tech/BS | Hyderabad - India | Oct 06, 2026 | [Apply](https://jobs.lever.co/dnb/cefca694-b359-47b3-8393-1e7a9332f47d) |
+| Alegeus | Associate Engineer - QA 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Bangalore - India | Oct 06, 2026 | [Apply](https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341) |
 | TriNet | Associate Data Scientist 🆕 | Data & ML/AI | B.Tech/BS | Hyderabad, Telangana, India | Oct 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 05, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1) |
 | ISS / Institutional Shareholder Services | Junior Data Analyst 🆕 | Data & ML/AI | B.Tech/BS | Mumbai, India | Oct 05, 2026 | [Apply](https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252) |
@@ -149,7 +150,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,370 companies across 18 ATS platforms · 99% fetch success · completed in 378.0s · median detection latency 668 min · real posted dates on 92% of open roles._
+_Engine (last run): 5,390 companies across 18 ATS platforms · 94% fetch success · completed in 305.2s · median detection latency 677 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 

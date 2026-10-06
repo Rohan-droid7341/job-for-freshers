@@ -1,24 +1,29 @@
 {
- "generated_at": "2026-10-06T11:44:31Z",
+ "generated_at": "2026-10-06T17:46:13Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 26,
+ "count": 27,
  "jobs": [
   {
-   "id": "workday:alegeus:/job/Bangalore---India/Associate-Engineer---QA_R-101341",
-   "company": "Alegeus",
-   "title": "Associate Engineer - QA",
+   "id": "workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496",
+   "company": "MiQ",
+   "title": "Software Engineer I",
    "season": "new_grad",
    "season_inferred": false,
    "category": "Software",
-   "location": "Bangalore - India",
-   "url": "https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341",
+   "location": "Bengaluru",
+   "url": "https://miqdigital.wd3.myworkdayjobs.com/MiQ_Careers/job/Bengaluru/Software-Engineer-I_JR100496",
    "posted_at": "2026-10-06T00:00:00Z",
-   "first_seen_at": "2026-10-06T11:44:31Z",
+   "first_seen_at": "2026-10-06T17:46:13Z",
    "salary": null,
    "stipend": null,
    "skills": [
+    "Java",
     "SQL",
-    "Azure"
+    "Kotlin",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Linux"
    ],
    "source": "workday"
   },
@@ -43,6 +48,25 @@
     "Git"
    ],
    "source": "lever"
+  },
+  {
+   "id": "workday:alegeus:/job/Bangalore---India/Associate-Engineer---QA_R-101341",
+   "company": "Alegeus",
+   "title": "Associate Engineer - QA",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore - India",
+   "url": "https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341",
+   "posted_at": "2026-10-06T00:00:00Z",
+   "first_seen_at": "2026-10-06T11:44:31Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "SQL",
+    "Azure"
+   ],
+   "source": "workday"
   },
   {
    "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076",
