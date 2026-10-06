@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-06T04:13:05Z</updated>
+  <updated>2026-10-06T11:44:31Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:alegeus:/job/Bangalore---India/Associate-Engineer---QA_R-101341</id>
+    <title>Alegeus: Associate Engineer - QA</title>
+    <link href="https://alegeus.wd1.myworkdayjobs.com/Alegeus_External_Careers/job/Bangalore---India/Associate-Engineer---QA_R-101341"/>
+    <updated>2026-10-06T11:44:31Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore - India · SQL, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:dnb:cefca694-b359-47b3-8393-1e7a9332f47d</id>
+    <title>Dun &amp; Bradstreet: Software Engineer I (R-20039)</title>
+    <link href="https://jobs.lever.co/dnb/cefca694-b359-47b3-8393-1e7a9332f47d"/>
+    <updated>2026-10-06T11:44:31Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad - India · Java, SQL, Spring, AWS, Git</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076</id>
     <title>TriNet: Associate Data Scientist</title>
@@ -13,14 +29,6 @@
     <updated>2026-10-05T17:46:13Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b</id>
-    <title>Rippling: Software Engineer I -Data Infrastructure</title>
-    <link href="https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b"/>
-    <updated>2026-10-05T08:08:10Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1</id>
@@ -87,14 +95,6 @@
     <summary>new_grad · Other · Gurugram, Haryana, India · Python, Java, C++</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:aeratechnology:4860f299-72d8-41d5-97ff-ae063765f617</id>
-    <title>Aera Technology: Associate Data Scientist – Modeling, Analytics &amp; Pipelines</title>
-    <link href="https://jobs.lever.co/aeratechnology/4860f299-72d8-41d5-97ff-ae063765f617"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Pune, India · Python, SQL, PyTorch, TensorFlow, Pandas</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692</id>
     <title>Netomi: Data Engineer I</title>
     <link href="https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692"/>
@@ -127,28 +127,12 @@
     <summary>new_grad · Software · Noida, India · C#, JavaScript, SQL, LLMs, React</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:shell:/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1</id>
-    <title>Shell: Associate QA Analyst - Endur</title>
-    <link href="https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Bangalore-RMZ-ECO-WORLD/Associate-QA-Analyst---Endur_R208390-1"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Bangalore RMZ-ECO WORLD · Java, SQL, Azure</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:silabs:/job/Hyderabad/Engineer-I---Software-QA_20641-1</id>
     <title>Silicon Laboratories: Engineer I - Software QA</title>
     <link href="https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1"/>
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Hyderabad · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vareximaging:/job/Pune/Applications-System-Engineer_R0004962</id>
-    <title>Varex Imaging Corporation: Applications System Engineer</title>
-    <link href="https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site/job/Pune/Applications-System-Engineer_R0004962"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Pune</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10565511</id>
