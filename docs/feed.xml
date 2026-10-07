@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-07T16:02:47Z</updated>
+  <updated>2026-10-07T21:04:08Z</updated>
   <entry>
     <id>urn:intern-engine:workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883</id>
     <title>T.D. Williamson: Quality Assurance Engineer I</title>
@@ -37,14 +37,6 @@
     <updated>2026-10-03T17:50:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · India (Remote)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10511883</id>
-    <title>Amazon: Software Development Engineer -I, IESP Merchant Tech</title>
-    <link href="https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10525643</id>
