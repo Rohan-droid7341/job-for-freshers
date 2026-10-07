@@ -1,8 +1,24 @@
 {
- "generated_at": "2026-10-07T02:00:58Z",
+ "generated_at": "2026-10-07T08:07:49Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 25,
+ "count": 23,
  "jobs": [
+  {
+   "id": "workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883",
+   "company": "T.D. Williamson",
+   "title": "Quality Assurance Engineer I",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "India, Gujarat, Vadodara",
+   "url": "https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883",
+   "posted_at": "2026-10-07T00:00:00Z",
+   "first_seen_at": "2026-10-07T08:07:49Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "workday"
+  },
   {
    "id": "workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496",
    "company": "MiQ",
@@ -26,47 +42,6 @@
     "Linux"
    ],
    "source": "workday"
-  },
-  {
-   "id": "lever:dnb:cefca694-b359-47b3-8393-1e7a9332f47d",
-   "company": "Dun & Bradstreet",
-   "title": "Software Engineer I (R-20039)",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Hyderabad - India",
-   "url": "https://jobs.lever.co/dnb/cefca694-b359-47b3-8393-1e7a9332f47d",
-   "posted_at": "2026-10-06T06:51:55Z",
-   "first_seen_at": "2026-10-06T11:44:31Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "SQL",
-    "Spring",
-    "AWS",
-    "Git"
-   ],
-   "source": "lever"
-  },
-  {
-   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076",
-   "company": "TriNet",
-   "title": "Associate Data Scientist",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076",
-   "posted_at": "2026-10-05",
-   "first_seen_at": "2026-10-05T17:46:13Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "LLMs"
-   ],
-   "source": "oracle"
   },
   {
    "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1",
@@ -242,22 +217,6 @@
     "LLMs"
    ],
    "source": "workday"
-  },
-  {
-   "id": "amazon:amazon:10553343",
-   "company": "Amazon",
-   "title": "SDE-1, Expansions Tech and Product",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Other",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://www.amazon.jobs/en/jobs/10553343/sde-1-expansions-tech-and-product",
-   "posted_at": "2026-09-18T00:00:00Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
   },
   {
    "id": "amazon:amazon:10551515",

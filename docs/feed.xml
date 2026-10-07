@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-07T02:00:58Z</updated>
+  <updated>2026-10-07T08:07:49Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883</id>
+    <title>T.D. Williamson: Quality Assurance Engineer I</title>
+    <link href="https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883"/>
+    <updated>2026-10-07T08:07:49Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India, Gujarat, Vadodara</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496</id>
     <title>MiQ: Software Engineer I</title>
@@ -13,22 +21,6 @@
     <updated>2026-10-06T17:46:13Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru · Java, SQL, Kotlin, AWS, GCP</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:dnb:cefca694-b359-47b3-8393-1e7a9332f47d</id>
-    <title>Dun &amp; Bradstreet: Software Engineer I (R-20039)</title>
-    <link href="https://jobs.lever.co/dnb/cefca694-b359-47b3-8393-1e7a9332f47d"/>
-    <updated>2026-10-06T11:44:31Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad - India · Java, SQL, Spring, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076</id>
-    <title>TriNet: Associate Data Scientist</title>
-    <link href="https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076"/>
-    <updated>2026-10-05T17:46:13Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1</id>
@@ -77,14 +69,6 @@
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10553343</id>
-    <title>Amazon: SDE-1, Expansions Tech and Product</title>
-    <link href="https://www.amazon.jobs/en/jobs/10553343/sde-1-expansions-tech-and-product"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10555910</id>
