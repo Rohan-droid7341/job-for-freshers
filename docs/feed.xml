@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-07T08:07:49Z</updated>
+  <updated>2026-10-07T16:02:47Z</updated>
   <entry>
     <id>urn:intern-engine:workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883</id>
     <title>T.D. Williamson: Quality Assurance Engineer I</title>
@@ -13,14 +13,6 @@
     <updated>2026-10-07T08:07:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India, Gujarat, Vadodara</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:miqdigital:/job/Bengaluru/Software-Engineer-I_JR100496</id>
-    <title>MiQ: Software Engineer I</title>
-    <link href="https://miqdigital.wd3.myworkdayjobs.com/MiQ_Careers/job/Bengaluru/Software-Engineer-I_JR100496"/>
-    <updated>2026-10-06T17:46:13Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru · Java, SQL, Kotlin, AWS, GCP</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1</id>
@@ -77,6 +69,14 @@
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Other · Gurugram, Haryana, India · Python, Java, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10563602</id>
+    <title>Amazon: SDE I FTC</title>
+    <link href="https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692</id>
@@ -165,14 +165,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5715</id>
-    <title>Priceline: Associate Software Engineer</title>
-    <link href="https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5715"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Mumbai · Python, Java, TypeScript, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163</id>
