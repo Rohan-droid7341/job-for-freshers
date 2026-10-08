@@ -1,8 +1,24 @@
 {
- "generated_at": "2026-10-08T14:23:47Z",
+ "generated_at": "2026-10-08T20:31:18Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 24,
  "jobs": [
+  {
+   "id": "smartrecruiters:Wabtec:3743990015987115",
+   "company": "Wabtec",
+   "title": "System Engineer ( Doors)",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bengaluru, India",
+   "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015987115",
+   "posted_at": "2026-10-08T13:49:53.351Z",
+   "first_seen_at": "2026-10-08T14:23:47Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "smartrecruiters"
+  },
   {
    "id": "workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5712",
    "company": "Priceline",
@@ -25,22 +41,6 @@
     "Angular"
    ],
    "source": "workday"
-  },
-  {
-   "id": "smartrecruiters:Wabtec:3743990015987115",
-   "company": "Wabtec",
-   "title": "System Engineer ( Doors)",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, India",
-   "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015987115",
-   "posted_at": "2026-10-08T13:49:53.351Z",
-   "first_seen_at": "2026-10-08T14:23:47Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "smartrecruiters"
   },
   {
    "id": "workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883",
@@ -157,6 +157,31 @@
    "stipend": null,
    "skills": [],
    "source": "workday"
+  },
+  {
+   "id": "greenhouse:coherehealth:7728230003",
+   "company": "Cohere Health",
+   "title": "Associate Software Engineer",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://job-boards.greenhouse.io/coherehealth/jobs/7728230003",
+   "posted_at": "2026-09-28T10:26:25-04:00",
+   "first_seen_at": "2026-10-03T14:05:49Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "LLMs",
+    "React",
+    "AWS",
+    "Azure"
+   ],
+   "source": "greenhouse"
   },
   {
    "id": "amazon:amazon:10555910",
@@ -279,22 +304,6 @@
     "Azure"
    ],
    "source": "workday"
-  },
-  {
-   "id": "amazon:amazon:10511883",
-   "company": "Amazon",
-   "title": "Software Development Engineer -I, IESP Merchant Tech",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, Karnataka, India",
-   "url": "https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech",
-   "posted_at": "2026-08-24T00:00:00Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
   },
   {
    "id": "ashby:aiprise:3763c791-a387-4078-9ca4-00cbfbf9b1a6",
