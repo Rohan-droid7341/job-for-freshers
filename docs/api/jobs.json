@@ -1,8 +1,47 @@
 {
- "generated_at": "2026-10-08T06:59:48Z",
+ "generated_at": "2026-10-08T14:23:47Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 23,
+ "count": 24,
  "jobs": [
+  {
+   "id": "workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5712",
+   "company": "Priceline",
+   "title": "Associate Software Engineer",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Mumbai",
+   "url": "https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712",
+   "posted_at": "2026-10-08T00:00:00Z",
+   "first_seen_at": "2026-10-08T14:23:47Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "Java",
+    "Kotlin",
+    "LLMs",
+    "React",
+    "Angular"
+   ],
+   "source": "workday"
+  },
+  {
+   "id": "smartrecruiters:Wabtec:3743990015987115",
+   "company": "Wabtec",
+   "title": "System Engineer ( Doors)",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bengaluru, India",
+   "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015987115",
+   "posted_at": "2026-10-08T13:49:53.351Z",
+   "first_seen_at": "2026-10-08T14:23:47Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "smartrecruiters"
+  },
   {
    "id": "workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883",
    "company": "T.D. Williamson",
@@ -118,31 +157,6 @@
    "stipend": null,
    "skills": [],
    "source": "workday"
-  },
-  {
-   "id": "greenhouse:coherehealth:7728230003",
-   "company": "Cohere Health",
-   "title": "Associate Software Engineer",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://job-boards.greenhouse.io/coherehealth/jobs/7728230003",
-   "posted_at": "2026-09-28T10:26:25-04:00",
-   "first_seen_at": "2026-10-03T14:05:49Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "LLMs",
-    "React",
-    "AWS",
-    "Azure"
-   ],
-   "source": "greenhouse"
   },
   {
    "id": "amazon:amazon:10555910",

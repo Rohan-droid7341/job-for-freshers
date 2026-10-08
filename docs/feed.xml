@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-08T06:59:48Z</updated>
+  <updated>2026-10-08T14:23:47Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5712</id>
+    <title>Priceline: Associate Software Engineer</title>
+    <link href="https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712"/>
+    <updated>2026-10-08T14:23:47Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Mumbai · Python, Java, Kotlin, LLMs, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
+    <title>Wabtec: System Engineer ( Doors)</title>
+    <link href="https://jobs.smartrecruiters.com/Wabtec/3743990015987115"/>
+    <updated>2026-10-08T14:23:47Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, India</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883</id>
     <title>T.D. Williamson: Quality Assurance Engineer I</title>
@@ -157,14 +173,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Hyderabad, Telangana, India · TypeScript, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:coherehealth:7728230003</id>
-    <title>Cohere Health: Associate Software Engineer</title>
-    <link href="https://job-boards.greenhouse.io/coherehealth/jobs/7728230003"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad, Telangana, India · Python, Java, TypeScript, JavaScript, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027</id>
