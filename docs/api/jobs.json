@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-08T20:31:18Z",
+ "generated_at": "2026-10-09T01:00:31Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 24,
+ "count": 23,
  "jobs": [
   {
    "id": "smartrecruiters:Wabtec:3743990015987115",
@@ -53,22 +53,6 @@
    "url": "https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883",
    "posted_at": "2026-10-07T00:00:00Z",
    "first_seen_at": "2026-10-07T08:07:49Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
-  },
-  {
-   "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1",
-   "company": "GE Healthcare",
-   "title": "Graduate Engineer Trainee",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru",
-   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1",
-   "posted_at": "2026-10-05T00:00:00Z",
-   "first_seen_at": "2026-10-05T08:08:10Z",
    "salary": null,
    "stipend": null,
    "skills": [],
