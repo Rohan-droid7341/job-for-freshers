@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-09T01:00:31Z</updated>
+  <updated>2026-10-09T07:09:05Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/Bengaluru-Karnataka-India/Software-Systems-Engineer-1_3168941-1</id>
+    <title>Hewlett Packard (HP): Software Systems Engineer 1</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/Software-Systems-Engineer-1_3168941-1"/>
+    <updated>2026-10-09T07:09:05Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:lnw:/job/Bangalore-India/Associate-Software-Engineer_R322315</id>
+    <title>Light &amp; Wonder: Associate Software Engineer</title>
+    <link href="https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Bangalore-India/Associate-Software-Engineer_R322315"/>
+    <updated>2026-10-09T07:09:05Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore, India · C#</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
     <title>Wabtec: System Engineer ( Doors)</title>
@@ -39,6 +55,14 @@
     <summary>new_grad · Data &amp; ML/AI · Bangalore, India</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1</id>
+    <title>GE Healthcare: Graduate Engineer Trainee</title>
+    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4044861-1"/>
+    <updated>2026-10-05T08:08:10Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:issgovernance:/job/Mumbai-India/Junior-Data-Analyst_JR_10252</id>
     <title>ISS | Institutional Shareholder Services: Junior Data Analyst</title>
     <link href="https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252"/>
@@ -53,6 +77,14 @@
     <updated>2026-10-03T17:50:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · India (Remote)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10511883</id>
+    <title>Amazon: Software Development Engineer -I, IESP Merchant Tech</title>
+    <link href="https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10525643</id>
@@ -141,14 +173,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, Java, TypeScript, React, Node.js</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:ema:e0511c0c-998f-4079-b62c-d2f164bf2c86</id>
-    <title>Ema: AI/Data Resident</title>
-    <link href="https://jobs.ashbyhq.com/ema/e0511c0c-998f-4079-b62c-d2f164bf2c86"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · India - remote · Python, SQL, PyTorch, TensorFlow, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:coherehealth:7693298003</id>
