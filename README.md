@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 23 new this week · 5,412 companies tracked · updated Oct 10, 2026 at 10:24 UTC**
+**23 open roles · 16 new this week · 5,419 companies tracked · updated Oct 10, 2026 at 16:09 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -18,8 +18,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
 | DP World | Group SDE I - Zodiac Accelerated Rollout 🆕 | Other | B.Tech/BS | India | Oct 09, 2026 | [Apply](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24962) |
-| Wabtec | System Engineer ( Doors) 🆕 | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
-| Priceline | Associate Software Engineer 🆕 | Software | B.Tech/BS | Mumbai | Oct 08, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712) |
+| Wabtec | System Engineer ( Doors) | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
+| Priceline | Associate Software Engineer | Software | B.Tech/BS | Mumbai | Oct 08, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712) |
 | T.D. Williamson | Quality Assurance Engineer I | Software | — | India, Gujarat, Vadodara | Oct 07, 2026 | [Apply](https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883) |
 | ISS / Institutional Shareholder Services | Junior Data Analyst | Data & ML/AI | B.Tech/BS | Mumbai, India | Oct 05, 2026 | [Apply](https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252) |
 | Cigna Group | Automation Engineer Associate Analyst | Software | B.Tech/BS | Bengaluru, India | Oct 01, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027) |
@@ -157,7 +157,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,412 companies across 18 ATS platforms · 98% fetch success · completed in 285.3s · median detection latency 686 min · real posted dates on 87% of open roles._
+_Engine (last run): 5,419 companies across 18 ATS platforms · 99% fetch success · completed in 330.8s · median detection latency 686 min · real posted dates on 87% of open roles._
 
 ## Platforms Scraped
 
