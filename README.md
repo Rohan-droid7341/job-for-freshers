@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 24 new this week · 5,412 companies tracked · updated Oct 09, 2026 at 23:54 UTC**
+**23 open roles · 23 new this week · 5,412 companies tracked · updated Oct 10, 2026 at 03:45 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -120,10 +120,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 14 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 15 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Amazon | Software Development Engineer -I, IESP Merchant Tech | new_grad | 2026-10-10 |
 | GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-09 |
 | Hewlett Packard (HP) | Software Systems Engineer 1 | new_grad | 2026-10-09 |
 | Light & Wonder | Associate Software Engineer | new_grad | 2026-10-09 |
@@ -156,7 +157,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,412 companies across 18 ATS platforms · 99% fetch success · completed in 322.7s · median detection latency 686 min · real posted dates on 87% of open roles._
+_Engine (last run): 5,412 companies across 18 ATS platforms · 99% fetch success · completed in 355.6s · median detection latency 686 min · real posted dates on 87% of open roles._
 
 ## Platforms Scraped
 
