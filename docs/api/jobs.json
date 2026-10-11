@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-11T06:49:33Z",
+ "generated_at": "2026-10-11T13:48:19Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 24,
+ "count": 25,
  "jobs": [
   {
    "id": "oracle:ehpv.fa.em2.oraclecloud.com:24962",
@@ -419,6 +419,22 @@
     "Python"
    ],
    "source": "workday"
+  },
+  {
+   "id": "rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529",
+   "company": "Rippling",
+   "title": "Software Engineer I - Backend Leaning FullStack",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore, India",
+   "url": "https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529",
+   "posted_at": null,
+   "first_seen_at": "2026-10-11T13:48:19Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "rippling"
   },
   {
    "id": "rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b",
