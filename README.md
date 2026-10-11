@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**24 open roles · 7 new this week · 5,419 companies tracked · updated Oct 11, 2026 at 13:48 UTC**
+**24 open roles · 7 new this week · 5,419 companies tracked · updated Oct 11, 2026 at 18:39 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,7 +17,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| DP World | Group SDE I - Zodiac Accelerated Rollout 🆕 | Other | B.Tech/BS | India | Oct 09, 2026 | [Apply](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24962) |
+| DP World | Group SDE I - Zodiac Accelerated Rollout | Other | B.Tech/BS | India | Oct 09, 2026 | [Apply](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24962) |
 | Wabtec | System Engineer ( Doors) | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
 | Priceline | Associate Software Engineer | Software | B.Tech/BS | Mumbai | Oct 08, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712) |
 | T.D. Williamson | Quality Assurance Engineer I | Software | — | India, Gujarat, Vadodara | Oct 07, 2026 | [Apply](https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883) |
@@ -157,7 +157,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,419 companies across 18 ATS platforms · 99% fetch success · completed in 399.6s · median detection latency 686 min · real posted dates on 84% of open roles._
+_Engine (last run): 5,419 companies across 18 ATS platforms · 98% fetch success · completed in 337.4s · median detection latency 686 min · real posted dates on 84% of open roles._
 
 ## Platforms Scraped
 
