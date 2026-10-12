@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**24 open roles · 7 new this week · 5,419 companies tracked · updated Oct 12, 2026 at 08:43 UTC**
+**25 open roles · 8 new this week · 5,422 companies tracked · updated Oct 12, 2026 at 18:32 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,7 +13,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (24 open)
+## New Grad — Entry Level (All Batches)  (25 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -33,6 +33,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Netomi | Data Engineer I | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
 | Amazon | Software Dev Engineer I FTC | Software | B.Tech/BS | Bengaluru, Karnataka, India | Sep 17, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc) |
 | Cohere Health | Associate SDET Engineer | Software | — | Hyderabad, Telangana, India | Sep 16, 2026 | [Apply](https://job-boards.greenhouse.io/coherehealth/jobs/7693298003) |
+| CommerceIQ | DevOps Engineer I 🆕 | Software | 2+ Yrs | Bengaluru, Karnataka, India | Sep 15, 2026 | [Apply](https://job-boards.greenhouse.io/commerceiq/jobs/7995557003) |
 | R1 RCM | Software Engineer I | Software | B.Tech/BS | Noida, India | Aug 28, 2026 | [Apply](https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491) |
 | AiPrise | Software Engineer I (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Aug 24, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6) |
 | ReliaQuest | Associate Software Engineer | Software | 0-1 Yr | Pune India Office | Aug 19, 2026 | [Apply](https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032) |
@@ -159,7 +160,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,419 companies across 18 ATS platforms · 99% fetch success · completed in 359.5s · median detection latency 695 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,422 companies across 18 ATS platforms · 99% fetch success · completed in 363.6s · median detection latency 695 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 

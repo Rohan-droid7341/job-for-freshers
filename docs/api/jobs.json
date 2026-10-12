@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-12T08:43:39Z",
+ "generated_at": "2026-10-12T18:32:18Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 25,
+ "count": 26,
  "jobs": [
   {
    "id": "oracle:ehpv.fa.em2.oraclecloud.com:24962",
@@ -309,6 +309,31 @@
     "TypeScript",
     "AWS",
     "Git"
+   ],
+   "source": "greenhouse"
+  },
+  {
+   "id": "greenhouse:commerceiq:7995557003",
+   "company": "CommerceIQ",
+   "title": "DevOps Engineer I",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bengaluru, Karnataka, India",
+   "url": "https://job-boards.greenhouse.io/commerceiq/jobs/7995557003",
+   "posted_at": "2026-09-15T06:40:06-04:00",
+   "first_seen_at": "2026-10-12T18:32:18Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "Java",
+    "AWS",
+    "GCP",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "Linux"
    ],
    "source": "greenhouse"
   },
