@@ -7432,6 +7432,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Crown Innovations",
+    "slug": "TBD20261012CrownInnovationsInc",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "Cruise Automation",
     "slug": "careers-at-cruiseautomation",
     "ats": "smartrecruiters"
@@ -15093,6 +15098,13 @@
     "name": "Kabam",
     "slug": "kabam",
     "ats": "lever"
+  },
+  {
+    "name": "Kainos",
+    "slug": "kainos",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "kainos"
   },
   {
     "name": "Kairos Power",
@@ -22848,6 +22860,11 @@
     "name": "Resonate",
     "slug": "resonate",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Resource Innovations",
+    "slug": "resource-innovations",
+    "ats": "workable"
   },
   {
     "name": "RESPEC",
