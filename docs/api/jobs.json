@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T02:03:43Z",
+ "generated_at": "2026-10-12T08:43:39Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 25,
  "jobs": [
@@ -27,6 +27,29 @@
     "Angular"
    ],
    "source": "oracle"
+  },
+  {
+   "id": "greenhouse:shipbobinc:4737933005",
+   "company": "ShipBob",
+   "title": "Software Development Engineer I",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Remote - India",
+   "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4737933005",
+   "posted_at": "2026-10-08T03:30:48-04:00",
+   "first_seen_at": "2026-10-12T08:43:39Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "C#",
+    "JavaScript",
+    "SQL",
+    "Vue",
+    ".NET",
+    "Azure"
+   ],
+   "source": "greenhouse"
   },
   {
    "id": "smartrecruiters:Wabtec:3743990015987115",
@@ -166,6 +189,22 @@
    "stipend": null,
    "skills": [],
    "source": "workday"
+  },
+  {
+   "id": "amazon:amazon:10561468",
+   "company": "Amazon",
+   "title": "SDE-1",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Other",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://www.amazon.jobs/en/jobs/10561468/sde-1",
+   "posted_at": "2026-09-28T00:00:00Z",
+   "first_seen_at": "2026-10-12T08:43:39Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "amazon"
   },
   {
    "id": "greenhouse:coherehealth:7728230003",
@@ -315,22 +354,6 @@
    "source": "workday"
   },
   {
-   "id": "amazon:amazon:10511883",
-   "company": "Amazon",
-   "title": "Software Development Engineer -I, IESP Merchant Tech",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, Karnataka, India",
-   "url": "https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech",
-   "posted_at": "2026-08-24T00:00:00Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
-  },
-  {
    "id": "ashby:aiprise:3763c791-a387-4078-9ca4-00cbfbf9b1a6",
    "company": "AiPrise",
    "title": "Software Engineer I (Bangalore, India)",
@@ -431,22 +454,6 @@
    "url": "https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529",
    "posted_at": null,
    "first_seen_at": "2026-10-11T13:48:19Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "rippling"
-  },
-  {
-   "id": "rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "company": "Rippling",
-   "title": "Software Engineer I -Data Infrastructure",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bangalore, India",
-   "url": "https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "posted_at": null,
-   "first_seen_at": "2026-10-05T08:08:10Z",
    "salary": null,
    "stipend": null,
    "skills": [],
