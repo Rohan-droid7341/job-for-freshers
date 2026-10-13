@@ -538,6 +538,13 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Aderant",
+    "slug": "aderant",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Aderant_External_Careers"
+  },
+  {
     "name": "ADGA Group Consultants",
     "slug": "ADGAGroupConsultantsInc1",
     "ats": "smartrecruiters"
@@ -3207,6 +3214,11 @@
     "site": "AzentaJobs"
   },
   {
+    "name": "Azul Systems",
+    "slug": "azul",
+    "ats": "lever"
+  },
+  {
     "name": "Azuria Corporation",
     "slug": "aegion",
     "ats": "workday",
@@ -4507,6 +4519,11 @@
     "name": "Brillio",
     "slug": "brillioinc",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Brillio",
+    "slug": "brillio-2",
+    "ats": "lever"
   },
   {
     "name": "BRINC Drones",
@@ -12000,6 +12017,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Goodlord",
+    "slug": "goodlord",
+    "ats": "ashby"
+  },
+  {
     "name": "Goodnotes",
     "slug": "goodnotes",
     "ats": "greenhouse"
@@ -14779,6 +14801,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Jasper",
+    "slug": "jasper",
+    "ats": "workable"
+  },
+  {
     "name": "Javelin Global Commodities",
     "slug": "javelin-global-commodities",
     "ats": "workable"
@@ -15604,6 +15631,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Lake Michigan Credit Union",
+    "slug": "lmcu",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "lmcucareersite"
+  },
+  {
     "name": "Lamb Weston",
     "slug": "lambweston",
     "ats": "workday",
@@ -15619,6 +15653,11 @@
     "name": "Laminar",
     "slug": "runlaminar",
     "ats": "lever"
+  },
+  {
+    "name": "Lance",
+    "slug": "lance",
+    "ats": "ashby"
   },
   {
     "name": "Land O'Lakes",
@@ -15952,6 +15991,11 @@
     "name": "Liberty Mutual",
     "slug": "team-libertymutual",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Liberty Mutual Canada",
+    "slug": "liberty-mutual-canada",
+    "ats": "workable"
   },
   {
     "name": "Liberty University",
@@ -17436,6 +17480,11 @@
     "name": "MemryX",
     "slug": "memryx",
     "ats": "rippling"
+  },
+  {
+    "name": "MEMX",
+    "slug": "memx",
+    "ats": "greenhouse"
   },
   {
     "name": "Menasha Corporation",
@@ -21839,6 +21888,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Prologis",
+    "slug": "prologis",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Prologis_External_Careers"
+  },
+  {
     "name": "Promise Robotics",
     "slug": "promiserobotics",
     "ats": "lever"
@@ -24865,6 +24921,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Smartnews",
+    "slug": "smartnews",
+    "ats": "workable"
+  },
+  {
     "name": "Smartsheet",
     "slug": "smartsheet",
     "ats": "greenhouse"
@@ -27171,6 +27232,11 @@
     "name": "Tiger Analytics",
     "slug": "tiger-analytics-engineering",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Tiger Analytics",
+    "slug": "tiger-analytics",
+    "ats": "workable"
   },
   {
     "name": "Tihinsurance",
