@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-13T01:09:33Z</updated>
+  <updated>2026-10-13T08:52:54Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1</id>
+    <title>GE Healthcare: Graduate Engineer Trainee</title>
+    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1"/>
+    <updated>2026-10-13T08:52:53Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wexinc:/job/India---Remote/Software-Development-Engineer-1_R22747-1</id>
+    <title>Wex: Software Development Engineer 1</title>
+    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Remote/Software-Development-Engineer-1_R22747-1"/>
+    <updated>2026-10-13T08:52:53Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India - Remote · Python, Java, TypeScript, JavaScript, Angular</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:commerceiq:7995557003</id>
     <title>CommerceIQ: DevOps Engineer I</title>
@@ -181,30 +197,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Hyderabad, Telangana, India · TypeScript, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:coherehealth:7728230003</id>
-    <title>Cohere Health: Associate Software Engineer</title>
-    <link href="https://job-boards.greenhouse.io/coherehealth/jobs/7728230003"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad, Telangana, India · Python, Java, TypeScript, JavaScript, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027</id>
-    <title>Cigna Group: Automation Engineer Associate Analyst</title>
-    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012027"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163</id>
-    <title>PTC: Associate Software Analyst</title>
-    <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Pune, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:reliaquest:/job/Pune-India-Office/Associate-Software-Engineer_R15032</id>
