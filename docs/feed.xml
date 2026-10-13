@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-13T16:44:17Z</updated>
+  <updated>2026-10-13T21:46:50Z</updated>
+  <entry>
+    <id>urn:intern-engine:lever:coupa:15c1666e-c0df-49b5-8296-8c664166413a</id>
+    <title>Coupa Software: Associate Security Engineer - 11925</title>
+    <link href="https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a"/>
+    <updated>2026-10-13T21:46:50Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Pune, India · Python, JavaScript, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290</id>
+    <title>Guidewire: Site Reliability Engineer I</title>
+    <link href="https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290"/>
+    <updated>2026-10-13T21:46:50Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India - Bangalore · Python, Java, Spring, AWS, Kubernetes</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ag:/job/Bangalore-Area/Lead-Technology-Analyst---SAP-Native-HANA--ABAP-on-HANA_JR10429124</id>
     <title>Airbus: Technology Analyst - SAP Native HANA, ABAP on HANA</title>
@@ -29,14 +45,6 @@
     <updated>2026-10-13T08:52:53Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India - Remote · Python, Java, TypeScript, JavaScript, Angular</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:commerceiq:7995557003</id>
-    <title>CommerceIQ: DevOps Engineer I</title>
-    <link href="https://job-boards.greenhouse.io/commerceiq/jobs/7995557003"/>
-    <updated>2026-10-12T18:32:18Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, Karnataka, India · Python, Java, AWS, GCP, Kubernetes</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10561468</id>
