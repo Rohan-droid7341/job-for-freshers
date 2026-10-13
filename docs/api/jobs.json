@@ -1,8 +1,26 @@
 {
- "generated_at": "2026-10-13T08:52:54Z",
+ "generated_at": "2026-10-13T16:44:17Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 25,
+ "count": 26,
  "jobs": [
+  {
+   "id": "workday:ag:/job/Bangalore-Area/Lead-Technology-Analyst---SAP-Native-HANA--ABAP-on-HANA_JR10429124",
+   "company": "Airbus",
+   "title": "Technology Analyst - SAP Native HANA, ABAP on HANA",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Other",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Lead-Technology-Analyst---SAP-Native-HANA--ABAP-on-HANA_JR10429124",
+   "posted_at": "2026-10-13T00:00:00Z",
+   "first_seen_at": "2026-10-13T16:44:17Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Git"
+   ],
+   "source": "workday"
+  },
   {
    "id": "workday:gehc:/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1",
    "company": "GE Healthcare",
