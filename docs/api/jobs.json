@@ -1,24 +1,8 @@
 {
- "generated_at": "2026-10-14T15:49:02Z",
+ "generated_at": "2026-10-14T20:01:12Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 25,
+ "count": 24,
  "jobs": [
-  {
-   "id": "workday:nike:/job/Karnataka-India/Software-Engineer-I--ITC_R-86257-1",
-   "company": "Nike",
-   "title": "Software Engineer I, ITC",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Karnataka, India",
-   "url": "https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-I--ITC_R-86257-1",
-   "posted_at": "2026-10-14T00:00:00Z",
-   "first_seen_at": "2026-10-14T05:46:55Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
-  },
   {
    "id": "workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290",
    "company": "Guidewire",

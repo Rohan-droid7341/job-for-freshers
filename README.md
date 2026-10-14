@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**24 open roles · 8 new this week · 5,448 companies tracked · updated Oct 14, 2026 at 15:49 UTC**
+**23 open roles · 7 new this week · 5,448 companies tracked · updated Oct 14, 2026 at 20:01 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,11 +13,10 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (24 open)
+## New Grad — Entry Level (All Batches)  (23 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Nike | Software Engineer I, ITC 🆕 | Software | — | Karnataka, India | Oct 14, 2026 | [Apply](https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-I--ITC_R-86257-1) |
 | Guidewire | Site Reliability Engineer I 🆕 | Software | B.Tech/BS | India - Bangalore | Oct 13, 2026 | [Apply](https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 13, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1) |
 | ShipBob | Software Development Engineer I | Software | B.Tech/BS | Remote - India | Oct 08, 2026 | [Apply](https://job-boards.greenhouse.io/shipbobinc/jobs/4737933005) |
@@ -121,10 +120,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 23 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 24 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Nike | Software Engineer I, ITC | new_grad | 2026-10-14 |
 | Coupa Software | Associate Security Engineer - 11925 | new_grad | 2026-10-14 |
 | DP World | Group SDE I - Zodiac Accelerated Rollout | new_grad | 2026-10-14 |
 | Airbus | Technology Analyst - SAP Native HANA, ABAP on HANA | new_grad | 2026-10-14 |
@@ -166,7 +166,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,448 companies across 18 ATS platforms · 99% fetch success · completed in 417.8s · median detection latency 758 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,448 companies across 18 ATS platforms · 99% fetch success · completed in 423.6s · median detection latency 758 min · real posted dates on 87% of open roles._
 
 ## Platforms Scraped
 
