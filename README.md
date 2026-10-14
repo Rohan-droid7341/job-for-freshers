@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**26 open roles · 12 new this week · 5,434 companies tracked · updated Oct 14, 2026 at 00:53 UTC**
+**27 open roles · 13 new this week · 5,434 companies tracked · updated Oct 14, 2026 at 05:46 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,10 +13,11 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (26 open)
+## New Grad — Entry Level (All Batches)  (27 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Nike | Software Engineer I, ITC 🆕 | Software | — | Karnataka, India | Oct 14, 2026 | [Apply](https://nike.wd1.myworkdayjobs.com/nke/job/Karnataka-India/Software-Engineer-I--ITC_R-86257-1) |
 | Guidewire | Site Reliability Engineer I 🆕 | Software | B.Tech/BS | India - Bangalore | Oct 13, 2026 | [Apply](https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290) |
 | Airbus | Technology Analyst - SAP Native HANA, ABAP on HANA 🆕 | Other | B.Tech/BS | Bangalore Area | Oct 13, 2026 | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Lead-Technology-Analyst---SAP-Native-HANA--ABAP-on-HANA_JR10429124) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 13, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1) |
@@ -165,7 +166,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,434 companies across 18 ATS platforms · 99% fetch success · completed in 357.5s · median detection latency 762 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,434 companies across 18 ATS platforms · 99% fetch success · completed in 339.8s · median detection latency 760 min · real posted dates on 89% of open roles._
 
 ## Platforms Scraped
 
