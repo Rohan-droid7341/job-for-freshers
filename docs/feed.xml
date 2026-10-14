@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-14T11:08:30Z</updated>
+  <updated>2026-10-14T15:49:02Z</updated>
   <entry>
     <id>urn:intern-engine:workday:nike:/job/Karnataka-India/Software-Engineer-I--ITC_R-86257-1</id>
     <title>Nike: Software Engineer I, ITC</title>
@@ -13,14 +13,6 @@
     <updated>2026-10-14T05:46:55Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Karnataka, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:coupa:15c1666e-c0df-49b5-8296-8c664166413a</id>
-    <title>Coupa Software: Associate Security Engineer - 11925</title>
-    <link href="https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a"/>
-    <updated>2026-10-13T21:46:50Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Pune, India · Python, JavaScript, AWS, GCP, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290</id>
@@ -61,14 +53,6 @@
     <updated>2026-10-11T13:48:19Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bangalore, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ehpv.fa.em2.oraclecloud.com:24962</id>
-    <title>DP World: Group SDE I - Zodiac Accelerated Rollout</title>
-    <link href="https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24962"/>
-    <updated>2026-10-09T15:01:10Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · India · Java, Go, TypeScript, JavaScript, Scala</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
