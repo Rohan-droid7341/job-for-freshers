@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-15T01:15:59Z</updated>
+  <updated>2026-10-15T06:55:26Z</updated>
   <entry>
     <id>urn:intern-engine:workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290</id>
     <title>Guidewire: Site Reliability Engineer I</title>
@@ -37,14 +37,6 @@
     <updated>2026-10-12T08:43:39Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Remote - India · C#, JavaScript, SQL, Vue, .NET</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529</id>
-    <title>Rippling: Software Engineer I - Backend Leaning FullStack</title>
-    <link href="https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529"/>
-    <updated>2026-10-11T13:48:19Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
