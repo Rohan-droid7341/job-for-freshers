@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**22 open roles · 5 new this week · 5,448 companies tracked · updated Oct 15, 2026 at 12:27 UTC**
+**22 open roles · 5 new this week · 5,456 companies tracked · updated Oct 15, 2026 at 17:39 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,6 +17,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Amazon | Software Development Engineer I 🆕 | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i) |
+| Amazon | Software Development Engineer I FTC 🆕 | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | M.Tech/MS | Bengaluru | Oct 15, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1) |
 | Guidewire | Site Reliability Engineer I 🆕 | Software | B.Tech/BS | India - Bangalore | Oct 13, 2026 | [Apply](https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290) |
 | Wabtec | System Engineer ( Doors) | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
@@ -28,9 +30,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Amazon | SDE I FTC | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 29, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc) |
 | PTC | Associate Software Analyst | Software | B.Tech/BS | Pune, India | Sep 29, 2026 | [Apply](https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163) |
 | Amazon | SDE-1 | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 28, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10561468/sde-1) |
-| Amazon | SDE-I, Rewards | Other | B.Tech/BS | Gurugram, Haryana, India | Sep 22, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards) |
 | Netomi | Data Engineer I | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
-| Amazon | Software Dev Engineer I FTC | Software | B.Tech/BS | Bengaluru, Karnataka, India | Sep 17, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc) |
 | Cohere Health | Associate SDET Engineer | Software | — | Hyderabad, Telangana, India | Sep 16, 2026 | [Apply](https://job-boards.greenhouse.io/coherehealth/jobs/7693298003) |
 | R1 RCM | Software Engineer I | Software | B.Tech/BS | Noida, India | Aug 28, 2026 | [Apply](https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491) |
 | AiPrise | Software Engineer I (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Aug 24, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6) |
@@ -167,7 +167,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,448 companies across 18 ATS platforms · 98% fetch success · completed in 365.7s · median detection latency 753 min · real posted dates on 91% of open roles._
+_Engine (last run): 5,456 companies across 18 ATS platforms · 99% fetch success · completed in 379.5s · median detection latency 760 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 
