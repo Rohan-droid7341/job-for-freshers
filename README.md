@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**22 open roles · 6 new this week · 5,448 companies tracked · updated Oct 15, 2026 at 06:55 UTC**
+**22 open roles · 5 new this week · 5,448 companies tracked · updated Oct 15, 2026 at 12:27 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,9 +17,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | M.Tech/MS | Bengaluru | Oct 15, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1) |
 | Guidewire | Site Reliability Engineer I 🆕 | Software | B.Tech/BS | India - Bangalore | Oct 13, 2026 | [Apply](https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290) |
-| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 13, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1) |
-| ShipBob | Software Development Engineer I | Software | B.Tech/BS | Remote - India | Oct 08, 2026 | [Apply](https://job-boards.greenhouse.io/shipbobinc/jobs/4737933005) |
 | Wabtec | System Engineer ( Doors) | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
 | Priceline | Associate Software Engineer | Software | B.Tech/BS | Mumbai | Oct 08, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712) |
 | T.D. Williamson | Quality Assurance Engineer I | Software | — | India, Gujarat, Vadodara | Oct 07, 2026 | [Apply](https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883) |
@@ -27,6 +26,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | ISS / Institutional Shareholder Services | Junior Data Analyst | Data & ML/AI | B.Tech/BS | Mumbai, India | Oct 05, 2026 | [Apply](https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252) |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru, Karnataka, India | Sep 30, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform) |
 | Amazon | SDE I FTC | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 29, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc) |
+| PTC | Associate Software Analyst | Software | B.Tech/BS | Pune, India | Sep 29, 2026 | [Apply](https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163) |
 | Amazon | SDE-1 | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 28, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10561468/sde-1) |
 | Amazon | SDE-I, Rewards | Other | B.Tech/BS | Gurugram, Haryana, India | Sep 22, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards) |
 | Netomi | Data Engineer I | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
@@ -119,10 +119,12 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 25 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 26 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| ShipBob | Software Development Engineer I | new_grad | 2026-10-15 |
+| GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-15 |
 | Rippling | Software Engineer I - Backend Leaning FullStack | new_grad | 2026-10-15 |
 | Nike | Software Engineer I, ITC | new_grad | 2026-10-14 |
 | Coupa Software | Associate Security Engineer - 11925 | new_grad | 2026-10-14 |
@@ -132,7 +134,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | CommerceIQ | DevOps Engineer I | new_grad | 2026-10-13 |
 | Cohere Health | Associate Software Engineer | new_grad | 2026-10-13 |
 | Cigna Group | Automation Engineer Associate Analyst | new_grad | 2026-10-13 |
-| PTC | Associate Software Analyst | new_grad | 2026-10-13 |
 | Amazon | Software Development Engineer -I, IESP Merchant Tech | new_grad | 2026-10-12 |
 | Rippling | Software Engineer I -Data Infrastructure | new_grad | 2026-10-12 |
 | GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-09 |
@@ -166,7 +167,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,448 companies across 18 ATS platforms · 99% fetch success · completed in 407.6s · median detection latency 758 min · real posted dates on 91% of open roles._
+_Engine (last run): 5,448 companies across 18 ATS platforms · 98% fetch success · completed in 365.7s · median detection latency 753 min · real posted dates on 91% of open roles._
 
 ## Platforms Scraped
 

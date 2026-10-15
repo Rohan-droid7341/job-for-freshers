@@ -1,8 +1,24 @@
 {
- "generated_at": "2026-10-15T06:55:26Z",
+ "generated_at": "2026-10-15T12:27:45Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 23,
  "jobs": [
+  {
+   "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1",
+   "company": "GE Healthcare",
+   "title": "Graduate Engineer Trainee",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bengaluru",
+   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1",
+   "posted_at": "2026-10-15T00:00:00Z",
+   "first_seen_at": "2026-10-15T12:27:45Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "workday"
+  },
   {
    "id": "workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290",
    "company": "Guidewire",
@@ -27,45 +43,6 @@
     "Linux"
    ],
    "source": "workday"
-  },
-  {
-   "id": "workday:gehc:/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1",
-   "company": "GE Healthcare",
-   "title": "Graduate Engineer Trainee",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru",
-   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4043087-1",
-   "posted_at": "2026-10-13T00:00:00Z",
-   "first_seen_at": "2026-10-13T08:52:53Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
-  },
-  {
-   "id": "greenhouse:shipbobinc:4737933005",
-   "company": "ShipBob",
-   "title": "Software Development Engineer I",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Remote - India",
-   "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4737933005",
-   "posted_at": "2026-10-08T03:30:48-04:00",
-   "first_seen_at": "2026-10-12T08:43:39Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "C#",
-    "JavaScript",
-    "SQL",
-    "Vue",
-    ".NET",
-    "Azure"
-   ],
-   "source": "greenhouse"
   },
   {
    "id": "smartrecruiters:Wabtec:3743990015987115",
@@ -188,6 +165,22 @@
    "stipend": null,
    "skills": [],
    "source": "amazon"
+  },
+  {
+   "id": "workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163",
+   "company": "PTC",
+   "title": "Associate Software Analyst",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Pune, India",
+   "url": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163",
+   "posted_at": "2026-09-29T00:00:00Z",
+   "first_seen_at": "2026-10-03T14:05:49Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "workday"
   },
   {
    "id": "amazon:amazon:10561468",
