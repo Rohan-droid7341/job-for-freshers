@@ -1,24 +1,8 @@
 {
- "generated_at": "2026-10-15T17:39:01Z",
+ "generated_at": "2026-10-15T20:54:38Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 25,
  "jobs": [
-  {
-   "id": "amazon:amazon:10580014",
-   "company": "Amazon",
-   "title": "Software Development Engineer I",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i",
-   "posted_at": "2026-10-15T00:00:00Z",
-   "first_seen_at": "2026-10-15T17:39:01Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
-  },
   {
    "id": "amazon:amazon:10580010",
    "company": "Amazon",
@@ -28,6 +12,22 @@
    "category": "Software",
    "location": "Hyderabad, Telangana, India",
    "url": "https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc",
+   "posted_at": "2026-10-15T00:00:00Z",
+   "first_seen_at": "2026-10-15T17:39:01Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "amazon"
+  },
+  {
+   "id": "amazon:amazon:10580014",
+   "company": "Amazon",
+   "title": "Software Development Engineer I",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i",
    "posted_at": "2026-10-15T00:00:00Z",
    "first_seen_at": "2026-10-15T17:39:01Z",
    "salary": null,
