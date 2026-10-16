@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-16T07:51:41Z",
+ "generated_at": "2026-10-16T13:00:42Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 26,
+ "count": 24,
  "jobs": [
   {
    "id": "workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1148",
@@ -77,31 +77,6 @@
    "source": "workday"
   },
   {
-   "id": "workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290",
-   "company": "Guidewire",
-   "title": "Site Reliability Engineer I",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India - Bangalore",
-   "url": "https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290",
-   "posted_at": "2026-10-13T00:00:00Z",
-   "first_seen_at": "2026-10-13T21:46:50Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "Spring",
-    "AWS",
-    "Kubernetes",
-    "Docker",
-    "Terraform",
-    "Linux"
-   ],
-   "source": "workday"
-  },
-  {
    "id": "smartrecruiters:Wabtec:3743990015987115",
    "company": "Wabtec",
    "title": "System Engineer ( Doors)",
@@ -174,22 +149,6 @@
     "LLMs"
    ],
    "source": "oracle"
-  },
-  {
-   "id": "workday:issgovernance:/job/Mumbai-India/Junior-Data-Analyst_JR_10252",
-   "company": "ISS | Institutional Shareholder Services",
-   "title": "Junior Data Analyst",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Mumbai, India",
-   "url": "https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252",
-   "posted_at": "2026-10-05T00:00:00Z",
-   "first_seen_at": "2026-10-05T08:08:10Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
   },
   {
    "id": "amazon:amazon:10565511",

@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-16T07:51:41Z</updated>
+  <updated>2026-10-16T13:00:42Z</updated>
   <entry>
     <id>urn:intern-engine:workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1148</id>
     <title>Arctic Wolf: Developer 1</title>
@@ -37,14 +37,6 @@
     <updated>2026-10-15T12:27:45Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:guidewire:/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290</id>
-    <title>Guidewire: Site Reliability Engineer I</title>
-    <link href="https://guidewire.wd5.myworkdayjobs.com/external/job/India---Bangalore/Site-Reliability-Engineer-I_JR_15290"/>
-    <updated>2026-10-13T21:46:50Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · India - Bangalore · Python, Java, Spring, AWS, Kubernetes</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10561468</id>
@@ -85,14 +77,6 @@
     <updated>2026-10-05T17:46:13Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:issgovernance:/job/Mumbai-India/Junior-Data-Analyst_JR_10252</id>
-    <title>ISS | Institutional Shareholder Services: Junior Data Analyst</title>
-    <link href="https://issgovernance.wd1.myworkdayjobs.com/isscareers/job/Mumbai-India/Junior-Data-Analyst_JR_10252"/>
-    <updated>2026-10-05T08:08:10Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Mumbai, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863</id>
