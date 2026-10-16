@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**22 open roles · 5 new this week · 5,456 companies tracked · updated Oct 15, 2026 at 23:34 UTC**
+**22 open roles · 5 new this week · 5,456 companies tracked · updated Oct 16, 2026 at 02:36 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -167,7 +167,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,456 companies across 18 ATS platforms · 99% fetch success · completed in 299.7s · median detection latency 760 min · real posted dates on 92% of open roles._
+_Engine (last run): 5,456 companies across 18 ATS platforms · 93% fetch success · completed in 312.1s · median detection latency 760 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 
