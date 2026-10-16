@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-16T02:36:44Z</updated>
+  <updated>2026-10-16T07:51:41Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1148</id>
+    <title>Arctic Wolf: Developer 1</title>
+    <link href="https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Developer-1_R26_1148"/>
+    <updated>2026-10-16T07:51:41Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, IND · Java, Go, AWS, Kubernetes, Docker</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10580010</id>
     <title>Amazon: Software Development Engineer I FTC</title>
