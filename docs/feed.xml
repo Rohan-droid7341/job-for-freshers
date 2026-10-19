@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-19T05:40:06Z</updated>
+  <updated>2026-10-19T11:49:57Z</updated>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Eurofins:744000156229723</id>
+    <title>Eurofins: IT Infrastructure System Engineer - Linux</title>
+    <link href="https://jobs.smartrecruiters.com/Eurofins/744000156229723"/>
+    <updated>2026-10-19T11:49:57Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, KA, India · Azure, Kubernetes, Docker, Terraform, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10580010</id>
     <title>Amazon: Software Development Engineer I FTC</title>
@@ -53,14 +61,6 @@
     <updated>2026-10-08T14:23:47Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Mumbai · Python, Java, Kotlin, LLMs, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tdwilliamson:/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883</id>
-    <title>T.D. Williamson: Quality Assurance Engineer I</title>
-    <link href="https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers/job/India-Gujarat-Vadodara/Quality-Assurance-Engineer-I_REQ-03883"/>
-    <updated>2026-10-07T08:07:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · India, Gujarat, Vadodara</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076</id>
