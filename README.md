@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**22 open roles · 6 new this week · 5,477 companies tracked · updated Oct 20, 2026 at 01:29 UTC**
+**23 open roles · 7 new this week · 5,477 companies tracked · updated Oct 20, 2026 at 07:02 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -19,10 +19,11 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Graviton | Software Engineer (2027 Graduate) 🆕 | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
-## New Grad — Entry Level (All Batches)  (21 open)
+## New Grad — Entry Level (All Batches)  (22 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Abnormal Security | Software Engineer 1 - Platform & Infrastructure 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 20, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003) |
 | Priceline | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Mumbai | Oct 19, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5880) |
 | Eurofins | IT Infrastructure System Engineer - Linux 🆕 | Software | B.Tech/BS | Bengaluru, KA, India | Oct 19, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000156229723) |
 | Amazon | Software Development Engineer I FTC | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc) |
@@ -176,7 +177,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,477 companies across 18 ATS platforms · 98% fetch success · completed in 274.9s · median detection latency 760 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,477 companies across 18 ATS platforms · 99% fetch success · completed in 342.6s · median detection latency 758 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 
