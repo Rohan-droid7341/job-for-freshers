@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 7 new this week · 5,483 companies tracked · updated Oct 21, 2026 at 05:42 UTC**
+**23 open roles · 8 new this week · 5,483 companies tracked · updated Oct 21, 2026 at 11:02 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -23,6 +23,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Gevernova | Control & Protection System Engineer 🆕 | Software | B.Tech/BS | Noida | Oct 21, 2026 | [Apply](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Noida/Control---Protection-System-Engineer_R5056241-1) |
 | Abnormal Security | Software Engineer 1 - Platform & Infrastructure 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 20, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003) |
 | Priceline | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Mumbai | Oct 19, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5880) |
 | Eurofins | IT Infrastructure System Engineer - Linux 🆕 | Software | B.Tech/BS | Bengaluru, KA, India | Oct 19, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000156229723) |
@@ -42,7 +43,6 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | ReliaQuest | Associate Software Engineer | Software | 0-1 Yr | Pune India Office | Aug 19, 2026 | [Apply](https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032) |
 | AspenTech | Software Quality Engineer I | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Silicon Laboratories | Engineer I - Software QA | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
-| Rippling | Software Engineer I -Data Infrastructure | Data & ML/AI | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b) |
 | Perle | Elite Research Scientist - Frontier AI Evaluation | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
 
@@ -125,10 +125,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 26 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 25 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Rippling | Software Engineer I -Data Infrastructure | new_grad | 2026-10-21 |
 | Amazon | SDE-I, Rewards | new_grad | 2026-10-20 |
 | Priceline | Associate Software Engineer | new_grad | 2026-10-19 |
 | T.D. Williamson | Quality Assurance Engineer I | new_grad | 2026-10-19 |
@@ -153,8 +154,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Ema | AI/Data Resident | new_grad | 2026-10-09 |
 | MiQ | Software Engineer I | new_grad | 2026-10-07 |
 | Priceline | Associate Software Engineer | new_grad | 2026-10-07 |
-| Amazon | SDE-1, Expansions Tech and Product | new_grad | 2026-10-07 |
-| Dun & Bradstreet | Software Engineer I (R-20039) | new_grad | 2026-10-07 |
 
 </details>
 
@@ -173,7 +172,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,483 companies across 18 ATS platforms · 99% fetch success · completed in 377.3s · median detection latency 762 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,483 companies across 18 ATS platforms · 99% fetch success · completed in 349.4s · median detection latency 755 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 

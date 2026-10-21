@@ -1,8 +1,24 @@
 {
- "generated_at": "2026-10-21T05:42:49Z",
+ "generated_at": "2026-10-21T11:02:00Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 25,
  "jobs": [
+  {
+   "id": "workday:gevernova:/job/Noida/Control---Protection-System-Engineer_R5056241-1",
+   "company": "Gevernova",
+   "title": "Control & Protection System Engineer",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Noida",
+   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Noida/Control---Protection-System-Engineer_R5056241-1",
+   "posted_at": "2026-10-21T00:00:00Z",
+   "first_seen_at": "2026-10-21T11:01:59Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "workday"
+  },
   {
    "id": "greenhouse:abnormalsecurity:8016870003",
    "company": "Abnormal Security",
@@ -426,22 +442,6 @@
     "Python"
    ],
    "source": "workday"
-  },
-  {
-   "id": "rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "company": "Rippling",
-   "title": "Software Engineer I -Data Infrastructure",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bangalore, India",
-   "url": "https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "posted_at": null,
-   "first_seen_at": "2026-10-05T08:08:10Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "rippling"
   },
   {
    "id": "rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863",
