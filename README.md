@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 7 new this week · 5,483 companies tracked · updated Oct 20, 2026 at 21:10 UTC**
+**23 open roles · 7 new this week · 5,483 companies tracked · updated Oct 21, 2026 at 00:22 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -120,12 +120,12 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Roblox | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Stripe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec · in ~42d | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec · in ~41d | ⏳ waiting |
 
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 28 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 26 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -155,8 +155,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Priceline | Associate Software Engineer | new_grad | 2026-10-07 |
 | Amazon | SDE-1, Expansions Tech and Product | new_grad | 2026-10-07 |
 | Dun & Bradstreet | Software Engineer I (R-20039) | new_grad | 2026-10-07 |
-| Alegeus | Associate Engineer - QA | new_grad | 2026-10-06 |
-| Global Payments | Associate SDET Specialist | new_grad | 2026-10-06 |
 
 </details>
 
@@ -175,7 +173,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,483 companies across 18 ATS platforms · 99% fetch success · completed in 333.3s · median detection latency 762 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,483 companies across 18 ATS platforms · 99% fetch success · completed in 306.4s · median detection latency 762 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 
