@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**23 open roles · 8 new this week · 5,491 companies tracked · updated Oct 21, 2026 at 15:53 UTC**
+**23 open roles · 8 new this week · 5,491 companies tracked · updated Oct 21, 2026 at 19:57 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,7 +17,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Graviton | Software Engineer (2027 Graduate) 🆕 | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
+| Graviton | Software Engineer (2027 Graduate) | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
 ## New Grad — Entry Level (All Batches)  (22 open)
 
@@ -25,7 +25,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Gevernova | Control & Protection System Engineer 🆕 | Software | B.Tech/BS | Noida | Oct 21, 2026 | [Apply](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Noida/Control---Protection-System-Engineer_R5056241-1) |
 | Abnormal Security | Software Engineer 1 - Platform & Infrastructure 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 20, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003) |
-| Priceline | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Mumbai | Oct 19, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5880) |
+| Priceline | Associate Software Engineer | Software | 2+ Yrs<br>B.Tech/BS | Mumbai | Oct 19, 2026 | [Apply](https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5880) |
 | Eurofins | IT Infrastructure System Engineer - Linux | Software | B.Tech/BS | Bengaluru, KA, India | Oct 19, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000156229723) |
 | Amazon | Software Development Engineer I FTC | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc) |
 | Amazon | Software Development Engineer I | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i) |
@@ -125,7 +125,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 25 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 23 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -152,8 +152,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Hewlett Packard (HP) | Software Systems Engineer 1 | new_grad | 2026-10-09 |
 | Light & Wonder | Associate Software Engineer | new_grad | 2026-10-09 |
 | Ema | AI/Data Resident | new_grad | 2026-10-09 |
-| MiQ | Software Engineer I | new_grad | 2026-10-07 |
-| Priceline | Associate Software Engineer | new_grad | 2026-10-07 |
 
 </details>
 
@@ -172,7 +170,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,491 companies across 18 ATS platforms · 100% fetch success · completed in 315.1s · median detection latency 755 min · real posted dates on 92% of open roles._
+_Engine (last run): 5,491 companies across 18 ATS platforms · 99% fetch success · completed in 389.3s · median detection latency 755 min · real posted dates on 92% of open roles._
 
 ## Platforms Scraped
 
