@@ -1,8 +1,28 @@
 {
- "generated_at": "2026-10-22T12:47:29Z",
+ "generated_at": "2026-10-22T18:03:14Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 26,
  "jobs": [
+  {
+   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004251",
+   "company": "TriNet",
+   "title": "Associate Data Analyst",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251",
+   "posted_at": "2026-10-22",
+   "first_seen_at": "2026-10-22T12:47:29Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "Tableau"
+   ],
+   "source": "oracle"
+  },
   {
    "id": "workday:crowe:/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1",
    "company": "Crowe",
@@ -24,26 +44,6 @@
     "Spark"
    ],
    "source": "workday"
-  },
-  {
-   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004251",
-   "company": "TriNet",
-   "title": "Associate Data Analyst",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251",
-   "posted_at": "2026-10-22",
-   "first_seen_at": "2026-10-22T12:47:29Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "Tableau"
-   ],
-   "source": "oracle"
   },
   {
    "id": "workday:wexinc:/job/India---Bangalore/Software-Development-Engineer-1_R22746",
