@@ -5,14 +5,30 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-22T07:00:04Z</updated>
+  <updated>2026-10-22T12:47:29Z</updated>
   <entry>
-    <id>urn:intern-engine:workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912</id>
-    <title>Dow Chemical Company: Information Technology Analyst</title>
-    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912"/>
-    <updated>2026-10-22T07:00:04Z</updated>
+    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1</id>
+    <title>Crowe: Junior Data Engineer</title>
+    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1"/>
+    <updated>2026-10-22T12:47:29Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Other · Navi Mumbai (IND) · Java, JavaScript, SQL</summary>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · Python, SQL, Azure, Git, Spark</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004251</id>
+    <title>TriNet: Associate Data Analyst</title>
+    <link href="https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251"/>
+    <updated>2026-10-22T12:47:29Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, SQL, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wexinc:/job/India---Bangalore/Software-Development-Engineer-1_R22746</id>
+    <title>Wex: Software Development Engineer 1</title>
+    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Bangalore/Software-Development-Engineer-1_R22746"/>
+    <updated>2026-10-22T12:47:29Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India - Bangalore · Python, Java, TypeScript, JavaScript, Angular</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67</id>
@@ -23,12 +39,12 @@
     <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:gevernova:/job/Noida/Control---Protection-System-Engineer_R5056241-1</id>
-    <title>Gevernova: Control &amp; Protection System Engineer</title>
-    <link href="https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Noida/Control---Protection-System-Engineer_R5056241-1"/>
-    <updated>2026-10-21T11:01:59Z</updated>
+    <id>urn:intern-engine:workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912</id>
+    <title>Dow Chemical Company: Information Technology Analyst</title>
+    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912"/>
+    <updated>2026-10-22T07:00:04Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Noida</summary>
+    <summary>new_grad · Other · Navi Mumbai (IND) · Java, JavaScript, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:abnormalsecurity:8016870003</id>
@@ -79,14 +95,6 @@
     <summary>new_grad · Software · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1</id>
-    <title>GE Healthcare: Graduate Engineer Trainee</title>
-    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4047231-1"/>
-    <updated>2026-10-15T12:27:45Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:amazon:amazon:10561468</id>
     <title>Amazon: SDE-1</title>
     <link href="https://www.amazon.jobs/en/jobs/10561468/sde-1"/>
@@ -117,14 +125,6 @@
     <updated>2026-10-03T17:50:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · India (Remote)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10525643</id>
-    <title>Amazon: SDE-1 (FTC)</title>
-    <link href="https://www.amazon.jobs/en/jobs/10525643/sde-1-ftc"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Bengaluru, Karnataka, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10551515</id>
@@ -197,14 +197,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, Java, TypeScript, React, Node.js</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:coherehealth:7693298003</id>
-    <title>Cohere Health: Associate SDET Engineer</title>
-    <link href="https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad, Telangana, India · TypeScript, AWS, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163</id>
