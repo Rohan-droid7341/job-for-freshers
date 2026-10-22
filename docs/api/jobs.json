@@ -1,8 +1,28 @@
 {
- "generated_at": "2026-10-22T01:17:05Z",
+ "generated_at": "2026-10-22T07:00:04Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 25,
+ "count": 27,
  "jobs": [
+  {
+   "id": "workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912",
+   "company": "Dow Chemical Company",
+   "title": "Information Technology Analyst",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Other",
+   "location": "Navi Mumbai (IND)",
+   "url": "https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912",
+   "posted_at": "2026-10-22T00:00:00Z",
+   "first_seen_at": "2026-10-22T07:00:04Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Java",
+    "JavaScript",
+    "SQL"
+   ],
+   "source": "workday"
+  },
   {
    "id": "workday:gevernova:/job/Noida/Control---Protection-System-Engineer_R5056241-1",
    "company": "Gevernova",
@@ -442,6 +462,22 @@
     "Python"
    ],
    "source": "workday"
+  },
+  {
+   "id": "rippling:rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+   "company": "Rippling",
+   "title": "Software Engineer I",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore, India",
+   "url": "https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+   "posted_at": null,
+   "first_seen_at": "2026-10-22T07:00:04Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "rippling"
   },
   {
    "id": "rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863",

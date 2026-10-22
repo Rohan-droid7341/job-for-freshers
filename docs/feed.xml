@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-22T01:17:05Z</updated>
+  <updated>2026-10-22T07:00:04Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912</id>
+    <title>Dow Chemical Company: Information Technology Analyst</title>
+    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912"/>
+    <updated>2026-10-22T07:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Navi Mumbai (IND) · Java, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67</id>
+    <title>Rippling: Software Engineer I</title>
+    <link href="https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67"/>
+    <updated>2026-10-22T07:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore, India</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:gevernova:/job/Noida/Control---Protection-System-Engineer_R5056241-1</id>
     <title>Gevernova: Control &amp; Protection System Engineer</title>
