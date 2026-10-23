@@ -5,7 +5,31 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-23T05:42:31Z</updated>
+  <updated>2026-10-23T11:03:30Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:cmegroup:/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762</id>
+    <title>CME Group: Site Reliability Engineer I -  India</title>
+    <link href="https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762"/>
+    <updated>2026-10-23T11:03:30Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore - Bagmane Tridib · Python, Java, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:philips:/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_590732</id>
+    <title>Philips: Apprentice Trainee (Software Developer Level 1)</title>
+    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_590732"/>
+    <updated>2026-10-23T11:03:30Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341</id>
+    <title>The Hartford: IND Associate Software Engineer -  Red Team Engineer</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341"/>
+    <updated>2026-10-23T11:03:30Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India GCC-Puppalaguda Village · Python, C#, Rust, LLMs, AWS</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004251</id>
     <title>TriNet: Associate Data Analyst</title>
