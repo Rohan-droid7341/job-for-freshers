@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**25 open roles · 9 new this week · 5,500 companies tracked · updated Oct 23, 2026 at 00:24 UTC**
+**26 open roles · 9 new this week · 5,500 companies tracked · updated Oct 23, 2026 at 05:42 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -19,7 +19,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Graviton | Software Engineer (2027 Graduate) | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
-## New Grad — Entry Level (All Batches)  (24 open)
+## New Grad — Entry Level (All Batches)  (25 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -39,6 +39,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | PTC | Associate Software Analyst | Software | B.Tech/BS | Pune, India | Sep 29, 2026 | [Apply](https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163) |
 | Amazon | SDE-1 | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 28, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10561468/sde-1) |
 | Netomi | Data Engineer I | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
+| CommerceIQ | DevOps Engineer I | Software | 2+ Yrs | Bengaluru, Karnataka, India | Sep 15, 2026 | [Apply](https://job-boards.greenhouse.io/commerceiq/jobs/7995557003) |
 | R1 RCM | Software Engineer I | Software | B.Tech/BS | Noida, India | Aug 28, 2026 | [Apply](https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491) |
 | AiPrise | Software Engineer I (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Aug 24, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6) |
 | ReliaQuest | Associate Software Engineer | Software | 0-1 Yr | Pune India Office | Aug 19, 2026 | [Apply](https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032) |
@@ -127,7 +128,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 27 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 26 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -150,7 +151,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | DP World | Group SDE I - Zodiac Accelerated Rollout | new_grad | 2026-10-14 |
 | Airbus | Technology Analyst - SAP Native HANA, ABAP on HANA | new_grad | 2026-10-14 |
 | Wex | Software Development Engineer 1 | new_grad | 2026-10-14 |
-| CommerceIQ | DevOps Engineer I | new_grad | 2026-10-13 |
 | Cohere Health | Associate Software Engineer | new_grad | 2026-10-13 |
 | Cigna Group | Automation Engineer Associate Analyst | new_grad | 2026-10-13 |
 | Amazon | Software Development Engineer -I, IESP Merchant Tech | new_grad | 2026-10-12 |
@@ -176,7 +176,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,500 companies across 18 ATS platforms · 99% fetch success · completed in 374.4s · median detection latency 765 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,500 companies across 18 ATS platforms · 98% fetch success · completed in 308.7s · median detection latency 765 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 
