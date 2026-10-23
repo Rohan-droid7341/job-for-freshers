@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**29 open roles · 12 new this week · 5,500 companies tracked · updated Oct 23, 2026 at 11:03 UTC**
+**31 open roles · 14 new this week · 5,519 companies tracked · updated Oct 23, 2026 at 15:40 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -19,10 +19,12 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Graviton | Software Engineer (2027 Graduate) | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
-## New Grad — Entry Level (All Batches)  (28 open)
+## New Grad — Entry Level (All Batches)  (30 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 23, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4042192-1) |
+| agilon health | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | India_Gurgaon | Oct 23, 2026 | [Apply](https://agilonhealth.wd1.myworkdayjobs.com/External/job/India_Gurgaon/Senior-Software-Engineer_R003568) |
 | CME Group | Site Reliability Engineer I -  India 🆕 | Software | B.Tech/BS | Bangalore - Bagmane Tridib | Oct 23, 2026 | [Apply](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762) |
 | Philips | Apprentice Trainee (Software Developer Level 1) 🆕 | Software | B.Tech/BS | Bangalore | Oct 23, 2026 | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_590732) |
 | The Hartford | IND Associate Software Engineer -  Red Team Engineer 🆕 | Software | B.Tech/BS | India GCC-Puppalaguda Village | Oct 23, 2026 | [Apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341) |
@@ -131,7 +133,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 25 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 22 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -157,9 +159,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Cohere Health | Associate Software Engineer | new_grad | 2026-10-13 |
 | Cigna Group | Automation Engineer Associate Analyst | new_grad | 2026-10-13 |
 | Amazon | Software Development Engineer -I, IESP Merchant Tech | new_grad | 2026-10-12 |
-| GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-09 |
-| Hewlett Packard (HP) | Software Systems Engineer 1 | new_grad | 2026-10-09 |
-| Light & Wonder | Associate Software Engineer | new_grad | 2026-10-09 |
 
 </details>
 
@@ -178,7 +177,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,500 companies across 18 ATS platforms · 99% fetch success · completed in 307.8s · median detection latency 748 min · real posted dates on 90% of open roles._
+_Engine (last run): 5,519 companies across 18 ATS platforms · 99% fetch success · completed in 365.9s · median detection latency 762 min · real posted dates on 90% of open roles._
 
 ## Platforms Scraped
 
