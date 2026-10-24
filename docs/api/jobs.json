@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T22:56:03Z",
+ "generated_at": "2026-10-24T01:25:15Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 31,
+ "count": 30,
  "jobs": [
   {
    "id": "workday:agilonhealth:/job/India_Gurgaon/Senior-Software-Engineer_R003568",
@@ -485,31 +485,6 @@
     "Azure"
    ],
    "source": "workday"
-  },
-  {
-   "id": "ashby:aiprise:3763c791-a387-4078-9ca4-00cbfbf9b1a6",
-   "company": "AiPrise",
-   "title": "Software Engineer I (Bangalore, India)",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru",
-   "url": "https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6",
-   "posted_at": "2026-08-24T19:35:25.230+00:00",
-   "first_seen_at": "2026-10-03T14:05:49Z",
-   "salary": "₹15L – ₹30L • Offers Bonus",
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "AWS",
-    "Kubernetes",
-    "Docker"
-   ],
-   "source": "ashby"
   },
   {
    "id": "workday:reliaquest:/job/Pune-India-Office/Associate-Software-Engineer_R15032",
