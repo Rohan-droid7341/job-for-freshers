@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**29 open roles · 13 new this week · 5,529 companies tracked · updated Oct 25, 2026 at 08:04 UTC**
+**33 open roles · 17 new this week · 5,529 companies tracked · updated Oct 25, 2026 at 13:06 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -19,14 +19,18 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Graviton | Software Engineer (2027 Graduate) | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
-## New Grad — Entry Level (All Batches)  (28 open)
+## New Grad — Entry Level (All Batches)  (32 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT BHU 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Hyderabad 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Kanpur 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Madras 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002) |
 | agilon health | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | India_Gurgaon | Oct 23, 2026 | [Apply](https://agilonhealth.wd1.myworkdayjobs.com/External/job/India_Gurgaon/Senior-Software-Engineer_R003568) |
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 23, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4042192-1) |
-| CME Group | Site Reliability Engineer I -  India 🆕 | Software | B.Tech/BS | Bangalore - Bagmane Tridib | Oct 23, 2026 | [Apply](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762) |
-| The Hartford | IND Associate Software Engineer -  Red Team Engineer 🆕 | Software | B.Tech/BS | India GCC-Puppalaguda Village | Oct 23, 2026 | [Apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341) |
+| CME Group | Site Reliability Engineer I -  India | Software | B.Tech/BS | Bangalore - Bagmane Tridib | Oct 23, 2026 | [Apply](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762) |
+| The Hartford | IND Associate Software Engineer -  Red Team Engineer | Software | B.Tech/BS | India GCC-Puppalaguda Village | Oct 23, 2026 | [Apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341) |
 | TriNet | Associate Data Analyst | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Oct 22, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251) |
 | Crowe | Junior Data Engineer | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Oct 22, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1) |
 | Wex | Software Development Engineer 1 | Software | B.Tech/BS | India - Bangalore | Oct 22, 2026 | [Apply](https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Bangalore/Software-Development-Engineer-1_R22746) |
@@ -177,7 +181,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,529 companies across 18 ATS platforms · 93% fetch success · completed in 363.6s · median detection latency 765 min · real posted dates on 90% of open roles._
+_Engine (last run): 5,529 companies across 18 ATS platforms · 98% fetch success · completed in 370.0s · median detection latency 704 min · real posted dates on 91% of open roles._
 
 ## Platforms Scraped
 
