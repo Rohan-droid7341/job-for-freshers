@@ -5,11 +5,67 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-10-25T13:06:16Z</updated>
+  <updated>2026-10-31T19:31:01Z</updated>
   <entry>
-    <id>urn:intern-engine:greenhouse:point72:8893940002</id>
-    <title>Point72: 2027 Software Engineer - Campus Graduate Program - IIT BHU</title>
-    <link href="https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002"/>
+    <id>urn:intern-engine:greenhouse:abnormalsecurity:8016939003</id>
+    <title>Abnormal Security: Software Engineer 1</title>
+    <link href="https://abnormal.ai/careers/jobs/8016939003?gh_jid=8016939003"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hybrid - Bangalore, India · Python, React, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:brillio-2:f7f9f468-7bda-42c4-9904-2a191eabc5fb</id>
+    <title>Brillio: Associate Data Engineer - R01571250</title>
+    <link href="https://jobs.lever.co/brillio-2/f7f9f468-7bda-42c4-9904-2a191eabc5fb"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bangalore, Karnataka, India · Python, SQL, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812</id>
+    <title>Cigna Group: Automation Engineer Associate Analyst</title>
+    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Eurofins:744000157805820</id>
+    <title>Eurofins: IT Infrastructure System Engineer - Windows</title>
+    <link href="https://jobs.smartrecruiters.com/Eurofins/744000157805820"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Coimbatore, TN, India · Azure, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048338</id>
+    <title>GE Healthcare: Graduate Engineer Trainee</title>
+    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048338"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stripe:8130876</id>
+    <title>Stripe: Software Engineer, New Grad</title>
+    <link href="https://stripe.com/jobs/search?gh_jid=8130876"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · Java, JavaScript, Scala</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:uipath:a6ed0fbe-3505-46ab-9ec5-469d8356f8d8</id>
+    <title>UiPath: Software Engineer I</title>
+    <link href="https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · Python, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:point72:8893935002</id>
+    <title>Point72: 2027 Software Engineer - Campus Graduate Program - IIT Madras</title>
+    <link href="https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002"/>
     <updated>2026-10-25T13:06:16Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India, Bengaluru · Python, Java, C++, LLMs, React</summary>
@@ -31,28 +87,12 @@
     <summary>new_grad · Software · India, Bengaluru · Python, Java, C++, LLMs, React</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:point72:8893935002</id>
-    <title>Point72: 2027 Software Engineer - Campus Graduate Program - IIT Madras</title>
-    <link href="https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002"/>
+    <id>urn:intern-engine:greenhouse:point72:8893940002</id>
+    <title>Point72: 2027 Software Engineer - Campus Graduate Program - IIT BHU</title>
+    <link href="https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002"/>
     <updated>2026-10-25T13:06:16Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India, Bengaluru · Python, Java, C++, LLMs, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:agilonhealth:/job/India_Gurgaon/Senior-Software-Engineer_R003568</id>
-    <title>agilon health: Associate Software Engineer</title>
-    <link href="https://agilonhealth.wd1.myworkdayjobs.com/External/job/India_Gurgaon/Senior-Software-Engineer_R003568"/>
-    <updated>2026-10-23T15:40:41Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · India_Gurgaon · Python, Java, SQL, Airflow, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4042192-1</id>
-    <title>GE Healthcare: Graduate Engineer Trainee</title>
-    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4042192-1"/>
-    <updated>2026-10-23T15:40:41Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cmegroup:/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762</id>
@@ -79,28 +119,12 @@
     <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, SQL, Tableau</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1</id>
-    <title>Crowe: Junior Data Engineer</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1"/>
-    <updated>2026-10-22T12:47:29Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · Python, SQL, Azure, Git, Spark</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:wexinc:/job/India---Bangalore/Software-Development-Engineer-1_R22746</id>
     <title>Wex: Software Development Engineer 1</title>
     <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Bangalore/Software-Development-Engineer-1_R22746"/>
     <updated>2026-10-22T12:47:29Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India - Bangalore · Python, Java, TypeScript, JavaScript, Angular</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67</id>
-    <title>Rippling: Software Engineer I</title>
-    <link href="https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67"/>
-    <updated>2026-10-22T07:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912</id>
@@ -159,20 +183,12 @@
     <summary>new_grad · Software · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:commerceiq:7995557003</id>
-    <title>CommerceIQ: DevOps Engineer I</title>
-    <link href="https://job-boards.greenhouse.io/commerceiq/jobs/7995557003"/>
-    <updated>2026-10-12T18:32:18Z</updated>
+    <id>urn:intern-engine:rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529</id>
+    <title>Rippling: Software Engineer I - FullStack</title>
+    <link href="https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529"/>
+    <updated>2026-10-11T13:48:19Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, Karnataka, India · Python, Java, AWS, GCP, Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10561468</id>
-    <title>Amazon: SDE-1</title>
-    <link href="https://www.amazon.jobs/en/jobs/10561468/sde-1"/>
-    <updated>2026-10-12T08:43:39Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
+    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
@@ -189,6 +205,14 @@
     <updated>2026-10-05T17:46:13Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b</id>
+    <title>Rippling: Software Engineer I -Data Infrastructure</title>
+    <link href="https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b"/>
+    <updated>2026-10-05T08:08:10Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:perle:f14c681e-5431-4677-8faa-a7ab38464863</id>
@@ -261,14 +285,6 @@
     <updated>2026-10-03T14:05:49Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Bengaluru, Karnataka, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ptc:/job/Pune-India/Associate-Software-Analyst_JR112163</id>
-    <title>PTC: Associate Software Analyst</title>
-    <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Pune, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:reliaquest:/job/Pune-India-Office/Associate-Software-Engineer_R15032</id>

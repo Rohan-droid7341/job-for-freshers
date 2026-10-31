@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**33 open roles · 17 new this week · 5,529 companies tracked · updated Oct 25, 2026 at 13:06 UTC**
+**36 open roles · 11 new this week · 5,529 companies tracked · updated Oct 31, 2026 at 19:31 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -19,20 +19,24 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 |---|---|---|---|---|---|---|
 | Graviton | Software Engineer (2027 Graduate) | Software | B.Tech/BS | Gurugram, Haryana, India | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002) |
 
-## New Grad — Entry Level (All Batches)  (32 open)
+## New Grad — Entry Level (All Batches)  (35 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT BHU 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002) |
-| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Hyderabad 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002) |
-| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Kanpur 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002) |
-| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Madras 🆕 | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002) |
-| agilon health | Associate Software Engineer 🆕 | Software | 2+ Yrs<br>B.Tech/BS | India_Gurgaon | Oct 23, 2026 | [Apply](https://agilonhealth.wd1.myworkdayjobs.com/External/job/India_Gurgaon/Senior-Software-Engineer_R003568) |
-| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 23, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/GRADUATE-ENGINEERING-TRAINEE_R4042192-1) |
+| UiPath | Software Engineer I 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Bangalore | Oct 31, 2026 | [Apply](https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8) |
+| Cigna Group | Automation Engineer Associate Analyst 🆕 | Software | B.Tech/BS | Bengaluru, India | Oct 30, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812) |
+| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Oct 30, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048338) |
+| Abnormal Security | Software Engineer 1 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 29, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016939003?gh_jid=8016939003) |
+| Brillio | Associate Data Engineer - R01571250 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bangalore, Karnataka, India | Oct 29, 2026 | [Apply](https://jobs.lever.co/brillio-2/f7f9f468-7bda-42c4-9904-2a191eabc5fb) |
+| Stripe | Software Engineer, New Grad 🆕 | Software | B.Tech/BS | Bangalore | Oct 28, 2026 | [Apply](https://stripe.com/jobs/search?gh_jid=8130876) |
+| Eurofins | IT Infrastructure System Engineer - Windows 🆕 | Software | B.Tech/BS | Coimbatore, TN, India | Oct 26, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000157805820) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Madras | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Hyderabad | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT Kanpur | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002) |
+| Point72 | 2027 Software Engineer - Campus Graduate Program - IIT BHU | Software | B.Tech/BS | India, Bengaluru | Oct 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002) |
 | CME Group | Site Reliability Engineer I -  India | Software | B.Tech/BS | Bangalore - Bagmane Tridib | Oct 23, 2026 | [Apply](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762) |
 | The Hartford | IND Associate Software Engineer -  Red Team Engineer | Software | B.Tech/BS | India GCC-Puppalaguda Village | Oct 23, 2026 | [Apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341) |
 | TriNet | Associate Data Analyst | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Oct 22, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251) |
-| Crowe | Junior Data Engineer | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Oct 22, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Data-Engineer_R-51712-1) |
 | Wex | Software Development Engineer 1 | Software | B.Tech/BS | India - Bangalore | Oct 22, 2026 | [Apply](https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Bangalore/Software-Development-Engineer-1_R22746) |
 | Dow Chemical Company | Information Technology Analyst | Other | B.Tech/BS | Navi Mumbai (IND) | Oct 22, 2026 | [Apply](https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912) |
 | Abnormal Security | Software Engineer 1 - Platform & Infrastructure | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 20, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003) |
@@ -44,15 +48,14 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | TriNet | Associate Data Scientist | Data & ML/AI | B.Tech/BS | Hyderabad, Telangana, India | Oct 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076) |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru, Karnataka, India | Sep 30, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform) |
 | Amazon | SDE I FTC | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 29, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc) |
-| PTC | Associate Software Analyst | Software | B.Tech/BS | Pune, India | Sep 29, 2026 | [Apply](https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Associate-Software-Analyst_JR112163) |
-| Amazon | SDE-1 | Other | B.Tech/BS | Hyderabad, Telangana, India | Sep 28, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10561468/sde-1) |
 | Netomi | Data Engineer I | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Remote - India | Sep 21, 2026 | [Apply](https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692) |
-| CommerceIQ | DevOps Engineer I | Software | 2+ Yrs | Bengaluru, Karnataka, India | Sep 15, 2026 | [Apply](https://job-boards.greenhouse.io/commerceiq/jobs/7995557003) |
+| Amazon | Software Dev Engineer I FTC | Software | B.Tech/BS | Bengaluru, Karnataka, India | Sep 17, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc) |
 | R1 RCM | Software Engineer I | Software | B.Tech/BS | Noida, India | Aug 28, 2026 | [Apply](https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Noida-India/Software-Engineer-I_R260000005491) |
 | ReliaQuest | Associate Software Engineer | Software | 0-1 Yr | Pune India Office | Aug 19, 2026 | [Apply](https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032) |
 | AspenTech | Software Quality Engineer I | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Silicon Laboratories | Engineer I - Software QA | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
-| Rippling | Software Engineer I | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67) |
+| Rippling | Software Engineer I - FullStack | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529) |
+| Rippling | Software Engineer I -Data Infrastructure | Data & ML/AI | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b) |
 | Perle | Elite Research Scientist - Frontier AI Evaluation | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
 
@@ -130,39 +133,32 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Roblox | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Stripe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec · in ~37d | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec · in ~31d | ⏳ waiting |
 
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 24 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 17 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Amazon | SDE-1 | new_grad | 2026-10-31 |
+| CommerceIQ | DevOps Engineer I | new_grad | 2026-10-31 |
+| Rippling | Software Engineer I | new_grad | 2026-10-31 |
+| agilon health | Associate Software Engineer | new_grad | 2026-10-31 |
+| Crowe | Junior Data Engineer | new_grad | 2026-10-31 |
+| GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-31 |
+| PTC | Associate Software Analyst | new_grad | 2026-10-31 |
 | AiPrise | Software Engineer I (Bangalore, India) | new_grad | 2026-10-24 |
 | Philips | Apprentice Trainee (Software Developer Level 1) | new_grad | 2026-10-23 |
 | Amazon | SDE-1 (FTC) | new_grad | 2026-10-22 |
 | Cohere Health | Associate SDET Engineer | new_grad | 2026-10-22 |
 | GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-22 |
 | Gevernova | Control & Protection System Engineer | new_grad | 2026-10-22 |
-| Rippling | Software Engineer I -Data Infrastructure | new_grad | 2026-10-21 |
 | Amazon | SDE-I, Rewards | new_grad | 2026-10-20 |
 | Priceline | Associate Software Engineer | new_grad | 2026-10-19 |
 | T.D. Williamson | Quality Assurance Engineer I | new_grad | 2026-10-19 |
 | Arctic Wolf | Developer 1 | new_grad | 2026-10-19 |
-| Guidewire | Site Reliability Engineer I | new_grad | 2026-10-16 |
-| ISS / Institutional Shareholder Services | Junior Data Analyst | new_grad | 2026-10-16 |
-| ShipBob | Software Development Engineer I | new_grad | 2026-10-15 |
-| GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-15 |
-| Rippling | Software Engineer I - Backend Leaning FullStack | new_grad | 2026-10-15 |
-| Nike | Software Engineer I, ITC | new_grad | 2026-10-14 |
-| Coupa Software | Associate Security Engineer - 11925 | new_grad | 2026-10-14 |
-| DP World | Group SDE I - Zodiac Accelerated Rollout | new_grad | 2026-10-14 |
-| Airbus | Technology Analyst - SAP Native HANA, ABAP on HANA | new_grad | 2026-10-14 |
-| Wex | Software Development Engineer 1 | new_grad | 2026-10-14 |
-| Cohere Health | Associate Software Engineer | new_grad | 2026-10-13 |
-| Cigna Group | Automation Engineer Associate Analyst | new_grad | 2026-10-13 |
-| Amazon | Software Development Engineer -I, IESP Merchant Tech | new_grad | 2026-10-12 |
 
 </details>
 
@@ -181,7 +177,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,529 companies across 18 ATS platforms · 98% fetch success · completed in 370.0s · median detection latency 704 min · real posted dates on 91% of open roles._
+_Engine (last run): 5,529 companies across 18 ATS platforms · 90% fetch success · completed in 593.0s · median detection latency 768 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 
