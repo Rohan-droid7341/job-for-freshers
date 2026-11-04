@@ -1,22 +1,50 @@
 {
- "generated_at": "2026-11-04T08:35:51Z",
+ "generated_at": "2026-11-04T17:10:22Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 32,
  "jobs": [
   {
-   "id": "workday:lnw:/job/Pune-India/Associate-QA-Engineer_R322953",
-   "company": "Light & Wonder",
-   "title": "Associate QA Engineer",
+   "id": "workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237",
+   "company": "Cigna Group",
+   "title": "Automation Engineer Associate Analyst - Cigna Healthcare",
    "season": "new_grad",
    "season_inferred": false,
    "category": "Software",
-   "location": "Pune, India",
-   "url": "https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953",
-   "posted_at": "2026-11-03T00:00:00Z",
-   "first_seen_at": "2026-11-04T08:35:51Z",
+   "location": "Bengaluru, India",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237",
+   "posted_at": "2026-11-04T00:00:00Z",
+   "first_seen_at": "2026-11-04T17:10:22Z",
    "salary": null,
    "stipend": null,
-   "skills": [],
+   "skills": [
+    "Python",
+    "C#",
+    "Azure"
+   ],
+   "source": "workday"
+  },
+  {
+   "id": "workday:jll:/job/Bengaluru-KA/Data-Engineer-1_REQ544992",
+   "company": "Jones Lang LaSalle (JLL)",
+   "title": "Data Engineer 1",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Bengaluru, KA",
+   "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Bengaluru-KA/Data-Engineer-1_REQ544992",
+   "posted_at": "2026-11-04T00:00:00Z",
+   "first_seen_at": "2026-11-04T17:10:22Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "Azure",
+    "Linux",
+    "Spark",
+    "Kafka",
+    "MongoDB"
+   ],
    "source": "workday"
   },
   {
@@ -36,6 +64,22 @@
     "Python",
     "MATLAB"
    ],
+   "source": "workday"
+  },
+  {
+   "id": "workday:lnw:/job/Pune-India/Associate-QA-Engineer_R322953",
+   "company": "Light & Wonder",
+   "title": "Associate QA Engineer",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Pune, India",
+   "url": "https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953",
+   "posted_at": "2026-11-03T00:00:00Z",
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
    "source": "workday"
   },
   {
@@ -115,26 +159,6 @@
    "source": "workday"
   },
   {
-   "id": "lever:brillio-2:f7f9f468-7bda-42c4-9904-2a191eabc5fb",
-   "company": "Brillio",
-   "title": "Associate Data Engineer - R01571250",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bangalore, Karnataka, India",
-   "url": "https://jobs.lever.co/brillio-2/f7f9f468-7bda-42c4-9904-2a191eabc5fb",
-   "posted_at": "2026-10-29T07:03:46Z",
-   "first_seen_at": "2026-10-31T19:31:01Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "AWS"
-   ],
-   "source": "lever"
-  },
-  {
    "id": "greenhouse:stripe:8130876",
    "company": "Stripe",
    "title": "Software Engineer, New Grad",
@@ -172,31 +196,6 @@
     "Linux"
    ],
    "source": "smartrecruiters"
-  },
-  {
-   "id": "greenhouse:point72:8893936002",
-   "company": "Point72",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India, Bengaluru",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
-   "posted_at": "2026-10-25T08:10:31-04:00",
-   "first_seen_at": "2026-10-25T13:06:16Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "LLMs",
-    "React",
-    "Node.js",
-    "AWS",
-    "Kubernetes"
-   ],
-   "source": "greenhouse"
   },
   {
    "id": "workday:cmegroup:/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762",
