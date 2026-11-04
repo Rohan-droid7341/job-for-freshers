@@ -1,27 +1,82 @@
 {
- "generated_at": "2026-10-31T19:31:01Z",
+ "generated_at": "2026-11-04T08:35:51Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 36,
+ "count": 32,
  "jobs": [
   {
-   "id": "ashby:uipath:a6ed0fbe-3505-46ab-9ec5-469d8356f8d8",
-   "company": "UiPath",
-   "title": "Software Engineer I",
+   "id": "workday:lnw:/job/Pune-India/Associate-QA-Engineer_R322953",
+   "company": "Light & Wonder",
+   "title": "Associate QA Engineer",
    "season": "new_grad",
    "season_inferred": false,
    "category": "Software",
-   "location": "Bangalore",
-   "url": "https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8",
-   "posted_at": "2026-10-31T10:07:44.482+00:00",
-   "first_seen_at": "2026-10-31T19:31:01Z",
+   "location": "Pune, India",
+   "url": "https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953",
+   "posted_at": "2026-11-03T00:00:00Z",
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "workday"
+  },
+  {
+   "id": "workday:boeing:/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1",
+   "company": "The Boeing Company",
+   "title": "Associate Software Engineer - Analytics",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "IND - Bangalore, India",
+   "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1",
+   "posted_at": "2026-11-03T00:00:00Z",
+   "first_seen_at": "2026-11-04T08:35:51Z",
    "salary": null,
    "stipend": null,
    "skills": [
     "Python",
-    "TypeScript",
-    "JavaScript"
+    "MATLAB"
    ],
-   "source": "ashby"
+   "source": "workday"
+  },
+  {
+   "id": "greenhouse:solarwinds:4743100005",
+   "company": "SolarWinds",
+   "title": "Associate Software Engineer",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore, India",
+   "url": "https://jobs.solarwinds.com/job-detail/?gh_jid=4743100005&gh_jid=4743100005",
+   "posted_at": "2026-11-02T04:14:13-05:00",
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Java",
+    "JavaScript",
+    "SQL",
+    "Angular"
+   ],
+   "source": "greenhouse"
+  },
+  {
+   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004048",
+   "company": "TriNet",
+   "title": "Associate Data Scientist",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Hyderabad, Telangana, India",
+   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004048",
+   "posted_at": "2026-11-02",
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "LLMs"
+   ],
+   "source": "oracle"
   },
   {
    "id": "workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812",
@@ -58,31 +113,6 @@
    "stipend": null,
    "skills": [],
    "source": "workday"
-  },
-  {
-   "id": "greenhouse:abnormalsecurity:8016939003",
-   "company": "Abnormal Security",
-   "title": "Software Engineer 1",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Hybrid - Bangalore, India",
-   "url": "https://abnormal.ai/careers/jobs/8016939003?gh_jid=8016939003",
-   "posted_at": "2026-10-29T01:14:03-04:00",
-   "first_seen_at": "2026-10-31T19:31:01Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "React",
-    "AWS",
-    "GCP",
-    "Azure",
-    "Kubernetes",
-    "Docker",
-    "Kafka"
-   ],
-   "source": "greenhouse"
   },
   {
    "id": "lever:brillio-2:f7f9f468-7bda-42c4-9904-2a191eabc5fb",
@@ -144,31 +174,6 @@
    "source": "smartrecruiters"
   },
   {
-   "id": "greenhouse:point72:8893935002",
-   "company": "Point72",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Madras",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India, Bengaluru",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002",
-   "posted_at": "2026-10-25T08:11:24-04:00",
-   "first_seen_at": "2026-10-25T13:06:16Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "LLMs",
-    "React",
-    "Node.js",
-    "AWS",
-    "Kubernetes"
-   ],
-   "source": "greenhouse"
-  },
-  {
    "id": "greenhouse:point72:8893936002",
    "company": "Point72",
    "title": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad",
@@ -178,56 +183,6 @@
    "location": "India, Bengaluru",
    "url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
    "posted_at": "2026-10-25T08:10:31-04:00",
-   "first_seen_at": "2026-10-25T13:06:16Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "LLMs",
-    "React",
-    "Node.js",
-    "AWS",
-    "Kubernetes"
-   ],
-   "source": "greenhouse"
-  },
-  {
-   "id": "greenhouse:point72:8893939002",
-   "company": "Point72",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Kanpur",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India, Bengaluru",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002",
-   "posted_at": "2026-10-25T08:11:02-04:00",
-   "first_seen_at": "2026-10-25T13:06:16Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "LLMs",
-    "React",
-    "Node.js",
-    "AWS",
-    "Kubernetes"
-   ],
-   "source": "greenhouse"
-  },
-  {
-   "id": "greenhouse:point72:8893940002",
-   "company": "Point72",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT BHU",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India, Bengaluru",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002",
-   "posted_at": "2026-10-25T08:09:50-04:00",
    "first_seen_at": "2026-10-25T13:06:16Z",
    "salary": null,
    "stipend": null,
@@ -294,51 +249,6 @@
    "source": "workday"
   },
   {
-   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004251",
-   "company": "TriNet",
-   "title": "Associate Data Analyst",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004251",
-   "posted_at": "2026-10-22",
-   "first_seen_at": "2026-10-22T12:47:29Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "Tableau"
-   ],
-   "source": "oracle"
-  },
-  {
-   "id": "workday:wexinc:/job/India---Bangalore/Software-Development-Engineer-1_R22746",
-   "company": "Wex",
-   "title": "Software Development Engineer 1",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "India - Bangalore",
-   "url": "https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/India---Bangalore/Software-Development-Engineer-1_R22746",
-   "posted_at": "2026-10-22T00:00:00Z",
-   "first_seen_at": "2026-10-22T12:47:29Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "Angular",
-    "Spring",
-    "Docker",
-    "Git"
-   ],
-   "source": "workday"
-  },
-  {
    "id": "workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912",
    "company": "Dow Chemical Company",
    "title": "Information Technology Analyst",
@@ -379,26 +289,6 @@
     "Git"
    ],
    "source": "greenhouse"
-  },
-  {
-   "id": "workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5880",
-   "company": "Priceline",
-   "title": "Associate Software Engineer",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Mumbai",
-   "url": "https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5880",
-   "posted_at": "2026-10-19T00:00:00Z",
-   "first_seen_at": "2026-10-19T18:10:28Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "SQL",
-    "Spring"
-   ],
-   "source": "workday"
   },
   {
    "id": "smartrecruiters:Eurofins:744000156229723",
@@ -457,6 +347,29 @@
    "source": "amazon"
   },
   {
+   "id": "lever:coupa:15c1666e-c0df-49b5-8296-8c664166413a",
+   "company": "Coupa Software",
+   "title": "Associate Security Engineer - 11925",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Pune, India",
+   "url": "https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a",
+   "posted_at": "2026-10-09T22:38:29Z",
+   "first_seen_at": "2026-10-13T21:46:50Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "JavaScript",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Kubernetes"
+   ],
+   "source": "lever"
+  },
+  {
    "id": "smartrecruiters:Wabtec:3743990015987115",
    "company": "Wabtec",
    "title": "System Engineer ( Doors)",
@@ -473,23 +386,27 @@
    "source": "smartrecruiters"
   },
   {
-   "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004076",
-   "company": "TriNet",
-   "title": "Associate Data Scientist",
+   "id": "workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5712",
+   "company": "Priceline",
+   "title": "Associate Software Engineer",
    "season": "new_grad",
    "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Hyderabad, Telangana, India",
-   "url": "https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004076",
-   "posted_at": "2026-10-05",
-   "first_seen_at": "2026-10-05T17:46:13Z",
+   "category": "Software",
+   "location": "Mumbai",
+   "url": "https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712",
+   "posted_at": "2026-10-08T00:00:00Z",
+   "first_seen_at": "2026-10-08T14:23:47Z",
    "salary": null,
    "stipend": null,
    "skills": [
     "Python",
-    "LLMs"
+    "Java",
+    "Kotlin",
+    "LLMs",
+    "React",
+    "Angular"
    ],
-   "source": "oracle"
+   "source": "workday"
   },
   {
    "id": "amazon:amazon:10565511",
@@ -563,25 +480,6 @@
    "stipend": null,
    "skills": [],
    "source": "amazon"
-  },
-  {
-   "id": "greenhouse:gravitonresearchcapital:8764240002",
-   "company": "Graviton",
-   "title": "Software Engineer (2027 Graduate)",
-   "season": "2027",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Gurugram, Haryana, India",
-   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002",
-   "posted_at": "2026-09-01T02:25:41-04:00",
-   "first_seen_at": "2026-10-19T18:10:28Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "C++",
-    "Linux"
-   ],
-   "source": "greenhouse"
   },
   {
    "id": "workday:r1rcm:/job/Noida-India/Software-Engineer-I_R260000005491",
@@ -674,6 +572,22 @@
    "source": "workday"
   },
   {
+   "id": "rippling:rippling:277b7caf-3092-44a7-9e8c-45769e5a3ea5",
+   "company": "Rippling",
+   "title": "Software Engineer-1",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore, India",
+   "url": "https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5",
+   "posted_at": null,
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "rippling"
+  },
+  {
    "id": "rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529",
    "company": "Rippling",
    "title": "Software Engineer I - FullStack",
@@ -684,22 +598,6 @@
    "url": "https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529",
    "posted_at": null,
    "first_seen_at": "2026-10-11T13:48:19Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "rippling"
-  },
-  {
-   "id": "rippling:rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "company": "Rippling",
-   "title": "Software Engineer I -Data Infrastructure",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bangalore, India",
-   "url": "https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b",
-   "posted_at": null,
-   "first_seen_at": "2026-10-05T08:08:10Z",
    "salary": null,
    "stipend": null,
    "skills": [],
