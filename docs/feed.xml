@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-04T23:39:13Z</updated>
+  <updated>2026-11-05T06:28:34Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:newrelic:5417516008</id>
+    <title>New Relic: Software Engineer 1</title>
+    <link href="https://job-boards.greenhouse.io/newrelic/jobs/5417516008"/>
+    <updated>2026-11-05T06:28:34Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad, India · Java, TypeScript, React, Node.js, GraphQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237</id>
     <title>Cigna Group: Automation Engineer Associate Analyst - Cigna Healthcare</title>
@@ -13,14 +21,6 @@
     <updated>2026-11-04T17:10:22Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jll:/job/Bengaluru-KA/Data-Engineer-1_REQ544992</id>
-    <title>Jones Lang LaSalle (JLL): Data Engineer 1</title>
-    <link href="https://jll.wd1.myworkdayjobs.com/jllcareers/job/Bengaluru-KA/Data-Engineer-1_REQ544992"/>
-    <updated>2026-11-04T17:10:22Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Bengaluru, KA · Python, SQL, Azure, Linux, Spark</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:solarwinds:4743100005</id>
