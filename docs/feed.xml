@@ -5,22 +5,30 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-05T06:28:34Z</updated>
+  <updated>2026-11-05T17:27:09Z</updated>
   <entry>
-    <id>urn:intern-engine:greenhouse:newrelic:5417516008</id>
-    <title>New Relic: Software Engineer 1</title>
-    <link href="https://job-boards.greenhouse.io/newrelic/jobs/5417516008"/>
-    <updated>2026-11-05T06:28:34Z</updated>
+    <id>urn:intern-engine:workday:cigna:/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380</id>
+    <title>Cigna Group: Automation Engineer Associate Analyst - Cigna Healthcare</title>
+    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380"/>
+    <updated>2026-11-05T17:27:09Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad, India · Java, TypeScript, React, Node.js, GraphQL</summary>
+    <summary>new_grad · Software · India Work at Home · Python, Java, SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237</id>
-    <title>Cigna Group: Automation Engineer Associate Analyst - Cigna Healthcare</title>
-    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237"/>
-    <updated>2026-11-04T17:10:22Z</updated>
+    <id>urn:intern-engine:greenhouse:newrelic:5467941008</id>
+    <title>New Relic: Software Engineer 1</title>
+    <link href="https://job-boards.greenhouse.io/newrelic/jobs/5467941008"/>
+    <updated>2026-11-05T17:27:09Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
+    <summary>new_grad · Software · Hyderabad, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>
+    <title>TriNet: Associate Data Analyst</title>
+    <link href="https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321"/>
+    <updated>2026-11-05T17:27:09Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, SQL, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:solarwinds:4743100005</id>
@@ -61,6 +69,14 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:uipath:a6ed0fbe-3505-46ab-9ec5-469d8356f8d8</id>
+    <title>UiPath: Software Engineer I</title>
+    <link href="https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · Python, TypeScript, JavaScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:stripe:8130876</id>
