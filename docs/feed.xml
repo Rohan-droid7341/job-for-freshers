@@ -5,23 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-05T17:27:09Z</updated>
-  <entry>
-    <id>urn:intern-engine:workday:cigna:/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380</id>
-    <title>Cigna Group: Automation Engineer Associate Analyst - Cigna Healthcare</title>
-    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380"/>
-    <updated>2026-11-05T17:27:09Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · India Work at Home · Python, Java, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:newrelic:5467941008</id>
-    <title>New Relic: Software Engineer 1</title>
-    <link href="https://job-boards.greenhouse.io/newrelic/jobs/5467941008"/>
-    <updated>2026-11-05T17:27:09Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad, India</summary>
-  </entry>
+  <updated>2026-11-05T23:38:31Z</updated>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>
     <title>TriNet: Associate Data Analyst</title>
@@ -29,6 +13,14 @@
     <updated>2026-11-05T17:27:09Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, SQL, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cigna:/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380</id>
+    <title>Cigna Group: Automation Engineer Associate Analyst - Cigna Healthcare</title>
+    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380"/>
+    <updated>2026-11-05T17:27:09Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · India Work at Home · Python, Java, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:solarwinds:4743100005</id>
@@ -103,14 +95,6 @@
     <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048338</id>
-    <title>GE Healthcare: Graduate Engineer Trainee</title>
-    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048338"/>
-    <updated>2026-10-31T19:31:01Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:cmegroup:/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762</id>
     <title>CME Group: Site Reliability Engineer I -  India</title>
     <link href="https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762"/>
@@ -125,14 +109,6 @@
     <updated>2026-10-23T11:03:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · India GCC-Puppalaguda Village · Python, C#, Rust, LLMs, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:dow:/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912</id>
-    <title>Dow Chemical Company: Information Technology Analyst</title>
-    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Navi-Mumbai-IND/Information-Technology-Analyst_R2068912"/>
-    <updated>2026-10-22T07:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Navi Mumbai (IND) · Java, JavaScript, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:abnormalsecurity:8016870003</id>
