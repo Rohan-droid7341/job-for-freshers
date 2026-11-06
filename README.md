@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**31 open roles · 11 new this week · 5,725 companies tracked · updated Nov 06, 2026 at 06:22 UTC**
+**34 open roles · 14 new this week · 5,734 companies tracked · updated Nov 06, 2026 at 16:49 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,17 +13,20 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (31 open)
+## New Grad — Entry Level (All Batches)  (34 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Arctic Wolf | Developer 1 🆕 | Software | B.Tech/BS | Bengaluru, IND | Nov 06, 2026 | [Apply](https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Developer-1_R26_1210) |
+| GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Nov 06, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1) |
+| LabCorp | Associate Data Analyst 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru India | Nov 06, 2026 | [Apply](https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Associate-Data-Analyst_2639837-1) |
+| Zebra Technologies | Software Engineer -1 🆕 | Software | B.Tech/BS | Bengaluru, India | Nov 06, 2026 | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559) |
 | TriNet | Associate Data Analyst 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Nov 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321) |
 | Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare 🆕 | Software | B.Tech/BS | India Work at Home | Nov 05, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380) |
-| The Boeing Company | Associate Software Engineer - Analytics 🆕 | Data & ML/AI | B.Tech/BS | IND - Bangalore, India | Nov 03, 2026 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1) |
-| Light & Wonder | Associate QA Engineer 🆕 | Software | B.Tech/BS | Pune, India | Nov 03, 2026 | [Apply](https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953) |
-| SolarWinds | Associate Software Engineer 🆕 | Software | 2+ Yrs | Bangalore, India | Nov 02, 2026 | [Apply](https://jobs.solarwinds.com/job-detail/?gh_jid=4743100005&gh_jid=4743100005) |
-| TriNet | Associate Data Scientist 🆕 | Data & ML/AI | B.Tech/BS | Hyderabad, Telangana, India | Nov 02, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004048) |
-| UiPath | Software Engineer I | Software | 2+ Yrs<br>B.Tech/BS | Bangalore | Oct 31, 2026 | [Apply](https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8) |
+| The Boeing Company | Associate Software Engineer - Analytics | Data & ML/AI | B.Tech/BS | IND - Bangalore, India | Nov 03, 2026 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1) |
+| Light & Wonder | Associate QA Engineer | Software | B.Tech/BS | Pune, India | Nov 03, 2026 | [Apply](https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953) |
+| SolarWinds | Associate Software Engineer | Software | 2+ Yrs | Bangalore, India | Nov 02, 2026 | [Apply](https://jobs.solarwinds.com/job-detail/?gh_jid=4743100005&gh_jid=4743100005) |
+| TriNet | Associate Data Scientist | Data & ML/AI | B.Tech/BS | Hyderabad, Telangana, India | Nov 02, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004048) |
 | Cigna Group | Automation Engineer Associate Analyst | Software | B.Tech/BS | Bengaluru, India | Oct 30, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812) |
 | Stripe | Software Engineer, New Grad | Software | B.Tech/BS | Bangalore | Oct 28, 2026 | [Apply](https://stripe.com/jobs/search?gh_jid=8130876) |
 | Eurofins | IT Infrastructure System Engineer - Windows | Software | B.Tech/BS | Coimbatore, TN, India | Oct 26, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000157805820) |
@@ -44,7 +47,7 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | ReliaQuest | Associate Software Engineer | Software | 0-1 Yr | Pune India Office | Aug 19, 2026 | [Apply](https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032) |
 | AspenTech | Software Quality Engineer I | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Silicon Laboratories | Engineer I - Software QA | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
-| Rippling | Software Engineer-1 🆕 | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5) |
+| Rippling | Software Engineer-1 | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5) |
 | Rippling | Software Engineer I - FullStack | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529) |
 | Perle | Elite Research Scientist - Frontier AI Evaluation | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
@@ -128,10 +131,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 27 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 28 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| UiPath | Software Engineer I | new_grad | 2026-11-06 |
 | New Relic | Software Engineer 1 | new_grad | 2026-11-05 |
 | Dow Chemical Company | Information Technology Analyst | new_grad | 2026-11-05 |
 | GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-11-05 |
@@ -177,7 +181,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,725 companies across 18 ATS platforms · 98% fetch success · completed in 438.7s · median detection latency 816 min · real posted dates on 87% of open roles._
+_Engine (last run): 5,734 companies across 18 ATS platforms · 99% fetch success · completed in 421.0s · median detection latency 914 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 

@@ -5,7 +5,39 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-06T06:22:32Z</updated>
+  <updated>2026-11-06T16:49:28Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1210</id>
+    <title>Arctic Wolf: Developer 1</title>
+    <link href="https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Developer-1_R26_1210"/>
+    <updated>2026-11-06T16:49:27Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, IND · Python, Go, LLMs, AWS, Kubernetes</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1</id>
+    <title>GE Healthcare: Graduate Engineer Trainee</title>
+    <link href="https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1"/>
+    <updated>2026-11-06T16:49:27Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:labcorp:/job/Bengaluru-India/Associate-Data-Analyst_2639837-1</id>
+    <title>LabCorp: Associate Data Analyst</title>
+    <link href="https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Associate-Data-Analyst_2639837-1"/>
+    <updated>2026-11-06T16:49:27Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bengaluru India · GCP</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:zebra:/job/Bengaluru-India/Software-Engineer--1_JR103559</id>
+    <title>Zebra Technologies: Software Engineer -1</title>
+    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559"/>
+    <updated>2026-11-06T16:49:27Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, India · Java, Kotlin</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>
     <title>TriNet: Associate Data Analyst</title>
@@ -61,14 +93,6 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:uipath:a6ed0fbe-3505-46ab-9ec5-469d8356f8d8</id>
-    <title>UiPath: Software Engineer I</title>
-    <link href="https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8"/>
-    <updated>2026-10-31T19:31:01Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore · Python, TypeScript, JavaScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:stripe:8130876</id>
