@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**34 open roles · 14 new this week · 5,734 companies tracked · updated Nov 07, 2026 at 13:01 UTC**
+**34 open roles · 14 new this week · 5,747 companies tracked · updated Nov 07, 2026 at 19:27 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -21,8 +21,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | GE Healthcare | Graduate Engineer Trainee 🆕 | Software | B.Tech/BS | Bengaluru | Nov 06, 2026 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1) |
 | LabCorp | Associate Data Analyst 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Bengaluru India | Nov 06, 2026 | [Apply](https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Associate-Data-Analyst_2639837-1) |
 | Zebra Technologies | Software Engineer -1 🆕 | Software | B.Tech/BS | Bengaluru, India | Nov 06, 2026 | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559) |
-| TriNet | Associate Data Analyst 🆕 | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Nov 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321) |
-| Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare 🆕 | Software | B.Tech/BS | India Work at Home | Nov 05, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380) |
+| TriNet | Associate Data Analyst | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Nov 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321) |
+| Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare | Software | B.Tech/BS | India Work at Home | Nov 05, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380) |
 | The Boeing Company | Associate Software Engineer - Analytics | Data & ML/AI | B.Tech/BS | IND - Bangalore, India | Nov 03, 2026 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1) |
 | Light & Wonder | Associate QA Engineer | Software | B.Tech/BS | Pune, India | Nov 03, 2026 | [Apply](https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953) |
 | SolarWinds | Associate Software Engineer | Software | 2+ Yrs | Bangalore, India | Nov 02, 2026 | [Apply](https://jobs.solarwinds.com/job-detail/?gh_jid=4743100005&gh_jid=4743100005) |
@@ -179,7 +179,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,734 companies across 18 ATS platforms · 91% fetch success · completed in 643.4s · median detection latency 914 min · real posted dates on 88% of open roles._
+_Engine (last run): 5,747 companies across 18 ATS platforms · 98% fetch success · completed in 369.7s · median detection latency 928 min · real posted dates on 88% of open roles._
 
 ## Platforms Scraped
 
