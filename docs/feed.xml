@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-08T17:57:18Z</updated>
+  <updated>2026-11-08T22:03:31Z</updated>
   <entry>
     <id>urn:intern-engine:workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1210</id>
     <title>Arctic Wolf: Developer 1</title>
@@ -29,14 +29,6 @@
     <updated>2026-11-06T16:49:27Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Bengaluru India · GCP</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:zebra:/job/Bengaluru-India/Software-Engineer--1_JR103559</id>
-    <title>Zebra Technologies: Software Engineer -1</title>
-    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559"/>
-    <updated>2026-11-06T16:49:27Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, India · Java, Kotlin</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>

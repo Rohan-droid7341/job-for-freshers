@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08T17:57:18Z",
+ "generated_at": "2026-11-08T22:03:31Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 34,
+ "count": 33,
  "jobs": [
   {
    "id": "workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1210",
@@ -56,25 +56,6 @@
    "stipend": null,
    "skills": [
     "GCP"
-   ],
-   "source": "workday"
-  },
-  {
-   "id": "workday:zebra:/job/Bengaluru-India/Software-Engineer--1_JR103559",
-   "company": "Zebra Technologies",
-   "title": "Software Engineer -1",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, India",
-   "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559",
-   "posted_at": "2026-11-06T00:00:00Z",
-   "first_seen_at": "2026-11-06T16:49:27Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "Kotlin"
    ],
    "source": "workday"
   },
