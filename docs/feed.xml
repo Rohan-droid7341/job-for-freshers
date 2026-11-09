@@ -5,15 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-09T06:02:15Z</updated>
-  <entry>
-    <id>urn:intern-engine:workday:arcticwolf:/job/Bengaluru-IND/Developer-1_R26_1210</id>
-    <title>Arctic Wolf: Developer 1</title>
-    <link href="https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Developer-1_R26_1210"/>
-    <updated>2026-11-06T16:49:27Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru, IND · Python, Go, LLMs, AWS, Kubernetes</summary>
-  </entry>
+  <updated>2026-11-09T16:07:49Z</updated>
   <entry>
     <id>urn:intern-engine:workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1</id>
     <title>GE Healthcare: Graduate Engineer Trainee</title>
@@ -165,14 +157,6 @@
     <updated>2026-10-13T21:46:50Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune, India · Python, JavaScript, AWS, GCP, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529</id>
-    <title>Rippling: Software Engineer I - FullStack</title>
-    <link href="https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529"/>
-    <updated>2026-10-11T13:48:19Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
