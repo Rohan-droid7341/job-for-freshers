@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T16:07:49Z",
+ "generated_at": "2026-11-10T01:30:47Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 31,
+ "count": 30,
  "jobs": [
   {
    "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1",
@@ -17,24 +17,6 @@
    "salary": null,
    "stipend": null,
    "skills": [],
-   "source": "workday"
-  },
-  {
-   "id": "workday:labcorp:/job/Bengaluru-India/Associate-Data-Analyst_2639837-1",
-   "company": "LabCorp",
-   "title": "Associate Data Analyst",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bengaluru India",
-   "url": "https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Associate-Data-Analyst_2639837-1",
-   "posted_at": "2026-11-06T00:00:00Z",
-   "first_seen_at": "2026-11-06T16:49:27Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "GCP"
-   ],
    "source": "workday"
   },
   {
