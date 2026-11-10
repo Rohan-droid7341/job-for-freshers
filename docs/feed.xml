@@ -5,7 +5,23 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-10T11:04:03Z</updated>
+  <updated>2026-11-10T19:47:47Z</updated>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10556180</id>
+    <title>Amazon: Software Development Engineer, Prime Video Live Events - Sports Data Platform</title>
+    <link href="https://www.amazon.jobs/en/jobs/10556180/software-development-engineer-prime-video-live-events-sports-data-platform"/>
+    <updated>2026-11-10T19:47:47Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bengaluru, Karnataka, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:welocalize:/job/Gurgaon/Software-Engineer-I_R0008056</id>
+    <title>Welocalize: Software Engineer I</title>
+    <link href="https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Gurgaon/Software-Engineer-I_R0008056"/>
+    <updated>2026-11-10T19:47:47Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Gurgaon · JavaScript</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:efds.fa.em5.oraclecloud.com:72334</id>
     <title>Ford Motor Company: Tax Technology Analyst</title>
@@ -245,14 +261,6 @@
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Hyderabad · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10565511</id>
-    <title>Amazon: Software Development Engineer, Prime Video Live Events - Sports Data Platform</title>
-    <link href="https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform"/>
-    <updated>2026-10-03T14:05:49Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Bengaluru, Karnataka, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:reliaquest:/job/Pune-India-Office/Associate-Software-Engineer_R15032</id>
