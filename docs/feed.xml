@@ -5,14 +5,14 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-11T10:47:35Z</updated>
+  <updated>2026-11-11T19:36:19Z</updated>
   <entry>
-    <id>urn:intern-engine:greenhouse:abnormalsecurity:8196521003</id>
-    <title>Abnormal Security: Software Engineer I - Backend</title>
-    <link href="https://abnormal.ai/careers/jobs/8196521003?gh_jid=8196521003"/>
+    <id>urn:intern-engine:ashby:aiprise:41af4efa-a550-484e-afde-a9f5f3807eca</id>
+    <title>AiPrise: Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India)</title>
+    <link href="https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca"/>
     <updated>2026-11-11T10:47:35Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Hybrid - Bangalore, India · Python, Go, LLMs, AWS, Git</summary>
+    <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, React, Node.js, AWS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aiprise:4994f7fc-b974-420f-9823-32d6c493f5c2</id>
@@ -23,12 +23,12 @@
     <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, JavaScript, React, Node.js</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:ashby:aiprise:41af4efa-a550-484e-afde-a9f5f3807eca</id>
-    <title>AiPrise: Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India)</title>
-    <link href="https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca"/>
+    <id>urn:intern-engine:greenhouse:abnormalsecurity:8196521003</id>
+    <title>Abnormal Security: Software Engineer I - Backend</title>
+    <link href="https://abnormal.ai/careers/jobs/8196521003?gh_jid=8196521003"/>
     <updated>2026-11-11T10:47:35Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, React, Node.js, AWS</summary>
+    <summary>new_grad · Software · Hybrid - Bangalore, India · Python, Go, LLMs, AWS, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gevernova:/job/Chennai/System-Engineer_R5058345-1</id>
@@ -61,14 +61,6 @@
     <updated>2026-11-10T19:47:47Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Gurgaon · JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:efds.fa.em5.oraclecloud.com:72334</id>
-    <title>Ford Motor Company: Tax Technology Analyst</title>
-    <link href="https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72334"/>
-    <updated>2026-11-10T11:04:02Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Chennai, Tamil Nadu, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:pentair:/job/Goa/Graduate-Engineer-Trainee_R24400</id>
@@ -117,22 +109,6 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bangalore, India · Java, JavaScript, SQL, Angular</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004048</id>
-    <title>TriNet: Associate Data Scientist</title>
-    <link href="https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004048"/>
-    <updated>2026-11-04T08:35:51Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:277b7caf-3092-44a7-9e8c-45769e5a3ea5</id>
-    <title>Rippling: Software Engineer-1</title>
-    <link href="https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5"/>
-    <updated>2026-11-04T08:35:51Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:boeing:/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1</id>
