@@ -5,7 +5,47 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-11T01:19:03Z</updated>
+  <updated>2026-11-11T10:47:35Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:abnormalsecurity:8196521003</id>
+    <title>Abnormal Security: Software Engineer I - Backend</title>
+    <link href="https://abnormal.ai/careers/jobs/8196521003?gh_jid=8196521003"/>
+    <updated>2026-11-11T10:47:35Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hybrid - Bangalore, India · Python, Go, LLMs, AWS, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:aiprise:4994f7fc-b974-420f-9823-32d6c493f5c2</id>
+    <title>AiPrise: Software Engineer I, Frontend (Bangalore, India)</title>
+    <link href="https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2"/>
+    <updated>2026-11-11T10:47:35Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, JavaScript, React, Node.js</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:aiprise:41af4efa-a550-484e-afde-a9f5f3807eca</id>
+    <title>AiPrise: Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India)</title>
+    <link href="https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca"/>
+    <updated>2026-11-11T10:47:35Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, React, Node.js, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gevernova:/job/Chennai/System-Engineer_R5058345-1</id>
+    <title>Gevernova: System Engineer</title>
+    <link href="https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Chennai/System-Engineer_R5058345-1"/>
+    <updated>2026-11-11T10:47:35Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Chennai · MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:zebra:/job/Bengaluru-India/Data-engineer-1_JR103928</id>
+    <title>Zebra Technologies: Data engineer 1</title>
+    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Data-engineer-1_JR103928"/>
+    <updated>2026-11-11T10:47:35Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Bengaluru, India · Python, SQL, Scala, LLMs, GCP</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10556180</id>
     <title>Amazon: Software Development Engineer, Prime Video Live Events - Sports Data Platform</title>
@@ -45,6 +85,14 @@
     <updated>2026-11-06T16:49:27Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:zebra:/job/Bengaluru-India/Software-Engineer--1_JR103559</id>
+    <title>Zebra Technologies: Software Engineer -1</title>
+    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559"/>
+    <updated>2026-11-06T16:49:27Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bengaluru, India · Java, Kotlin</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>
@@ -125,14 +173,6 @@
     <updated>2026-10-31T19:31:01Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru, India · Python, C#, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cmegroup:/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762</id>
-    <title>CME Group: Site Reliability Engineer I -  India</title>
-    <link href="https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Bangalore---Bagmane-Tridib/Site-Reliability-Engineer-I----India_34762"/>
-    <updated>2026-10-23T11:03:30Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore - Bagmane Tridib · Python, Java, AWS, GCP, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:thehartford:/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341</id>
@@ -221,6 +261,14 @@
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:aeratechnology:4860f299-72d8-41d5-97ff-ae063765f617</id>
+    <title>Aera Technology: Associate Data Scientist – Modeling, Analytics &amp; Pipelines</title>
+    <link href="https://jobs.lever.co/aeratechnology/4860f299-72d8-41d5-97ff-ae063765f617"/>
+    <updated>2026-10-03T17:00:04Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Pune, India · Python, SQL, PyTorch, TensorFlow, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692</id>
