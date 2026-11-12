@@ -1,24 +1,8 @@
 {
- "generated_at": "2026-11-12T10:57:43Z",
+ "generated_at": "2026-11-12T19:55:08Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 40,
+ "count": 37,
  "jobs": [
-  {
-   "id": "workday:ag:/job/Bangalore-Area/Technology-Analyst---Security-and-Authorizations_JR10456108",
-   "company": "Airbus",
-   "title": "Technology Analyst - Security and Authorizations",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Other",
-   "location": "Bangalore Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technology-Analyst---Security-and-Authorizations_JR10456108",
-   "posted_at": "2026-11-12T00:00:00Z",
-   "first_seen_at": "2026-11-12T10:57:43Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
-  },
   {
    "id": "oracle:fa-espx-saasfaprod1.fa.ocs.oraclecloud.com:2435232",
    "company": "Cummins",
@@ -109,24 +93,6 @@
     "Node.js"
    ],
    "source": "ashby"
-  },
-  {
-   "id": "workday:gevernova:/job/Chennai/System-Engineer_R5058345-1",
-   "company": "Gevernova",
-   "title": "System Engineer",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Chennai",
-   "url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Chennai/System-Engineer_R5058345-1",
-   "posted_at": "2026-11-11T00:00:00Z",
-   "first_seen_at": "2026-11-11T10:47:35Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "MATLAB"
-   ],
-   "source": "workday"
   },
   {
    "id": "workday:zebra:/job/Bengaluru-India/Data-engineer-1_JR103928",
@@ -242,22 +208,22 @@
    "source": "oracle"
   },
   {
-   "id": "workday:cigna:/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380",
+   "id": "workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237",
    "company": "Cigna Group",
    "title": "Automation Engineer Associate Analyst - Cigna Healthcare",
    "season": "new_grad",
    "season_inferred": false,
    "category": "Software",
-   "location": "India Work at Home",
-   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/India-Work-at-Home/Automation-Engineer-Associate-Analyst---Cigna-Healthcare_26013380",
-   "posted_at": "2026-11-05T00:00:00Z",
-   "first_seen_at": "2026-11-05T17:27:09Z",
+   "location": "Bengaluru, India",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237",
+   "posted_at": "2026-11-04T00:00:00Z",
+   "first_seen_at": "2026-11-04T17:10:22Z",
    "salary": null,
    "stipend": null,
    "skills": [
     "Python",
-    "Java",
-    "SQL"
+    "C#",
+    "Azure"
    ],
    "source": "workday"
   },
@@ -316,26 +282,6 @@
     "Angular"
    ],
    "source": "greenhouse"
-  },
-  {
-   "id": "workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812",
-   "company": "Cigna Group",
-   "title": "Automation Engineer Associate Analyst",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, India",
-   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analyst_26012812",
-   "posted_at": "2026-10-30T00:00:00Z",
-   "first_seen_at": "2026-10-31T19:31:01Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "C#",
-    "Azure"
-   ],
-   "source": "workday"
   },
   {
    "id": "greenhouse:stripe:8130876",
@@ -517,29 +463,6 @@
    "stipend": null,
    "skills": [],
    "source": "smartrecruiters"
-  },
-  {
-   "id": "workday:priceline:/job/Mumbai/Associate-Software-Engineer_R5712",
-   "company": "Priceline",
-   "title": "Associate Software Engineer",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Mumbai",
-   "url": "https://priceline.wd1.myworkdayjobs.com/Priceline/job/Mumbai/Associate-Software-Engineer_R5712",
-   "posted_at": "2026-10-08T00:00:00Z",
-   "first_seen_at": "2026-10-08T14:23:47Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "Kotlin",
-    "LLMs",
-    "React",
-    "Angular"
-   ],
-   "source": "workday"
   },
   {
    "id": "amazon:amazon:10563602",
@@ -728,6 +651,22 @@
     "Python"
    ],
    "source": "workday"
+  },
+  {
+   "id": "rippling:rippling:277b7caf-3092-44a7-9e8c-45769e5a3ea5",
+   "company": "Rippling",
+   "title": "Software Engineer-1",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore, India",
+   "url": "https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5",
+   "posted_at": null,
+   "first_seen_at": "2026-11-04T08:35:51Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [],
+   "source": "rippling"
   },
   {
    "id": "rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529",
