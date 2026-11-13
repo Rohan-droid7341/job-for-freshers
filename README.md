@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**37 open roles · 10 new this week · 5,803 companies tracked · updated Nov 12, 2026 at 19:55 UTC**
+**37 open roles · 10 new this week · 5,803 companies tracked · updated Nov 13, 2026 at 01:53 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -50,8 +50,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | AspenTech | Software Quality Engineer I | Software | B.Tech/BS | Noida | Jul 07, 2026 | [Apply](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206) |
 | Silicon Laboratories | Engineer I - Software QA | Software | B.Tech/BS | Hyderabad | Feb 17, 2026 | [Apply](https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/Hyderabad/Engineer-I---Software-QA_20641-1) |
 | Rippling | Software Engineer-1 | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5) |
+| Rippling | Software Engineer I | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67) |
 | Rippling | Software Engineer I - FullStack | Software | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529) |
-| Rippling | Software Engineer I -Data Infrastructure | Data & ML/AI | — | Bangalore, India | — | [Apply](https://ats.rippling.com/rippling/jobs/28e76743-13cf-4e30-94f2-bbaa021a2d9b) |
 | Perle | Elite Research Scientist - Frontier AI Evaluation | Data & ML/AI | — | India (Remote) | — | [Apply](https://ats.rippling.com/perle/jobs/f14c681e-5431-4677-8faa-a7ab38464863) |
 | Mykaarma | Software Developer I | Software | — | NOIDA, India | — | [Apply](https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54) |
 
@@ -129,7 +129,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Roblox | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Stripe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec · in ~19d | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec · in ~18d | ⏳ waiting |
 
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -138,6 +138,7 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Rippling | Software Engineer I -Data Infrastructure | new_grad | 2026-11-13 |
 | Airbus | Technology Analyst - Security and Authorizations | new_grad | 2026-11-12 |
 | Cigna Group | Automation Engineer Associate Analyst | new_grad | 2026-11-12 |
 | Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare | new_grad | 2026-11-12 |
@@ -169,7 +170,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Wex | Software Development Engineer 1 | new_grad | 2026-11-04 |
 | Amazon | SDE-1 | new_grad | 2026-10-31 |
 | CommerceIQ | DevOps Engineer I | new_grad | 2026-10-31 |
-| Rippling | Software Engineer I | new_grad | 2026-10-31 |
 | agilon health | Associate Software Engineer | new_grad | 2026-10-31 |
 | Crowe | Junior Data Engineer | new_grad | 2026-10-31 |
 | GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-10-31 |
@@ -192,7 +192,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,803 companies across 18 ATS platforms · 98% fetch success · completed in 409.9s · median detection latency 758 min · real posted dates on 86% of open roles._
+_Engine (last run): 5,803 companies across 18 ATS platforms · 99% fetch success · completed in 402.9s · median detection latency 758 min · real posted dates on 86% of open roles._
 
 ## Platforms Scraped
 
