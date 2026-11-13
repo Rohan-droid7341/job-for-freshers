@@ -5,7 +5,31 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-13T01:53:23Z</updated>
+  <updated>2026-11-13T10:56:12Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:ag:/job/Bangalore-Area/Technology-Analyst---SAP-Enablenow---WalkMe_JR10457460</id>
+    <title>Airbus: Technology Analyst - SAP Enablenow &amp; WalkMe</title>
+    <link href="https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technology-Analyst---SAP-Enablenow---WalkMe_JR10457460"/>
+    <updated>2026-11-13T10:56:12Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Bangalore Area</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653</id>
+    <title>Crowe: Junior Software Engineer 1</title>
+    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653"/>
+    <updated>2026-11-13T10:56:12Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Hyderabad Telangana India · Python, Java, C#, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650</id>
+    <title>Crowe: Junior AI Functional Consultant</title>
+    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650"/>
+    <updated>2026-11-13T10:56:12Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · LLMs, Azure</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-espx-saasfaprod1.fa.ocs.oraclecloud.com:2435232</id>
     <title>Cummins: Data Engineer 1</title>
@@ -109,14 +133,6 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bangalore, India · Java, JavaScript, SQL, Angular</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:277b7caf-3092-44a7-9e8c-45769e5a3ea5</id>
-    <title>Rippling: Software Engineer-1</title>
-    <link href="https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5"/>
-    <updated>2026-11-04T08:35:51Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:boeing:/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1</id>
@@ -237,14 +253,6 @@
     <updated>2026-10-03T17:00:04Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Bengaluru, Karnataka, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10563602</id>
-    <title>Amazon: SDE I FTC</title>
-    <link href="https://www.amazon.jobs/en/jobs/10563602/sde-i-ftc"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:aeratechnology:4860f299-72d8-41d5-97ff-ae063765f617</id>
