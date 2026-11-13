@@ -1,22 +1,25 @@
 {
- "generated_at": "2026-11-13T10:56:12Z",
+ "generated_at": "2026-11-13T19:37:39Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 38,
+ "count": 33,
  "jobs": [
   {
-   "id": "workday:ag:/job/Bangalore-Area/Technology-Analyst---SAP-Enablenow---WalkMe_JR10457460",
-   "company": "Airbus",
-   "title": "Technology Analyst - SAP Enablenow & WalkMe",
+   "id": "workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
+   "company": "Crowe",
+   "title": "Junior AI Functional Consultant",
    "season": "new_grad",
    "season_inferred": false,
-   "category": "Other",
-   "location": "Bangalore Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technology-Analyst---SAP-Enablenow---WalkMe_JR10457460",
+   "category": "Data & ML/AI",
+   "location": "Hyderabad Telangana India",
+   "url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
    "posted_at": "2026-11-13T00:00:00Z",
    "first_seen_at": "2026-11-13T10:56:12Z",
    "salary": null,
    "stipend": null,
-   "skills": [],
+   "skills": [
+    "LLMs",
+    "Azure"
+   ],
    "source": "workday"
   },
   {
@@ -41,25 +44,6 @@
     "SQL",
     "LLMs",
     "React"
-   ],
-   "source": "workday"
-  },
-  {
-   "id": "workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
-   "company": "Crowe",
-   "title": "Junior AI Functional Consultant",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Hyderabad Telangana India",
-   "url": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
-   "posted_at": "2026-11-13T00:00:00Z",
-   "first_seen_at": "2026-11-13T10:56:12Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "LLMs",
-    "Azure"
    ],
    "source": "workday"
   },
@@ -213,41 +197,6 @@
    "source": "workday"
   },
   {
-   "id": "workday:gehc:/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1",
-   "company": "GE Healthcare",
-   "title": "Graduate Engineer Trainee",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru",
-   "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Graduate-Engineer-Trainee_R4048826-1",
-   "posted_at": "2026-11-06T00:00:00Z",
-   "first_seen_at": "2026-11-06T16:49:27Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "workday"
-  },
-  {
-   "id": "workday:zebra:/job/Bengaluru-India/Software-Engineer--1_JR103559",
-   "company": "Zebra Technologies",
-   "title": "Software Engineer -1",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, India",
-   "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Software-Engineer--1_JR103559",
-   "posted_at": "2026-11-06T00:00:00Z",
-   "first_seen_at": "2026-11-06T16:49:27Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "Kotlin"
-   ],
-   "source": "workday"
-  },
-  {
    "id": "oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321",
    "company": "TriNet",
    "title": "Associate Data Analyst",
@@ -288,25 +237,6 @@
    "source": "workday"
   },
   {
-   "id": "workday:boeing:/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1",
-   "company": "The Boeing Company",
-   "title": "Associate Software Engineer - Analytics",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "IND - Bangalore, India",
-   "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1",
-   "posted_at": "2026-11-03T00:00:00Z",
-   "first_seen_at": "2026-11-04T08:35:51Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "MATLAB"
-   ],
-   "source": "workday"
-  },
-  {
    "id": "workday:lnw:/job/Pune-India/Associate-QA-Engineer_R322953",
    "company": "Light & Wonder",
    "title": "Associate QA Engineer",
@@ -340,26 +270,6 @@
     "JavaScript",
     "SQL",
     "Angular"
-   ],
-   "source": "greenhouse"
-  },
-  {
-   "id": "greenhouse:stripe:8130876",
-   "company": "Stripe",
-   "title": "Software Engineer, New Grad",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bangalore",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
-   "posted_at": "2026-10-28T05:19:59-04:00",
-   "first_seen_at": "2026-10-31T19:31:01Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Java",
-    "JavaScript",
-    "Scala"
    ],
    "source": "greenhouse"
   },
