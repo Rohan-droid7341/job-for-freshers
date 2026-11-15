@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**33 open roles · 10 new this week · 5,832 companies tracked · updated Nov 15, 2026 at 06:09 UTC**
+**33 open roles · 10 new this week · 5,842 companies tracked · updated Nov 15, 2026 at 16:19 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,16 +17,16 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Crowe | Junior AI Functional Consultant 🆕 | Data & ML/AI | 2+ Yrs<br>M.Tech/MS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650) |
-| Crowe | Junior Software Engineer 1 🆕 | Software | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) |
+| Crowe | Junior AI Functional Consultant | Data & ML/AI | 2+ Yrs<br>M.Tech/MS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650) |
+| Crowe | Junior Software Engineer 1 | Software | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) |
 | Cummins | Data Engineer 1 | Data & ML/AI | B.Tech/BS | Pune, Maharashtra, India | Nov 12, 2026 | [Apply](https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2435232) |
-| Crowe | Junior AI Platform Engineer | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 12, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641) |
 | AiPrise | Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca) |
 | AiPrise | Software Engineer I, Frontend (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2) |
 | Zebra Technologies | Data engineer 1 | Data & ML/AI | B.Tech/BS | Bengaluru, India | Nov 11, 2026 | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Data-engineer-1_JR103928) |
 | Welocalize | Software Engineer I | Software | — | Gurgaon | Nov 10, 2026 | [Apply](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Gurgaon/Software-Engineer-I_R0008056) |
 | Pentair | Graduate Engineer Trainee | Software | B.Tech/BS | Goa | Nov 10, 2026 | [Apply](https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Goa/Graduate-Engineer-Trainee_R24400) |
 | TriNet | Associate Data Analyst | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad, Telangana, India | Nov 05, 2026 | [Apply](https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321) |
+| Russell Investments | Graduate Trainee (Apprentice), Global Operations 🆕 | Other | B.Tech/BS | Mumbai | Nov 04, 2026 | [Apply](https://russell.wd5.myworkdayjobs.com/russellinvestments/job/Mumbai/Graduate-Trainee--Apprentice---Global-Operations_R-04285) |
 | Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare | Software | B.Tech/BS | Bengaluru, India | Nov 04, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237) |
 | Light & Wonder | Associate QA Engineer | Software | B.Tech/BS | Pune, India | Nov 03, 2026 | [Apply](https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953) |
 | SolarWinds | Associate Software Engineer | Software | 2+ Yrs | Bangalore, India | Nov 02, 2026 | [Apply](https://jobs.solarwinds.com/job-detail/?gh_jid=4743100005&gh_jid=4743100005) |
@@ -130,10 +130,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 37 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 38 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Crowe | Junior AI Platform Engineer | new_grad | 2026-11-15 |
 | Stripe | Software Engineer, New Grad | new_grad | 2026-11-13 |
 | Airbus | Technology Analyst - SAP Enablenow & WalkMe | new_grad | 2026-11-13 |
 | The Boeing Company | Associate Software Engineer - Analytics | new_grad | 2026-11-13 |
@@ -189,7 +190,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,832 companies across 18 ATS platforms · 98% fetch success · completed in 393.3s · median detection latency 748 min · real posted dates on 87% of open roles._
+_Engine (last run): 5,842 companies across 18 ATS platforms · 99% fetch success · completed in 326.5s · median detection latency 748 min · real posted dates on 87% of open roles._
 
 ## Platforms Scraped
 

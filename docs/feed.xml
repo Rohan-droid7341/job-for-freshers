@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-15T06:09:22Z</updated>
+  <updated>2026-11-15T16:19:30Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:russell:/job/Mumbai/Graduate-Trainee--Apprentice---Global-Operations_R-04285</id>
+    <title>Russell Investments: Graduate Trainee (Apprentice), Global Operations</title>
+    <link href="https://russell.wd5.myworkdayjobs.com/russellinvestments/job/Mumbai/Graduate-Trainee--Apprentice---Global-Operations_R-04285"/>
+    <updated>2026-11-15T16:19:30Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Other · Mumbai · SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650</id>
     <title>Crowe: Junior AI Functional Consultant</title>
@@ -29,14 +37,6 @@
     <updated>2026-11-12T10:57:43Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Pune, Maharashtra, India · SQL, LLMs, Hadoop, MongoDB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641</id>
-    <title>Crowe: Junior AI Platform Engineer</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641"/>
-    <updated>2026-11-12T02:20:44Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · Python, Java, C#, JavaScript, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aiprise:41af4efa-a550-484e-afde-a9f5f3807eca</id>
