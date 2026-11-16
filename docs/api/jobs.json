@@ -1,8 +1,33 @@
 {
- "generated_at": "2026-11-15T22:49:55Z",
+ "generated_at": "2026-11-16T06:08:59Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
  "count": 33,
  "jobs": [
+  {
+   "id": "workday:globalhr:/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499",
+   "company": "RTX",
+   "title": "Associate Engineer - AI/ML",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "IN-TS-HYDERABAD-B3F7 ~ DLF Cybercity Gachibowli ~ DLF CYBERCITY GACHIBOWLI-B3F7, 7th Fl in Block 3",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499",
+   "posted_at": "2026-11-16T00:00:00Z",
+   "first_seen_at": "2026-11-16T06:08:59Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "LLMs",
+    "Computer Vision"
+   ],
+   "source": "workday"
+  },
   {
    "id": "workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
    "company": "Crowe",
@@ -426,22 +451,6 @@
    "stipend": null,
    "skills": [],
    "source": "smartrecruiters"
-  },
-  {
-   "id": "amazon:amazon:10556180",
-   "company": "Amazon",
-   "title": "Software Development Engineer, Prime Video Live Events - Sports Data Platform",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bengaluru, Karnataka, India",
-   "url": "https://www.amazon.jobs/en/jobs/10556180/software-development-engineer-prime-video-live-events-sports-data-platform",
-   "posted_at": "2026-09-22T00:00:00Z",
-   "first_seen_at": "2026-11-10T19:47:47Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
   },
   {
    "id": "lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692",

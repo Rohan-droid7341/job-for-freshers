@@ -5,7 +5,15 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-15T22:49:55Z</updated>
+  <updated>2026-11-16T06:08:59Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499</id>
+    <title>RTX: Associate Engineer - AI/ML</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499"/>
+    <updated>2026-11-16T06:08:59Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Data &amp; ML/AI · IN-TS-HYDERABAD-B3F7 ~ DLF Cybercity Gachibowli ~ DLF CYBERCITY GACHIBOWLI-B3F7, 7th Fl in Block 3 · Python, Java, JavaScript, PyTorch, TensorFlow</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:russell:/job/Mumbai/Graduate-Trainee--Apprentice---Global-Operations_R-04285</id>
     <title>Russell Investments: Graduate Trainee (Apprentice), Global Operations</title>
@@ -61,14 +69,6 @@
     <updated>2026-11-11T10:47:35Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · Bengaluru, India · Python, SQL, Scala, LLMs, GCP</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10556180</id>
-    <title>Amazon: Software Development Engineer, Prime Video Live Events - Sports Data Platform</title>
-    <link href="https://www.amazon.jobs/en/jobs/10556180/software-development-engineer-prime-video-live-events-sports-data-platform"/>
-    <updated>2026-11-10T19:47:47Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Bengaluru, Karnataka, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:welocalize:/job/Gurgaon/Software-Engineer-I_R0008056</id>
