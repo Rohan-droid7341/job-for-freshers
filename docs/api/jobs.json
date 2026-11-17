@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-16T19:38:46Z",
+ "generated_at": "2026-11-17T03:53:14Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 32,
+ "count": 31,
  "jobs": [
   {
    "id": "workday:globalhr:/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499",
@@ -471,22 +471,6 @@
     "Kafka"
    ],
    "source": "lever"
-  },
-  {
-   "id": "amazon:amazon:10551515",
-   "company": "Amazon",
-   "title": "Software Dev Engineer I FTC",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, Karnataka, India",
-   "url": "https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc",
-   "posted_at": "2026-09-17T00:00:00Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [],
-   "source": "amazon"
   },
   {
    "id": "workday:r1rcm:/job/Noida-India/Software-Engineer-I_R260000005491",
