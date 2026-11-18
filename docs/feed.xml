@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-17T15:59:31Z</updated>
+  <updated>2026-11-18T01:01:31Z</updated>
   <entry>
     <id>urn:intern-engine:ashby:parspec:33854703-7d89-4bf1-9a08-9555f22cd21b</id>
     <title>Parspec: Software Engineer - 1 (Backend)</title>
@@ -87,28 +87,12 @@
     <summary>new_grad · Software · Gurgaon · JavaScript</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:efds.fa.em5.oraclecloud.com:72334</id>
-    <title>Ford Motor Company: Tax Technology Analyst</title>
-    <link href="https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72334"/>
-    <updated>2026-11-10T11:04:02Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Chennai, Tamil Nadu, India</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:pentair:/job/Goa/Graduate-Engineer-Trainee_R24400</id>
     <title>Pentair: Graduate Engineer Trainee</title>
     <link href="https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Goa/Graduate-Engineer-Trainee_R24400"/>
     <updated>2026-11-10T11:04:02Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Goa</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com:3004321</id>
-    <title>TriNet: Associate Data Analyst</title>
-    <link href="https://fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3004321"/>
-    <updated>2026-11-05T17:27:09Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad, Telangana, India · Python, SQL, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cigna:/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237</id>
