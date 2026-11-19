@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-19T02:32:14Z</updated>
+  <updated>2026-11-19T11:28:33Z</updated>
   <entry>
     <id>urn:intern-engine:lever:weloglobal:0316fd7c-6dcd-455a-8f6c-cc2fb986be95</id>
     <title>Welo Global: Associate Software Localization Engineer</title>
@@ -79,14 +79,6 @@
     <summary>new_grad · Software · Bengaluru · ₹15L – ₹30L • Offers Bonus · Python, TypeScript, JavaScript, React, Node.js</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:zebra:/job/Bengaluru-India/Data-engineer-1_JR103928</id>
-    <title>Zebra Technologies: Data engineer 1</title>
-    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Data-engineer-1_JR103928"/>
-    <updated>2026-11-11T10:47:35Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Bengaluru, India · Python, SQL, Scala, LLMs, GCP</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:welocalize:/job/Gurgaon/Software-Engineer-I_R0008056</id>
     <title>Welocalize: Software Engineer I</title>
     <link href="https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Gurgaon/Software-Engineer-I_R0008056"/>
@@ -125,6 +117,14 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune, India</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stripe:8130876</id>
+    <title>Stripe: Software Engineer, New Grad</title>
+    <link href="https://stripe.com/jobs/search?gh_jid=8130876"/>
+    <updated>2026-10-31T19:31:01Z</updated>
+    <category term="new_grad"/>
+    <summary>new_grad · Software · Bangalore · Java, JavaScript, Scala</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Eurofins:744000157805820</id>
@@ -175,14 +175,6 @@
     <summary>new_grad · Software · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:coupa:15c1666e-c0df-49b5-8296-8c664166413a</id>
-    <title>Coupa Software: Associate Security Engineer - 11925</title>
-    <link href="https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a"/>
-    <updated>2026-10-13T21:46:50Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Pune, India · Python, JavaScript, AWS, GCP, Azure</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529</id>
     <title>Rippling: Software Engineer I - FullStack</title>
     <link href="https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529"/>
@@ -205,14 +197,6 @@
     <updated>2026-10-03T17:50:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · India (Remote)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692</id>
-    <title>Netomi: Data Engineer I</title>
-    <link href="https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Remote - India · Python, SQL, LLMs, AWS, GCP</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:mykaarma:854ee9f5-885b-4c76-8e6f-0330a11cdc54</id>

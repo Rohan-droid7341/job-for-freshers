@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-19T02:32:14Z",
+ "generated_at": "2026-11-19T11:28:33Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 31,
+ "count": 29,
  "jobs": [
   {
    "id": "lever:weloglobal:0316fd7c-6dcd-455a-8f6c-cc2fb986be95",
@@ -162,30 +162,6 @@
    "source": "ashby"
   },
   {
-   "id": "workday:zebra:/job/Bengaluru-India/Data-engineer-1_JR103928",
-   "company": "Zebra Technologies",
-   "title": "Data engineer 1",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Bengaluru, India",
-   "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Data-engineer-1_JR103928",
-   "posted_at": "2026-11-11T00:00:00Z",
-   "first_seen_at": "2026-11-11T10:47:35Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "Scala",
-    "LLMs",
-    "GCP",
-    "Azure",
-    "Spark"
-   ],
-   "source": "workday"
-  },
-  {
    "id": "workday:welocalize:/job/Gurgaon/Software-Engineer-I_R0008056",
    "company": "Welocalize",
    "title": "Software Engineer I",
@@ -291,6 +267,26 @@
     "JavaScript",
     "SQL",
     "Angular"
+   ],
+   "source": "greenhouse"
+  },
+  {
+   "id": "greenhouse:stripe:8130876",
+   "company": "Stripe",
+   "title": "Software Engineer, New Grad",
+   "season": "new_grad",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Bangalore",
+   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
+   "posted_at": "2026-10-28T05:19:59-04:00",
+   "first_seen_at": "2026-10-31T19:31:01Z",
+   "salary": null,
+   "stipend": null,
+   "skills": [
+    "Java",
+    "JavaScript",
+    "Scala"
    ],
    "source": "greenhouse"
   },
@@ -417,29 +413,6 @@
    "source": "amazon"
   },
   {
-   "id": "lever:coupa:15c1666e-c0df-49b5-8296-8c664166413a",
-   "company": "Coupa Software",
-   "title": "Associate Security Engineer - 11925",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Pune, India",
-   "url": "https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a",
-   "posted_at": "2026-10-09T22:38:29Z",
-   "first_seen_at": "2026-10-13T21:46:50Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "JavaScript",
-    "AWS",
-    "GCP",
-    "Azure",
-    "Kubernetes"
-   ],
-   "source": "lever"
-  },
-  {
    "id": "smartrecruiters:Wabtec:3743990015987115",
    "company": "Wabtec",
    "title": "System Engineer ( Doors)",
@@ -454,31 +427,6 @@
    "stipend": null,
    "skills": [],
    "source": "smartrecruiters"
-  },
-  {
-   "id": "lever:netomi:02b45afd-5a49-41b2-a244-b0ca76306692",
-   "company": "Netomi",
-   "title": "Data Engineer I",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Remote - India",
-   "url": "https://jobs.lever.co/netomi/02b45afd-5a49-41b2-a244-b0ca76306692",
-   "posted_at": "2026-09-21T12:58:12Z",
-   "first_seen_at": "2026-10-03T17:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "LLMs",
-    "AWS",
-    "GCP",
-    "Kubernetes",
-    "Docker",
-    "Kafka"
-   ],
-   "source": "lever"
   },
   {
    "id": "workday:r1rcm:/job/Noida-India/Software-Engineer-I_R260000005491",
