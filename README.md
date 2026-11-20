@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**25 open roles · 4 new this week · 5,876 companies tracked · updated Nov 20, 2026 at 11:23 UTC**
+**25 open roles · 5 new this week · 5,886 companies tracked · updated Nov 20, 2026 at 20:00 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -17,7 +17,8 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Welo Global | Associate Software Localization Engineer 🆕 | Software | — | Gurgaon, India | Nov 18, 2026 | [Apply](https://jobs.lever.co/weloglobal/0316fd7c-6dcd-455a-8f6c-cc2fb986be95) |
+| Texas Instruments | System Engineer 🆕 | Software | B.Tech/BS | Bengaluru, Karnataka, India | Nov 20, 2026 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25020389) |
+| Welo Global | Associate Software Localization Engineer | Software | — | Gurgaon, India | Nov 18, 2026 | [Apply](https://jobs.lever.co/weloglobal/0316fd7c-6dcd-455a-8f6c-cc2fb986be95) |
 | Parspec | Software Engineer - 1 (Backend) | Software | B.Tech/BS | Hybrid - Bangalore, India | Nov 17, 2026 | [Apply](https://jobs.ashbyhq.com/parspec/33854703-7d89-4bf1-9a08-9555f22cd21b) |
 | Crowe | Junior AI Functional Consultant | Data & ML/AI | 2+ Yrs<br>M.Tech/MS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650) |
 | Crowe | Junior Software Engineer 1 | Software | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) |
@@ -33,7 +34,6 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | Eurofins | IT Infrastructure System Engineer - Windows | Software | B.Tech/BS | Coimbatore, TN, India | Oct 26, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000157805820) |
 | The Hartford | IND Associate Software Engineer -  Red Team Engineer | Software | B.Tech/BS | India GCC-Puppalaguda Village | Oct 23, 2026 | [Apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341) |
 | Abnormal Security | Software Engineer 1 - Platform & Infrastructure | Software | 2+ Yrs<br>B.Tech/BS | Hybrid - Bangalore, India | Oct 20, 2026 | [Apply](https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003) |
-| Eurofins | IT Infrastructure System Engineer - Linux | Software | B.Tech/BS | Bengaluru, KA, India | Oct 19, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000156229723) |
 | Amazon | Software Development Engineer I | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580008/software-development-engineer-i) |
 | Amazon | Software Development Engineer I FTC | Software | B.Tech/BS | Hyderabad, Telangana, India | Oct 15, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc) |
 | Wabtec | System Engineer ( Doors) | Software | B.Tech/BS | Bengaluru, India | Oct 08, 2026 | [Apply](https://jobs.smartrecruiters.com/Wabtec/3743990015987115) |
@@ -126,6 +126,7 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Eurofins | IT Infrastructure System Engineer - Linux | new_grad | 2026-11-20 |
 | Mykaarma | Software Developer I | new_grad | 2026-11-20 |
 | Rippling | Software Engineer I | new_grad | 2026-11-20 |
 | Rippling | Software Engineer I - FullStack | new_grad | 2026-11-20 |
@@ -159,7 +160,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | new_grad | 2026-11-10 |
 | LabCorp | Associate Data Analyst | new_grad | 2026-11-10 |
 | Arctic Wolf | Developer 1 | new_grad | 2026-11-09 |
-| UiPath | Software Engineer I | new_grad | 2026-11-06 |
 
 </details>
 
@@ -178,7 +178,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,876 companies across 18 ATS platforms · 83% fetch success · completed in 480.6s · median detection latency 704 min · real posted dates on 96% of open roles._
+_Engine (last run): 5,886 companies across 18 ATS platforms · 93% fetch success · completed in 217.5s · median detection latency 726 min · real posted dates on 96% of open roles._
 
 ## Platforms Scraped
 
