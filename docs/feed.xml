@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-20T02:20:16Z</updated>
+  <updated>2026-11-20T11:23:35Z</updated>
   <entry>
     <id>urn:intern-engine:lever:weloglobal:0316fd7c-6dcd-455a-8f6c-cc2fb986be95</id>
     <title>Welo Global: Associate Software Localization Engineer</title>
@@ -135,14 +135,6 @@
     <summary>new_grad · Software · India GCC-Puppalaguda Village · Python, C#, Rust, LLMs, AWS</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:rippling:rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67</id>
-    <title>Rippling: Software Engineer I</title>
-    <link href="https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67"/>
-    <updated>2026-10-22T07:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:abnormalsecurity:8016870003</id>
     <title>Abnormal Security: Software Engineer 1 - Platform &amp; Infrastructure</title>
     <link href="https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003"/>
@@ -167,14 +159,6 @@
     <summary>new_grad · Software · Hyderabad, Telangana, India</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:rippling:rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529</id>
-    <title>Rippling: Software Engineer I - FullStack</title>
-    <link href="https://ats.rippling.com/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529"/>
-    <updated>2026-10-11T13:48:19Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore, India</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:smartrecruiters:Wabtec:3743990015987115</id>
     <title>Wabtec: System Engineer ( Doors)</title>
     <link href="https://jobs.smartrecruiters.com/Wabtec/3743990015987115"/>
@@ -189,14 +173,6 @@
     <updated>2026-10-03T17:50:30Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Data &amp; ML/AI · India (Remote)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:mykaarma:854ee9f5-885b-4c76-8e6f-0330a11cdc54</id>
-    <title>Mykaarma: Software Developer I</title>
-    <link href="https://ats.rippling.com/mykaarma/jobs/854ee9f5-885b-4c76-8e6f-0330a11cdc54"/>
-    <updated>2026-10-03T17:00:04Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · NOIDA, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:aspentech:/job/Noida/Software-Quality-Engineer-I_R9206</id>
