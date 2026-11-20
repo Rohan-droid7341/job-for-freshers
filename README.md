@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**29 open roles · 7 new this week · 5,876 companies tracked · updated Nov 19, 2026 at 20:28 UTC**
+**28 open roles · 6 new this week · 5,876 companies tracked · updated Nov 20, 2026 at 02:20 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,13 +13,12 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (29 open)
+## New Grad — Entry Level (All Batches)  (28 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Welo Global | Associate Software Localization Engineer 🆕 | Software | — | Gurgaon, India | Nov 18, 2026 | [Apply](https://jobs.lever.co/weloglobal/0316fd7c-6dcd-455a-8f6c-cc2fb986be95) |
 | Parspec | Software Engineer - 1 (Backend) | Software | B.Tech/BS | Hybrid - Bangalore, India | Nov 17, 2026 | [Apply](https://jobs.ashbyhq.com/parspec/33854703-7d89-4bf1-9a08-9555f22cd21b) |
-| RTX | Associate Engineer - AI/ML | Data & ML/AI | B.Tech/BS | IN-TS-HYDERABAD-B3F7 ~ DLF Cybercity Gachibowli ~ DLF CYBERCITY GACHIBOWLI-B3F7 +1 more | Nov 16, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499) |
 | Crowe | Junior AI Functional Consultant | Data & ML/AI | 2+ Yrs<br>M.Tech/MS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650) |
 | Crowe | Junior Software Engineer 1 | Software | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) |
 | AiPrise | Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca) |
@@ -121,15 +120,16 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Roblox | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Stripe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec · in ~12d | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec · in ~11d | ⏳ waiting |
 
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 33 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 31 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| RTX | Associate Engineer - AI/ML | new_grad | 2026-11-20 |
 | Coupa Software | Associate Security Engineer - 11925 | new_grad | 2026-11-19 |
 | Netomi | Data Engineer I | new_grad | 2026-11-19 |
 | Zebra Technologies | Data engineer 1 | new_grad | 2026-11-19 |
@@ -160,9 +160,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | LabCorp | Associate Data Analyst | new_grad | 2026-11-10 |
 | Arctic Wolf | Developer 1 | new_grad | 2026-11-09 |
 | UiPath | Software Engineer I | new_grad | 2026-11-06 |
-| New Relic | Software Engineer 1 | new_grad | 2026-11-05 |
-| Dow Chemical Company | Information Technology Analyst | new_grad | 2026-11-05 |
-| GE Healthcare | Graduate Engineer Trainee | new_grad | 2026-11-05 |
 
 </details>
 
@@ -181,7 +178,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,876 companies across 18 ATS platforms · 93% fetch success · completed in 220.7s · median detection latency 726 min · real posted dates on 86% of open roles._
+_Engine (last run): 5,876 companies across 18 ATS platforms · 77% fetch success · completed in 456.0s · median detection latency 704 min · real posted dates on 85% of open roles._
 
 ## Platforms Scraped
 

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-19T20:28:57Z",
+ "generated_at": "2026-11-20T02:20:16Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 29,
+ "count": 28,
  "jobs": [
   {
    "id": "lever:weloglobal:0316fd7c-6dcd-455a-8f6c-cc2fb986be95",
@@ -46,31 +46,6 @@
     "Docker"
    ],
    "source": "ashby"
-  },
-  {
-   "id": "workday:globalhr:/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499",
-   "company": "RTX",
-   "title": "Associate Engineer - AI/ML",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "IN-TS-HYDERABAD-B3F7 ~ DLF Cybercity Gachibowli ~ DLF CYBERCITY GACHIBOWLI-B3F7, 7th Fl in Block 3",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer---AI-ML_01889499",
-   "posted_at": "2026-11-16T00:00:00Z",
-   "first_seen_at": "2026-11-16T06:08:59Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "PyTorch",
-    "TensorFlow",
-    "scikit-learn",
-    "LLMs",
-    "Computer Vision"
-   ],
-   "source": "workday"
   },
   {
    "id": "workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650",
