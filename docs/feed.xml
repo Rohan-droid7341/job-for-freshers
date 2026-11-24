@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-24T13:33:34Z</updated>
+  <updated>2026-11-24T23:53:23Z</updated>
   <entry>
     <id>urn:intern-engine:greenhouse:toast:8370624</id>
     <title>Toast: Software Engineer-I</title>
@@ -93,14 +93,6 @@
     <updated>2026-11-10T19:47:47Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Gurgaon · JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:efds.fa.em5.oraclecloud.com:72334</id>
-    <title>Ford Motor Company: Tax Technology Analyst</title>
-    <link href="https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72334"/>
-    <updated>2026-11-10T11:04:02Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Other · Chennai, Tamil Nadu, India</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:pentair:/job/Goa/Graduate-Engineer-Trainee_R24400</id>
