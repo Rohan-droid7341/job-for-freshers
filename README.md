@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**27 open roles · 5 new this week · 5,901 companies tracked · updated Nov 23, 2026 at 12:18 UTC**
+**25 open roles · 3 new this week · 5,906 companies tracked · updated Nov 24, 2026 at 02:10 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,11 +13,10 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (27 open)
+## New Grad — Entry Level (All Batches)  (25 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Toast | Software Engineer-I 🆕 | Software | B.Tech/BS | Bengaluru,Karnataka,India | Nov 23, 2026 | [Apply](https://careers.toasttab.com/jobs?gh_jid=8370624) |
 | Texas Instruments | System Engineer | Software | B.Tech/BS | Bengaluru, Karnataka, India | Nov 20, 2026 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25020389) |
 | Welo Global | Associate Software Localization Engineer | Software | — | Gurgaon, India | Nov 18, 2026 | [Apply](https://jobs.lever.co/weloglobal/0316fd7c-6dcd-455a-8f6c-cc2fb986be95) |
 | Parspec | Software Engineer - 1 (Backend) | Software | B.Tech/BS | Hybrid - Bangalore, India | Nov 17, 2026 | [Apply](https://jobs.ashbyhq.com/parspec/33854703-7d89-4bf1-9a08-9555f22cd21b) |
@@ -27,7 +26,6 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 | AiPrise | Software Engineer I, Frontend (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2) |
 | Welocalize | Software Engineer I | Software | — | Gurgaon | Nov 10, 2026 | [Apply](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Gurgaon/Software-Engineer-I_R0008056) |
 | Pentair | Graduate Engineer Trainee | Software | B.Tech/BS | Goa | Nov 10, 2026 | [Apply](https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Goa/Graduate-Engineer-Trainee_R24400) |
-| New Relic | Software Engineer 1 | Software | B.Tech/BS | Hyderabad, India | Nov 05, 2026 | [Apply](https://job-boards.greenhouse.io/newrelic/jobs/5467941008) |
 | Russell Investments | Graduate Trainee (Apprentice), Global Operations | Other | B.Tech/BS | Mumbai | Nov 04, 2026 | [Apply](https://russell.wd5.myworkdayjobs.com/russellinvestments/job/Mumbai/Graduate-Trainee--Apprentice---Global-Operations_R-04285) |
 | Cigna Group | Automation Engineer Associate Analyst - Cigna Healthcare | Software | B.Tech/BS | Bengaluru, India | Nov 04, 2026 | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/Automation-Engineer-Associate-Analysts---Cigna-Healthcare_26013237) |
 | Light & Wonder | Associate QA Engineer | Software | B.Tech/BS | Pune, India | Nov 03, 2026 | [Apply](https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Pune-India/Associate-QA-Engineer_R322953) |
@@ -119,7 +117,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Roblox | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Stripe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct · any day now | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec · in ~8d | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec · in ~7d | ⏳ waiting |
 
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -128,6 +126,8 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| New Relic | Software Engineer 1 | new_grad | 2026-11-24 |
+| Toast | Software Engineer-I | new_grad | 2026-11-24 |
 | Eurofins | IT Infrastructure System Engineer - Linux | new_grad | 2026-11-20 |
 | Mykaarma | Software Developer I | new_grad | 2026-11-20 |
 | Rippling | Software Engineer I | new_grad | 2026-11-20 |
@@ -160,8 +160,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | TriNet | Associate Data Scientist | new_grad | 2026-11-11 |
 | CME Group | Site Reliability Engineer I -  India | new_grad | 2026-11-11 |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | new_grad | 2026-11-10 |
-| LabCorp | Associate Data Analyst | new_grad | 2026-11-10 |
-| Arctic Wolf | Developer 1 | new_grad | 2026-11-09 |
 
 </details>
 
@@ -180,7 +178,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,901 companies across 18 ATS platforms · 85% fetch success · completed in 472.2s · median detection latency 758 min · real posted dates on 96% of open roles._
+_Engine (last run): 5,906 companies across 18 ATS platforms · 96% fetch success · completed in 193.4s · median detection latency 758 min · real posted dates on 96% of open roles._
 
 ## Platforms Scraped
 
