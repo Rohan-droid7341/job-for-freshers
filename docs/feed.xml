@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-25T08:12:59Z</updated>
+  <updated>2026-11-25T19:14:10Z</updated>
   <entry>
     <id>urn:intern-engine:lever:aeratechnology:df1fa5a4-db11-4bd1-95a7-79c08b3109d2</id>
     <title>Aera Technology: Associate Developer Support Engineer</title>
@@ -125,22 +125,6 @@
     <updated>2026-11-04T08:35:51Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · Pune, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:stripe:8130876</id>
-    <title>Stripe: Software Engineer, New Grad</title>
-    <link href="https://stripe.com/jobs/search?gh_jid=8130876"/>
-    <updated>2026-10-31T19:31:01Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Bangalore · Java, JavaScript, Scala</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Eurofins:744000157805820</id>
-    <title>Eurofins: IT Infrastructure System Engineer - Windows</title>
-    <link href="https://jobs.smartrecruiters.com/Eurofins/744000157805820"/>
-    <updated>2026-10-31T19:31:01Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Coimbatore, TN, India · Azure, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:thehartford:/job/India-GCC-Puppalaguda-Village/IND-Associate-Software-Engineer----Red-Team-Engineer_R2627341</id>
