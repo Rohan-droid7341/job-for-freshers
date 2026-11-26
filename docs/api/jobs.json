@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-25T19:14:10Z",
+ "generated_at": "2026-11-26T03:32:57Z",
  "source": "https://github.com/Rohan-droid7341/job-for-freshers",
- "count": 23,
+ "count": 22,
  "jobs": [
   {
    "id": "lever:aeratechnology:df1fa5a4-db11-4bd1-95a7-79c08b3109d2",
@@ -20,24 +20,6 @@
     "SQL"
    ],
    "source": "lever"
-  },
-  {
-   "id": "oracle:edbz.fa.us2.oraclecloud.com:25020389",
-   "company": "Texas Instruments",
-   "title": "System Engineer",
-   "season": "new_grad",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Bengaluru, Karnataka, India",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25020389",
-   "posted_at": "2026-11-20",
-   "first_seen_at": "2026-11-20T20:00:04Z",
-   "salary": null,
-   "stipend": null,
-   "skills": [
-    "MATLAB"
-   ],
-   "source": "oracle"
   },
   {
    "id": "lever:weloglobal:0316fd7c-6dcd-455a-8f6c-cc2fb986be95",
