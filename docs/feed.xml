@@ -5,7 +5,7 @@
   <subtitle>Auto-detected fresher jobs, newest finds first.</subtitle>
   <link href="https://rohan-droid7341.github.io/job-for-freshers/feed.xml" rel="self"/>
   <link href="https://github.com/Rohan-droid7341/job-for-freshers"/>
-  <updated>2026-11-28T07:31:33Z</updated>
+  <updated>2026-11-28T17:32:17Z</updated>
   <entry>
     <id>urn:intern-engine:lever:meesho:73db1822-f3de-4f9f-a2b3-944ea0b03702</id>
     <title>Meesho: Software Engineer I - Backend  (Kirana Club)</title>
@@ -21,14 +21,6 @@
     <updated>2026-11-27T12:00:58Z</updated>
     <category term="new_grad"/>
     <summary>new_grad · Software · PUNE, MAHARASHTRA, India</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AccorCorpo:744000163966002</id>
-    <title>Accor: Junior AI Engineer</title>
-    <link href="https://jobs.smartrecruiters.com/AccorCorpo/744000163966002"/>
-    <updated>2026-11-27T12:00:58Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Gurugram, HR, India · Python, JavaScript, SQL, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:aeratechnology:df1fa5a4-db11-4bd1-95a7-79c08b3109d2</id>
@@ -71,20 +63,12 @@
     <summary>new_grad · Other · Mumbai · SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650</id>
-    <title>Crowe: Junior AI Functional Consultant</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650"/>
-    <updated>2026-11-13T10:56:12Z</updated>
+    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641</id>
+    <title>Crowe: Junior AI Platform Engineer</title>
+    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641"/>
+    <updated>2026-11-12T02:20:44Z</updated>
     <category term="new_grad"/>
-    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · LLMs, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653</id>
-    <title>Crowe: Junior Software Engineer 1</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653"/>
-    <updated>2026-11-13T10:56:12Z</updated>
-    <category term="new_grad"/>
-    <summary>new_grad · Software · Hyderabad Telangana India · Python, Java, C#, TypeScript, JavaScript</summary>
+    <summary>new_grad · Data &amp; ML/AI · Hyderabad Telangana India · Python, Java, C#, JavaScript, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aiprise:41af4efa-a550-484e-afde-a9f5f3807eca</id>

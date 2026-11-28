@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks **full-time fresher & new-grad tech jobs** for the **2026 & 2027 batch** across India — so you don't have to. Instead of refreshing Naukri, LinkedIn, and a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**24 open roles · 4 new this week · 5,945 companies tracked · updated Nov 28, 2026 at 07:31 UTC**
+**22 open roles · 3 new this week · 5,957 companies tracked · updated Nov 28, 2026 at 17:32 UTC**
 
 **⭐ Star this repo ⭐** to save it and get notified when new roles land.
 
@@ -13,18 +13,16 @@ A self-updating engine that tracks **full-time fresher & new-grad tech jobs** fo
 **🔔 New roles in your inbox:** [subscribe by email](https://rohan-droid7341.github.io/job-for-freshers/#subscribe) - one email a day, only when new jobs actually appeared, one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fraw.githubusercontent.com%2FRohan-droid7341%2Fjob-for-freshers%2Fmain%2Fdocs%2Ffeed.xml).)
 ---
 
-## New Grad — Entry Level (All Batches)  (24 open)
+## New Grad — Entry Level (All Batches)  (22 open)
 
 | Company | Role | Category | Pay & Specs | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Emerson Electric | System Engineer 🆕 | Software | B.Tech/BS | PUNE, MAHARASHTRA, India | Nov 27, 2026 | [Apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014629) |
-| Accor | Junior AI Engineer 🆕 | Data & ML/AI | — | Gurugram, HR, India | Nov 27, 2026 | [Apply](https://jobs.smartrecruiters.com/AccorCorpo/744000163966002) |
 | Aera Technology | Associate Developer Support Engineer | Software | 2+ Yrs<br>B.Tech/BS | Pune, India | Nov 25, 2026 | [Apply](https://jobs.lever.co/aeratechnology/df1fa5a4-db11-4bd1-95a7-79c08b3109d2) |
 | Meesho | Software Engineer I - Backend  (Kirana Club) 🆕 | Software | B.Tech/BS | Bangalore, Karnataka | Nov 18, 2026 | [Apply](https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702) |
 | Welo Global | Associate Software Localization Engineer | Software | — | Gurgaon, India | Nov 18, 2026 | [Apply](https://jobs.lever.co/weloglobal/0316fd7c-6dcd-455a-8f6c-cc2fb986be95) |
 | Parspec | Software Engineer - 1 (Backend) | Software | B.Tech/BS | Hybrid - Bangalore, India | Nov 17, 2026 | [Apply](https://jobs.ashbyhq.com/parspec/33854703-7d89-4bf1-9a08-9555f22cd21b) |
-| Crowe | Junior AI Functional Consultant | Data & ML/AI | 2+ Yrs<br>M.Tech/MS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Functional-Consultant_R-52650) |
-| Crowe | Junior Software Engineer 1 | Software | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) |
+| Crowe | Junior AI Platform Engineer | Data & ML/AI | 2+ Yrs<br>B.Tech/BS | Hyderabad Telangana India | Nov 12, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Hyderabad-Telangana-India/Junior-AI-Platform-Engineer_R-52641) |
 | AiPrise | Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs<br>B.Tech/BS | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca) |
 | AiPrise | Software Engineer I, Frontend (Bangalore, India) | Software | ₹15L – ₹30L • Offers Bonus<br>2+ Yrs | Bengaluru | Nov 11, 2026 | [Apply](https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2) |
 | Welocalize | Software Engineer I | Software | — | Gurgaon | Nov 10, 2026 | [Apply](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/Gurgaon/Software-Engineer-I_R0008056) |
@@ -121,10 +119,13 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-freshers/#radar). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 23 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 25 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Accor | Junior AI Engineer | new_grad | 2026-11-28 |
+| Crowe | Junior AI Functional Consultant | new_grad | 2026-11-28 |
+| Crowe | Junior Software Engineer 1 | new_grad | 2026-11-28 |
 | Ford Motor Company | Tax Technology Analyst | new_grad | 2026-11-27 |
 | Abnormal Security | Software Engineer 1 - Platform & Infrastructure | new_grad | 2026-11-26 |
 | Texas Instruments | System Engineer | new_grad | 2026-11-26 |
@@ -147,7 +148,6 @@ _42 companies on the [full radar](https://rohan-droid7341.github.io/job-for-fres
 | Aera Technology | Associate Data Scientist – Modeling, Analytics & Pipelines | new_grad | 2026-11-16 |
 | Cummins | Data Engineer 1 | new_grad | 2026-11-16 |
 | Amazon | Software Development Engineer, Prime Video Live Events - Sports Data Platform | new_grad | 2026-11-16 |
-| Crowe | Junior AI Platform Engineer | new_grad | 2026-11-15 |
 
 </details>
 
@@ -166,7 +166,7 @@ Fresher job postings per week, from each role's real published date — redrawn 
 
 A Python engine reads public company hiring feeds directly, keeps the roles that match the fresher/new-grad scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions every 4 hours. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 5,945 companies across 18 ATS platforms · 93% fetch success · completed in 189.3s · median detection latency 721 min · real posted dates on 95% of open roles._
+_Engine (last run): 5,957 companies across 18 ATS platforms · 94% fetch success · completed in 231.3s · median detection latency 721 min · real posted dates on 95% of open roles._
 
 ## Platforms Scraped
 
